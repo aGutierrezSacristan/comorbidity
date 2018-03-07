@@ -21,7 +21,7 @@ This report is used for `comoRbidity` package distribution while we walk thought
 
 ```R
 library(devtools)
-install_git("aGutierrezSacristan/comoRbidity")
+install_github("aGutierrezSacristan/comoRbidity")
 ```
 
 ### comoRbidity:
