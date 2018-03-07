@@ -1,0 +1,19 @@
+Code	Description	Agg
+F32	Major depressive disorder, single episode	Dep
+F30.9	Manic episode, unspecified	Dep
+F32.0	Major depressive disorder, single episode, mild	Dep
+F32.1	Major depressive disorder, single episode, moderate	Dep
+F32.2	Major depressive disorder, single episode, severe without psychotic features	Dep
+F32.3	Major depressive disorder, single episode, severe with psychotic features	Dep
+F32.4	Major depressive disorder, single episode, in partial remission	Dep
+F32.5	Major depressive disorder, single episode, in full remission	Dep
+F31.1	Bipolar disorder, current episode manic without psychotic features	BD
+F31.2	Bipolar disorder, current episode manic severe with psychotic features	BD
+F31.3	Bipolar disorder, current episode depressed, mild or moderate severity	BD
+F31.4	Bipolar disorder, current episode depressed, severe, without psychotic features	BD
+F31.11	Bipolar disorder, current episode manic without psychotic features, mild	BD
+F31.62	Bipolar disorder, current episode mixed, moderate	BD
+F31.64	Bipolar disorder, current episode mixed, severe, with psychotic features	BD
+F31.72	Bipolar disorder, in full remission, most recent episode hypomanic	BD
+F31.76	Bipolar disorder, in full remission, most recent episode depressed	BD
+F31.77	Bipolar disorder, in partial remission, most recent episode mixed	BD

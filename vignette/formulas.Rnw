@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{showframe}
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+\begin{document}
+
+\begin{equation*}
+SR(x,t)=log \left( \cfrac{1 + \cfrac{{D_{f}(t)}}{D_{f}(x,t)}}
+{1 + \cfrac{{D_{m}(t)}}{D_{m}(x,t)}} \right)
+\end{equation*}
+
+\begin{description}[labelsep=1em]
+\item[first matter] \lipsum[1]
+\item[some other matter] \lipsum[1]
+\end{description}
+
+\end{document}

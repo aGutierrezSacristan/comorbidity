@@ -1,0 +1,25 @@
+identifier	name
+C0001969	Alcohol use disorders
+C0001973	Alcohol use disorders
+C0005586	Bipolar disorders and related disorders
+C0006870	Cannabis use disorders
+C0011570	Depressive disorders
+C0011581	Depressive disorders
+C0024809	Cannabis use disorders
+C0033975	Schizophrenia spectrum and other psychotic disorders
+C0036341	Schizophrenia spectrum and other psychotic disorders
+C0036344	Schizophrenia spectrum and other psychotic disorders
+C0036346	Schizophrenia spectrum and other psychotic disorders
+C0036349	Schizophrenia spectrum and other psychotic disorders
+C0038587	Alcohol use disorders
+C0086132	Depressive disorders
+C0236736	Cocaine use disorders
+C0349464	Drug-induced psychosis
+C0525045	Depressive disorders
+C0586323	Alcohol use disorders
+C0600427	Cocaine use disorders
+C0751865	Alcohol use disorders
+C1269683	Depressive disorders
+C1456784	Schizophrenia spectrum and other psychotic disorders
+C0001539	Depressive disorders
+C0001548	Depressive disorders

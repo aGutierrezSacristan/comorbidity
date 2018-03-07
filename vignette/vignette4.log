@@ -1,0 +1,2197 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.1)  8 AUG 2017 20:18
+entering extended mode
+**vignette4.tex
+(C:\Users\alba\Desktop\comorbidity\vignette\vignette4.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen109
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count91
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen110
+\Fld@menulength=\count92
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.sty"
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language69
+LaTeX Info: Redefining \_ on input line 43.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks17
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\TX@col@width=\dimen115
+\TX@old@table=\dimen116
+\TX@old@col=\dimen117
+\TX@target=\dimen118
+\TX@delta=\dimen119
+\TX@cols=\count98
+\TX@ftn=\toks18
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip47
+\RaggedLeftLeftskip=\skip48
+\RaggedRightLeftskip=\skip49
+\CenteringRightskip=\skip50
+\RaggedLeftRightskip=\skip51
+\RaggedRightRightskip=\skip52
+\CenteringParfillskip=\skip53
+\RaggedLeftParfillskip=\skip54
+\RaggedRightParfillskip=\skip55
+\JustifyingParfillskip=\skip56
+\CenteringParindent=\skip57
+\RaggedLeftParindent=\skip58
+\RaggedRightParindent=\skip59
+\JustifyingParindent=\skip60
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen120
+\lightrulewidth=\dimen121
+\cmidrulewidth=\dimen122
+\belowrulesep=\dimen123
+\belowbottomsep=\dimen124
+\aboverulesep=\dimen125
+\abovetopsep=\dimen126
+\cmidrulesep=\dimen127
+\cmidrulekern=\dimen128
+\defaultaddspace=\dimen129
+\@cmidla=\count99
+\@cmidlb=\count100
+\@aboverulesep=\dimen130
+\@belowrulesep=\dimen131
+\@thisruleclass=\count101
+\@lastruleclass=\count102
+\@thisrulewidth=\dimen132
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
+)
+\c@ContinuedFloat=\count103
+Package caption Info: hyperref package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen140
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen141
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip11
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks20
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks21
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks22
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count116
+\Gm@cntv=\count117
+\c@Gm@tempcnt=\count118
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks24
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count119
+\float@exts=\toks25
+\float@box=\box28
+\@float@everytoks=\toks26
+\@floatcapt=\box29
+)
+
+! LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \usepackage
+                {titlesec}
+The package hyperref has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [linktoc=all]
+Adding the global options:
+  ,linktoc=all
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box30
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks27
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+))
+(C:\Users\alba\Desktop\comorbidity\vignette\vignette4.aux
+
+LaTeX Warning: Label `eq:solve' multiply defined.
+
+
+LaTeX Warning: Label `eq:solve' multiply defined.
+
+
+LaTeX Warning: Label `eq:solve' multiply defined.
+
+
+LaTeX Warning: Label `eq:solve' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 76.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen162
+\scratchbox=\box31
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen163
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks29
+)
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 76.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
+
+(C:\Users\alba\Desktop\comorbidity\vignette\vignette4.out)
+(C:\Users\alba\Desktop\comorbidity\vignette\vignette4.out)
+\@outlinefile=\write3
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 76.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=441.01773pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 86.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+(C:\Users\alba\Desktop\comorbidity\vignette\vignette4.toc)
+\tf@toc=\write4
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 114.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 116.
+
+<D:/ibi/workspace/1_Current_projects/comorbidity/Data/figuraComorbidityPackage.
+png, id=209, 1228.59pt x 2568.59625pt>
+File: D:/ibi/workspace/1_Current_projects/comorbidity/Data/figuraComorbidityPac
+kage.png Graphic file (type png)
+
+<use D:/ibi/workspace/1_Current_projects/comorbidity/Data/figuraComorbidityPack
+age.png>
+Package pdftex.def Info: D:/ibi/workspace/1_Current_projects/comorbidity/Data/f
+iguraComorbidityPackage.png used on input line 128.
+(pdftex.def)             Requested size: 308.71106pt x 645.40056pt.
+ [2] [3 <D:/ibi/workspace/1_Current_projects/comorbidity/Data/figuraComorbidity
+Package.png>]
+Overfull \hbox (1.01212pt too wide) in paragraph at lines 153--154
+\T1/cmr/m/n/10 The \T1/cmtt/m/n/10 comoRbidity \T1/cmr/m/n/10 R pack-age iden-t
+i-fies dis-ease co-mor-bidi-ties us-ing dif-fer-ent sta-tis-ti-cal tests and me
+t-rics.
+ []
+
+
+Overfull \hbox (0.18936pt too wide) in paragraph at lines 153--154
+\T1/cmr/m/n/10 def-i-ni-tion of co-mor-bid-ity (e.g. re-gard-ing to the time in
+-ter-val con-sid-ered). In ad-di-tion, the \T1/cmtt/m/n/10 comoRbidity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 180.
+Package color Info: Redefining color shadecolor on input line 187.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 227.
+Package color Info: Redefining color shadecolor on input line 234.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 267.
+Package color Info: Redefining color shadecolor on input line 274.
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+[6]
+! Undefined control sequence.
+l.303 ...es in a higher category or class (\textif
+                                                  {e.g., the example below s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package color Info: Redefining color shadecolor on input line 307.
+
+Underfull \hbox (badness 1009) in paragraph at lines 339--339
+\T1/cmr/bx/n/10 ad-di-tional in-for-ma-tion, as shown in the pre-vi-ous ex-am-p
+les. The ex-tra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7]
+Overfull \hbox (0.60278pt too wide) in paragraph at lines 363--364
+[]\T1/cmr/m/n/10 if the in-di-vid-ual in-dex dis-ease codes are used for the co
+-mor-bid-ity study (\T1/cmtt/m/n/10 Aggregate the disease
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 375.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 388
+.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 413.
+[8]
+Package color Info: Redefining color shadecolor on input line 442.
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 473--474
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+
+Overfull \hbox (16.32117pt too wide) in paragraph at lines 474--475
+[]\T1/cmtt/m/n/10 codesPth\T1/cmr/m/n/10 : de-ter-mines the path where the file
+ with the in-dex dis-eases is lo-cated (\T1/cmtt/m/n/10 indexDiseaseCode\T1/cmr
+/m/n/10 ). 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 482.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (1.06638pt too wide) in paragraph at lines 485--485
+[]|\T1/cmr/m/n/9 intraCodes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--496
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> A. aggregatedDis = FALSE &
+                                      intraCodes = FALSE (Default option)
+l.505 ...SE & intraCodes = FALSE (Default option)}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Package color Info: Redefining color shadecolor on input line 508.
+Package color Info: Redefining color shadecolor on input line 518.
+Package color Info: Redefining color shadecolor on input line 527.
+[10]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.568 \noindent
+                \textbf{B. aggregatedDis = TRUE & intraCodes = FALSE}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<argument> B. aggregatedDis = TRUE &
+                                     intraCodes = FALSE
+l.568 ...ggregatedDis = TRUE & intraCodes = FALSE}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Package color Info: Redefining color shadecolor on input line 570.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.593 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<argument> C. aggregatedDis = FALSE &
+                                      intraCodes = TRUE
+l.594 ...ggregatedDis = FALSE & intraCodes = TRUE}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Package color Info: Redefining color shadecolor on input line 596.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+<argument> D. aggregatedDis = TRUE &
+                                     intraCodes = TRUE
+l.621 ...aggregatedDis = TRUE & intraCodes = TRUE}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Package color Info: Redefining color shadecolor on input line 624.
+[11]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
+
+ []
+
+! Undefined control sequence.
+l.658 ...denotes males in users' database (\textif
+                                                  {e.g., 0, M, Male...etc})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package color Info: Redefining color shadecolor on input line 672.
+<figure/summaryDB-1.pdf, id=275, 505.89pt x 505.89pt>
+File: figure/summaryDB-1.pdf Graphic file (type pdf)
+
+<use figure/summaryDB-1.pdf>
+Package pdftex.def Info: figure/summaryDB-1.pdf used on input line 681.
+(pdftex.def)             Requested size: 441.01773pt x 441.02388pt.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
+
+ []
+
+[13 <C:/Users/alba/Desktop/comorbidity/vignette/figure/summaryDB-1.pdf>]
+Overfull \hbox (16.32117pt too wide) in paragraph at lines 703--704
+[]\T1/cmtt/m/n/10 codesPth\T1/cmr/m/n/10 : de-ter-mines the path where the file
+ with the in-dex dis-eases is lo-cated (\T1/cmtt/m/n/10 indexDiseaseCode\T1/cmr
+/m/n/10 ). 
+ []
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 704--705
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+Package color Info: Redefining color shadecolor on input line 721.
+<figure/populationAgeTogether-1.pdf, id=294, 505.89pt x 505.89pt>
+File: figure/populationAgeTogether-1.pdf Graphic file (type pdf)
+
+<use figure/populationAgeTogether-1.pdf>
+Package pdftex.def Info: figure/populationAgeTogether-1.pdf used on input line 
+732.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [14]
+Package color Info: Redefining color shadecolor on input line 743.
+
+<figure/populationAgeSeparate-1.pdf, id=301, 505.89pt x 505.89pt>
+File: figure/populationAgeSeparate-1.pdf Graphic file (type pdf)
+
+<use figure/populationAgeSeparate-1.pdf>
+Package pdftex.def Info: figure/populationAgeSeparate-1.pdf used on input line 
+754.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [15 <C:/Users/alba/Desktop/comorbidity/vignette/figure/populationAgeTogether-1
+.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+
+ []
+
+! Undefined control sequence.
+l.769 ...denotes males in users' database (\textif
+                                                  {e.g., 0, M, Male...etc})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 771--772
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+Package color Info: Redefining color shadecolor on input line 779.
+<figure/diseasePrevalence-1.pdf, id=312, 505.89pt x 505.89pt>
+File: figure/diseasePrevalence-1.pdf Graphic file (type pdf)
+
+<use figure/diseasePrevalence-1.pdf>
+Package pdftex.def Info: figure/diseasePrevalence-1.pdf used on input line 789.
+
+(pdftex.def)             Requested size: 441.01773pt x 441.02388pt.
+ [16 <C:/Users/alba/Desktop/comorbidity/vignette/figure/populationAgeSeparate-1
+.pdf>]
+Overfull \hbox (21.59152pt too wide) in paragraph at lines 797--798
+\T1/cmr/m/n/10 Note that the color of the barplot can be changed adding the \T1
+/cmtt/m/n/10 barColor \T1/cmr/m/n/10 ar-gu-ment to the \T1/cmtt/m/n/10 diseaseP
+revalence
+ []
+
+
+Overfull \hbox (16.32117pt too wide) in paragraph at lines 805--806
+[]\T1/cmtt/m/n/10 codesPth\T1/cmr/m/n/10 : de-ter-mines the path where the file
+ with the in-dex dis-eases is lo-cated (\T1/cmtt/m/n/10 indexDiseaseCode\T1/cmr
+/m/n/10 ). 
+ []
+
+[17 <C:/Users/alba/Desktop/comorbidity/vignette/figure/diseasePrevalence-1.pdf>
+]
+Package color Info: Redefining color shadecolor on input line 817.
+ <figure/codeUse-1.pdf, id=334, 505.89pt x 505.89pt>
+File: figure/codeUse-1.pdf Graphic file (type pdf)
+
+<use figure/codeUse-1.pdf>
+Package pdftex.def Info: figure/codeUse-1.pdf used on input line 828.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 836--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 844.
+<figure/codeUseAgg-1.pdf, id=336, 505.89pt x 505.89pt>
+File: figure/codeUseAgg-1.pdf Graphic file (type pdf)
+
+<use figure/codeUseAgg-1.pdf>
+Package pdftex.def Info: figure/codeUseAgg-1.pdf used on input line 855.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [18 <C:/Users/alba/Desktop/comorbidity/vignette/figure/codeUse-1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
+
+ []
+
+[19 <C:/Users/alba/Desktop/comorbidity/vignette/figure/codeUseAgg-1.pdf>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.893 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+
+Overfull \hbox (2.06573pt too wide) in paragraph at lines 915--916
+\T1/cmr/bx/n/10 Phi value (Pear-sons cor-re-la-tion for bi-nary vari-ables) \T1
+/cmr/m/n/10 mea-sures the ro-bust-ness of the co-mor-bid-ity
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.930 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--940
+
+ []
+
+
+Overfull \hbox (16.32117pt too wide) in paragraph at lines 944--945
+[]\T1/cmtt/m/n/10 codesPth\T1/cmr/m/n/10 : de-ter-mines the path where the file
+ with the in-dex dis-eases is lo-cated (\T1/cmtt/m/n/10 indexDiseaseCode\T1/cmr
+/m/n/10 ). 
+ []
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 945--946
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+
+Overfull \hbox (4.26242pt too wide) in paragraph at lines 950--951
+\T1/cmr/m/n/10 Moreover, the \T1/cmtt/m/n/10 comorbidityAnalysis \T1/cmr/m/n/10
+ func-tion al-lows to re-strict the re-sults ac-cord-ing to the co-mor-bid-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 962.
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 981.
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1005.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1042
+
+ []
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 1046--1047
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+[22]
+! Undefined control sequence.
+l.1049 ...extbf{\texttt{cutOff}}: By default \code
+                                                  {'0.05'}. The value of the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1050 ...extbf{\texttt{npairs}}: By default \code
+                                                  {'0'}. The value of the ar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package color Info: Redefining color shadecolor on input line 1058.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1084.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1087 ... Checking the input object}}\end{kframe}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figure/networkFemale-1.pdf, id=389, 505.89pt x 505.89pt>
+File: figure/networkFemale-1.pdf Graphic file (type pdf)
+
+<use figure/networkFemale-1.pdf>
+Package pdftex.def Info: figure/networkFemale-1.pdf used on input line 1088.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1099.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   0
+l.1114 ...owColor}}: By default \texttt{"#0000FF"}
+                                                  . It defines the heatmap c...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> "##
+              0000FF"
+l.1114 ...owColor}}: By default \texttt{"#0000FF"}
+                                                  . It defines the heatmap c...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Package color Info: Redefining color shadecolor on input line 1121.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 ... Checking the input object}}\end{kframe}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figure/heatmapPlotfemale-1.pdf, id=396, 505.89pt x 505.89pt>
+File: figure/heatmapPlotfemale-1.pdf Graphic file (type pdf)
+
+<use figure/heatmapPlotfemale-1.pdf>
+Package pdftex.def Info: figure/heatmapPlotfemale-1.pdf used on input line 1125
+.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [24 <C:/Users/alba/Desktop/comorbidity/vignette/figure/networkFemale-1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1146 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1158.
+[25 <C:/Users/alba/Desktop/comorbidity/vignette/figure/heatmapPlotfemale-1.pdf>
+]
+Package color Info: Redefining color shadecolor on input line 1174.
+ <figure/SRplot-1.pdf, id=424, 505.89pt x 505.89pt>
+File: figure/SRplot-1.pdf Graphic file (type pdf)
+ <use figure/SRplot-1.pdf>
+Package pdftex.def Info: figure/SRplot-1.pdf used on input line 1181.
+(pdftex.def)             Requested size: 433.62pt x 433.62885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
+
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.1192 #
+        ' are more likely in men than women. By default \texttt{"blue"}.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[26 <C:/Users/alba/Desktop/comorbidity/vignette/figure/SRplot-1.pdf>]
+! You can't use `macro parameter character #' in horizontal mode.
+l.1194 #
+        ' are more likely in women than men. By default \texttt{"red"}.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (1.73526pt too wide) in paragraph at lines 1200--1201
+\T1/cmr/m/n/10 Additionally, the \T1/cmtt/m/n/10 comoRbidity \T1/cmr/m/n/10 pac
+k-age al-lows to an-a-lyze the tem-po-ral di-rec-tion-al-ity of the co-occurrin
+g
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
+
+ []
+
+
+Overfull \hbox (32.78937pt too wide) in paragraph at lines 1207--1208
+[]\T1/cmtt/m/n/10 databasePth\T1/cmr/m/n/10 : de-ter-mines the path where the t
+hree re-quired in-put files (\T1/cmtt/m/n/10 patientData, diagnosisData,
+ []
+
+Package color Info: Redefining color shadecolor on input line 1216.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1241.
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1259
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1263.
+<figure/directionHeatmap-1.pdf, id=443, 505.89pt x 505.89pt>
+File: figure/directionHeatmap-1.pdf Graphic file (type pdf)
+
+<use figure/directionHeatmap-1.pdf>
+Package pdftex.def Info: figure/directionHeatmap-1.pdf used on input line 1274.
+
+(pdftex.def)             Requested size: 433.62pt x 433.62885pt.
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
+
+ []
+
+[29 <C:/Users/alba/Desktop/comorbidity/vignette/figure/directionHeatmap-1.pdf>]
+! You can't use `macro parameter character #' in horizontal mode.
+l.1294 #
+        ' By default it is set to \code{"grey"}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Undefined control sequence.
+l.1294 #' By default it is set to \code
+                                       {"grey"}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1306
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1316.
+Package color Info: Redefining color shadecolor on input line 1324.
+
+Overfull \hbox (68.10794pt too wide) in paragraph at lines 1327--1327
+[][]\T1/cmtt/m/n/10 cuiDiseaseList[] []<-[] []read.delim[][]([] []paste0[][](fi
+lePth,[] []"/cuiDiseaseList.txt"[][]),[] []header[] []=[] []TRUE[][],[] []sep[]
+ []=[] []"\t"[] [])[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1346
+
+ []
+
+
+Overfull \hbox (19.48093pt too wide) in paragraph at lines 1350--1351
+\T1/cmr/m/n/10 in-put in the func-tion that per-forms the molec-u-lar co-mor-bi
+d-ity anal-y-sis (\T1/cmtt/m/n/10 comorbidityAnalysisMolecular\T1/cmr/m/n/10 ).
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
+
+ []
+
+[31]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1367 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package color Info: Redefining color shadecolor on input line 1371.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1397.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1423 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1429.
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1456.
+
+Overfull \hbox (12.20847pt too wide) in paragraph at lines 1480--1481
+\T1/cmr/m/n/10 data for the in-dex dis-eases. This in-for-ma-tion is ex-tracted
+ from Dis-GeNET database (http://disgenet.org). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1481
+
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   s
+l.1488 ...enet.org/web/DisGeNET/menu/dbinfo#score}
+                                                  .\\
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...genet.org/web/DisGeNET/menu/dbinfo##
+                                                  score
+l.1488 ...enet.org/web/DisGeNET/menu/dbinfo#score}
+                                                  .\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1489
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1491 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1495.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (41.60217pt too wide) in paragraph at lines 1496--1518
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1522
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1526.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1550
+
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   s
+l.1561 ...rg/web/DisGeNET/menu/dbinfo#specificity}
+                                                  .\\
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...genet.org/web/DisGeNET/menu/dbinfo##
+                                                  specificity
+l.1561 ...rg/web/DisGeNET/menu/dbinfo#specificity}
+                                                  .\\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1562
+
+ []
+
+[34]
+Package color Info: Redefining color shadecolor on input line 1564.
+ <figure/mcQueryVisualization-1.pdf, id=484, 505.89pt x 505.89pt>
+File: figure/mcQueryVisualization-1.pdf Graphic file (type pdf)
+
+<use figure/mcQueryVisualization-1.pdf>
+Package pdftex.def Info: figure/mcQueryVisualization-1.pdf used on input line 1
+577.
+(pdftex.def)             Requested size: 433.62pt x 433.62885pt.
+
+Overfull \hbox (7.60226pt too wide) in paragraph at lines 1577--1578
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1583
+
+ []
+
+[35 <C:/Users/alba/Desktop/comorbidity/vignette/figure/mcQueryVisualization-1.p
+df>]
+Package color Info: Redefining color shadecolor on input line 1585.
+ <figure/mcQueryVisualization2-1.pdf, id=498, 505.89pt x 505.89pt>
+File: figure/mcQueryVisualization2-1.pdf Graphic file (type pdf)
+
+<use figure/mcQueryVisualization2-1.pdf>
+Package pdftex.def Info: figure/mcQueryVisualization2-1.pdf used on input line 
+1594.
+(pdftex.def)             Requested size: 433.62pt x 433.62885pt.
+
+Overfull \hbox (7.60226pt too wide) in paragraph at lines 1594--1595
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1598--1599
+
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   E
+l.1600 ...neColor}}: By default \texttt{"#E69F00"}
+                                                  . It defines the bar color...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> "##
+              E69F00"
+l.1600 ...neColor}}: By default \texttt{"#E69F00"}
+                                                  . It defines the bar color...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
+
+ []
+
+
+Overfull \hbox (3.87363pt too wide) in paragraph at lines 1608--1609
+\T1/cmr/m/n/10 func-tion to the \T1/cmtt/m/n/10 molecularComorbidity \T1/cmr/m/
+n/10 ob-ject pre-vi-ously gen-er-ated with the \T1/cmtt/m/n/10 queryMolecular \
+T1/cmr/m/n/10 func-tion. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
+
+ []
+
+[36 <C:/Users/alba/Desktop/comorbidity/vignette/figure/mcQueryVisualization2-1.
+pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+
+ []
+
+
+Overfull \hbox (7.40054pt too wide) in paragraph at lines 1620--1621
+\T1/cmtt/m/n/10 comorbidityAnalysisMolecular \T1/cmr/m/n/10 func-tion com-putes
+ the Jac-card In-dex as an es-ti-ma-tion of the sim-i-lar-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1620--1621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1622--1624
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1633 \begin
+             {knitrout}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package color Info: Redefining color shadecolor on input line 1634.
+
+Overfull \hbox (34.05145pt too wide) in paragraph at lines 1654--1655
+\T1/cmr/m/n/10 re-sults of the molec-u-lar co-mor-bid-ity anal-y-sis and other 
+rel-e-vant in-for-ma-tion for the user. \T1/cmtt/m/n/10 molecularcAnalysis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1654--1655
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1657.
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1692--1695
+
+ []
+
+
+Overfull \hbox (15.26587pt too wide) in paragraph at lines 1698--1699
+[]\T1/cmtt/m/n/10 input\T1/cmr/m/n/10 : a \T1/cmtt/m/n/10 molecularcAnalysis \T
+1/cmr/m/n/10 ob-ject ob-tained af-ter ap-ply-ing the \T1/cmtt/m/n/10 comorbidit
+yAnalysisMolecular
+ []
+
+! Undefined control sequence.
+l.1701 ...extbf{\texttt{cutOff}}: By default \code
+                                                  {'0.05'}. The value of the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1702 ...extbf{\texttt{npairs}}: By default \code
+                                                  {'0'}. The value of the ar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package color Info: Redefining color shadecolor on input line 1711.
+<figure/mcNetwork-1.pdf, id=513, 505.89pt x 505.89pt>
+File: figure/mcNetwork-1.pdf Graphic file (type pdf)
+
+<use figure/mcNetwork-1.pdf>
+Package pdftex.def Info: figure/mcNetwork-1.pdf used on input line 1726.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1737--1739
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1743.
+<figure/mcHeatmap-1.pdf, id=520, 505.89pt x 505.89pt>
+File: figure/mcHeatmap-1.pdf Graphic file (type pdf)
+
+<use figure/mcHeatmap-1.pdf>
+Package pdftex.def Info: figure/mcHeatmap-1.pdf used on input line 1758.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+ [39 <C:/Users/alba/Desktop/comorbidity/vignette/figure/mcNetwork-1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1766--1767
+
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   0
+l.1768 ...owColor}}: By default \texttt{"#0000FF"}
+                                                  . It defines the heatmap c...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> "##
+              0000FF"
+l.1768 ...owColor}}: By default \texttt{"#0000FF"}
+                                                  . It defines the heatmap c...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1774
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 1776.
+[40 <C:/Users/alba/Desktop/comorbidity/vignette/figure/mcHeatmap-1.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1879.
+
+[41]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1879.
+ (C:\Users\alba\Desktop\comorbidity\vignette\vignette4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1879.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1879.
+
+Package rerunfilecheck Info: File `vignette4.out' has not changed.
+(rerunfilecheck)             Checksum: 417438883523C6C26AAE7FA4311FDDDB;2836.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1879.
+ ) 
+Here is how much of TeX's memory you used:
+ 8940 strings out of 493921
+ 133205 string characters out of 3144880
+ 225117 words of memory out of 3000000
+ 11945 multiletter control sequences out of 15000+200000
+ 20903 words of font info for 53 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,12n,38p,872b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+crm0600.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi450\ectt0800.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ectt0900.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecti0700.pk> <C:\Users\alba\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecit0900.pk> <C:\Users\alba\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\alb
+a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\
+Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1000
+.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecit1000.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecti1000.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\tcrm1000.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\alba\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\alba\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\a
+lba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C
+:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
+00.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecrm1728.pk> <C:\Users\alba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ectt1728.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb>
+Output written on vignette4.pdf (41 pages, 1246168 bytes).
+PDF statistics:
+ 1256 PDF objects out of 1440 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+

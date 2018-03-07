@@ -1,0 +1,142 @@
+\documentclass[a4paper]{article}
+
+\usepackage[none]{hyphenat}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{amsmath}
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{float}
+\usepackage[linktoc=all]{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {/home/alba/workspace/1_Current_projects/comoRbidity/Data/} }
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
+
+\newcommand{\subsubsubsection}[1]{\vspace{0.15cm}\noindent\textbf{#1}\vspace{0.15cm}}
+
+\title{\texttt{comoRbidity}: molecular comorbidities functionalities}
+
+\author{Alba Gutierrez-Sacristan \and Laura I. Furlong}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Installation}
+
+<<bitb, eval=FALSE>>=
+library( "devtools" )
+install_bitbucket( "ibi_group/comoRbidity" )
+library( "comoRbidity" )
+@
+
+<<comor, echo=FALSE>>=
+library(comoRbidity)
+@
+
+\section{Molecular comorbidity study }
+
+\noindent For the molecular comorbidity analysis, a file containing two columns, identifier and name, is required.\\
+
+<<inputMC>>=
+filePth <- system.file("extdata", package="comoRbidity")
+codesEx <- read.delim( paste0(filePth, "/exampleInput.txt"), header = TRUE, sep = "\t" )
+head(codesEx)
+@
+
+\noindent Applying the \texttt{querymolecular} function, we will extract all the genes associated to our diseases of interest, based on DisGeNET data. The database in which the query is done, as well as the score cut-off can be selected.\\
+
+<<mcQuery>>=
+diseaseCodes <- paste0(filePth, "/exampleInput.txt")
+mc <- querymolecular ( filePth = diseaseCodes, 
+                       unify = FALSE, 
+                       database = "CURATED", 
+                       score = c(">", 0))
+@
+
+\noindent As a result, a molecularComorbidity object will be obtained. This object will show us some interesting data such as:
+\begin{itemize}
+\item Aggregate the disease codes: the name column will be used for the comorbidity analysis
+\item N. Input Diseases: number of diseases that the user gives as input
+\item N. Index Diseases Present: number of diseases that present associated genes in DisGeNET.
+\item N. Genes: number of genes associated to the diseases. 
+\end{itemize}
+
+<<mcQueryResult, echo=FALSE>>=
+mc
+@
+
+\noindent We can extract the molecularComorbidity data using the extract function as follows:
+<<extractMC>>=
+head(comoRbidity::extract(mc))
+@
+
+
+<<analysisMC>>=
+mcAnalysis <- comorbidityAnalysisMolecular(input  = mc, 
+                                           pValue = TRUE, 
+                                           nboot  = 1000)
+@
+
+\noindent As a result, a molecularcAnalysis object will be obtained. This object will show us some interesting data such as:
+\begin{itemize}
+\item Overlap Min: minimum value of the gene overlap for the disease comorbidities.
+\item Overlap Max: maximum value of the gene overlap for the disease comorbidities.
+\item Jaccard Min: minimum value of the jaccard for the disease comorbidities.
+\item Jaccard Max: maximum value of the jaccard for the disease comorbidities. 
+\item P-value: it is TRUE is the p-value has been estimated. 
+\item Number of comorbidities: show the number of comorbidities with gene overlap. 
+\end{itemize}
+
+<<mcQueryResult, echo=FALSE>>=
+mcAnalysis
+@
+
+\noindent We can extract the molecularcAnalysis data using the extract function as follows:
+<<extractMC>>=
+head(comoRbidity::extract(mcAnalysis))
+@
+
+\subsection{Molecular comorbidity visualization}
+
+\subsubsectio{Heatmap}
+
+<<mcHeatmap, fig=TRUE >>=
+mcHeatmap <- heatmapPlot( input = mcAnalysis , 
+             selectValue = "jaccard", 
+             cutOff = 0.05,
+             interactive = FALSE, 
+             lowColor = "#0000FF", 
+             highColor = "yellow" )
+mcHeatmap
+@
+
+\subsubsectio{Network}
+
+<<mcNetwork, fig = TRUE>>=
+mcNetwork <- network( input = mcAnalysis ,
+                      layout = "layout.circle",
+                      selectValue = "jaccard", 
+                      title = "Molecular comorbidity network",
+                      cutOff = 0.05,
+                      prop   = 0.2,
+                      diseaseColor = "olivedrab1", 
+                      interactive = FALSE, 
+)
+@
+
+
+
+
+\end{document}

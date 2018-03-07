@@ -1,0 +1,702 @@
+\documentclass[a4paper]{article}
+
+\usepackage[none]{hyphenat}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{amsmath}
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{float}
+\usepackage[linktoc=all]{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {/home/alba/workspace/1_Current_projects/comoRbidity/Data/} }
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+%\SweaveOpts{concordance=TRUE}
+
+\newcommand{\subsubsubsection}[1]{\vspace{0.15cm}\noindent\textbf{#1}\vspace{0.15cm}}
+
+\title{\texttt{comoRbidity}: An R package to analyze disease comorbidities}
+
+\author{Alba Gutierrez-Sacristan \and Laura I. Furlong}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\noindent Electronic health records contains digital information about patient history, including demographics, diagnosis and treatments. The identification and bioinformatic analysis of disease comorbidities will have a great impact on the health status evolution, selection of appropriate treatments and health system costs and is key to identify new preventive and therapeutic strategies.\\
+
+\noindent The \texttt{comoRbidity} R package is an analysis software that identifies comorbidity patterns at population level by processing clinical data. It allows the identification of disease comorbidities and its subsequent analysis in a clear and easy way. The \texttt{comoRbidity} R package identifies the statistically significant comorbidities using different statistic indexes stratified by age and gender. More importantly, it allows the user to provide its own clinical record data that should follow a simple tabulated format. In addition, the \texttt{comoRbidity} package allows to compute other parameters like the sex ratio parameter and temporal directionality of the co-occurring diseases. A special focus is made on the visualization of the results, providing a variety of representation formats, such as networks, heatmaps or bar plots.\\
+
+\subsection{Background}
+\noindent The tasks that can be performed with \texttt{comoRbidity} package are the following:
+\begin{enumerate}
+\item Age and gender analysis of the population suffering the disease of interest. 
+\item Code usage in the population under study.
+\item Performing comorbidity analysis based on diagnosis data, in an specificg gender and age interval. 
+\item Analyzing the comorbidity temporal directionality.
+\item Visualizing the results in a clear way, easily interpretable. 
+\end{enumerate}
+
+\\
+\noindent In the following sections the specific functions that can be used to address each one of these tasks are presented.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Installation}
+
+\noindent The package \texttt{comoRbidity} is provided through Bitbucket. To install \texttt{comoRbidity} the user must type the following commands in an R session:
+
+<<bitb, eval=FALSE>>=
+library( "devtools" )
+install_bitbucket( "ibi_group/comoRbidity" )
+library( "comoRbidity" )
+@
+
+% \noindent The package \texttt{comoRbidity} will be also provided through Bioconductor. To install \texttt{comoRbidity} the user must type the following commands in an R session:
+% 
+% <<bioC, eval=FALSE>>=
+% source( "http://bioconductor.org/biocLite.R" )
+% biocLite( "comoRbidity" )
+% library(comoRbidity)
+% @
+% 
+% <<load_library, eval=TRUE, message=FALSE, warning=FALSE, echo = FALSE>>=
+% library( comoRbidity )
+% @
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Requeriments}
+
+\noindent Four documents are required in order to do the comorbidity analysis with \texttt{comoRbidity} package (\ref{fig:requeriments}):
+\begin{itemize}
+\item patientData
+\item diagnositcData
+\item admissionData
+\item indexDiseaseCodes
+\end{itemize}
+
+\begin{figure}[h]
+\includegraphics[scale=1.5, width=8cm]{figure2}
+\centering
+\caption{Data required in order to perform the comorbidity analysis} 
+\label{fig:requeriments}
+\end{figure}
+
+\noindent An example of the data is shown below. This data has been obtained from an artificial medical data set of 100000 patients with 361760 admissions. This data has been obtained from EMRbots.org. \\
+
+<<exampleDataPath, echo = FALSE, warning = FALSE, message = FALSE>>=
+databasePth <- system.file("extdata", package="comoRbidity")
+patientData <- read.delim( paste0(databasePth, "/patientData.txt"), header = TRUE, sep = "\t" )
+diagnosData <- read.delim( paste0(databasePth, "/diagnosisData.txt"), header = TRUE, sep = "\t" )
+admissiData <- read.delim( paste0(databasePth, "/admissionData.txt"), header = TRUE, sep = "\t" )
+codes       <- read.delim( paste0(databasePth, "/indexDiseaseCode.txt"), header = TRUE, sep = "\t", colClasses = "character" )
+@
+
+\subsection{Patient Data}
+\noindent Patient data file must contain at least three columns with the column name as described as follows:
+\begin{itemize}
+\item patient\_id: a patient identifier, that can be numeric, alphanumeric or a list of characters
+\item patient\_gender: patient gender is required for the comorbidity analysis and for the sex ratio study. It can be numeric (0 for one gender and 1 for the other), character (M for male and F for female) and also a list of characters.
+\item patient\_dataBirth: patient birth data is required to estimate the age when the patient suffer the disease. The structure that it must follow is year, month, and day, separated by any type of character. \\
+
+\noindent The patient data file can contain other information, as the one that is shown in the next example. Note that the extra information will not be used by \texttt{comoRbidity} functions for the comorbidity analysis.\\ 
+
+\noindent If the patientData file does not contain the required columns the next message will appear:
+<<message, echo = FALSE>>=
+message("Check the patientData file structure. Remember that this
++ file must contain at least three columns with the column
++ names as follows:\n -> patient_id \n -> patient_gender \n -> patient_dateBirth")
+@
+
+<<exampleData_patients>>=
+head( patientData )
+@
+
+\subsection{Diagnosis Data}
+\noindent Diagnosis data file must contain at least three columns with the column name as described as follows:
+\begin{itemize}
+\item patient\_id: a patient identifier, that can be numeric, alphanumeric or a list of character. The patient identifier must be the same that is used in the patientData file. 
+\item admission\_id: an identifier related to the admission, that allows to distinguish between different entrance of the patient in the data base. It can be numeric, alphanumeric or a list of characters 
+\item diagnoses\_code: the disease code (in any format) 
+
+\noindent The diagnosis data file can contain other information, as the one that is shown in the next example. Note that the extra information will not be used by \texttt{comoRbidity} functions for the comorbidity analysis.\\ 
+
+\noindent If the diagnosisData file does not contain the required columns the next message will appear:
+<<message2, echo = FALSE>>=
+ message("Check the diagnosisData file structure. Remember that this
+                    file must contain at least three columns with the column 
+                    names as follows:\n -> patient_id \n -> admission_id \n -> diagnoses_code" )
+
+@
+
+<<exampleData_diagnosis>>=
+head( diagnosData )
+@
+
+\subsection{Admission Data}
+\noindent Admission data file must contain at least three columns with the column name as described as follows:
+\begin{itemize}
+\item patient\_id: a patient identifier, that can be numeric, alphanumeric or a list of character. The patient identifier must be the same that is used in the patientData file. 
+\item admission\_id: an identifier related to the admission, that allows to distinguish between different entrance of the patient in the data base. It can be numeric, alphanumeric or a list of characters 
+\item admissionStartDate:  
+
+\noindent The admission data file can contain other information, as the one that is shown in the next example. Note that the extra information will not be used by \texttt{comoRbidity} functions for the comorbidity analysis.\\ 
+
+\noindent If the admissionData file does not contain the required columns the next message will appear:
+<<message3, echo = FALSE>>=
+ message("Check the admissionData file structure. Remember that this
+                    file must contain at least three columns with the column 
+                    names as follows:\n -> patient_id \n -> admission_id \n -> admissionStartDate")
+@
+
+<<exampleData_admission>>=
+head( admissiData )
+@
+
+\subsection{Index Disease Codes}
+
+: the disease codes in which you are interested for the comorbidity analysis.
+<<exampleData_codes>>=
+head( codes )
+@
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{comoRbidity objects}
+
+\subsection{comorbidity object}
+\noindent \texttt{comorbidity} object is obtained when \texttt{query} function is applied. This object is used as input for other functions in the package that enable the user to have an overview about the patients that suffer the disease of interest in terms of age, gender and diagnostic. \texttt{comorbidity} object is also used as input in the function that retrieves the comorbidity analysis (\texttt{comorbidityAnalysis}).\\
+
+In summary, \texttt{comorbidity} object is the input for:
+\begin{itemize}
+\item \texttt{comorbidityAnalysis} function.
+\item \texttt{summaryDB} function. 
+\item \texttt{populationAge} function. 
+\item \texttt{diagnosticUse} function.
+\end{itemize}
+
+\\
+
+\noindent \texttt{comorbidity} object contains the information about the patients that suffer at least one of the input disorders (N. Patients), and the total number of disorders present in this subset (N. Diseases). This object also comes with a function that allows the user to retrieve the data saved in the object. This function is \texttt{extract} function. This function returns a formatted data.frame with the complete set of information obtained from the data queried.\\ 
+
+<<comor_object, echo = FALSE>>=
+load(system.file("extdata", "comorbidity.RData", package="comoRbidity"))
+@
+
+<<comor_object2>>=
+comor_obj
+@
+
+
+\subsection{cAnalysis object}
+
+\noindent \texttt{cAnalysis} object is obtained when \texttt{comorbidityAnalysis} function is applied. This object is used as input for other functions in the package that enable the user to visualize the results in different graphical ways. Moreover, \texttt{cAnalysis} object is used as input for further analysis in the comorbidity results, like the sex ratio analysis and the directionality.\\
+
+\texttt{cAnalysis} object is the input for:
+\begin{itemize}
+\item \texttt{network} function.
+\item \texttt{heatmapPlot} function. 
+\item \texttt{sexRatio} function. 
+\item \texttt{directionality} function.
+\end{itemize}
+
+
+\noindent \texttt{cAnalysis} object contains the results of the comorbidity analysis and other relevant information for the user. \texttt{cAnalysis} object shows the age interval that has been applied for the analysis (Age Min and Age Max); the gender, the number of patients that belong to this group from the total data (Subset Patients) as well as the number of them that suffer the disease of interest (Active Paients). Other interesting data such as the disease prevalence and the minimum values obtained for each parameter estimated to measure the comorbidity. Finally the number of pairs of diseases that pass the cutOff determined by the user are also shown (Final Disease Pairs). \\ 
+
+\noindent This object also comes with a function that allows the user to retrieve the data saved in the object. This function is \texttt{extract} function, that returns a formated data.frame with the comorbidity analysis results.\\ 
+
+<<cAnalysis_obj, echo=FALSE>>=
+load(system.file("extdata", "comorMale.RData", package="comoRbidity"))
+@
+
+<<cAnalysis_obj2>>=
+comorMale
+class(comorMale)
+@
+
+<<extractData>>=
+comorbidityData <- extract ( comorMale )
+head( comorbidityData )
+@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Data extraction}
+
+\noindent The first step in order to perform the comorbidity analysis is extracting the data related to the patients that suffer the disorder of interest. This disorder of interest is determined by the \texttt{code} file. \\
+
+\noindent \texttt{query} function allows the user to extract the data and save it in a \texttt{comorbidity} class object. As input the function requires:
+\begin{itemize}
+\item \texttt{databasePth}: determine the path where the three input files required (ptientData, diagnosisData, admissionData) are located.
+\item \texttt{codesPth}: determine the path where the file with the diagnostic codes of interest is located. 
+\item \texttt{admissionDataSep}: determine what is the separation symbol in the admission data. 
+\item \texttt{birthDataSep}: determine what is the separation symbol in the birth data. 
+\end{itemize}
+
+<<paths >>=
+databasePth <- system.file("extdata", package="comoRbidity")
+diagnosticCodes <- system.file("extdata", "indexDiseaseCodesAgg.txt", package="comoRbidity")
+ff <- query( databasePth      = databasePth, 
+             codesPth         = diagnosticCodes, 
+             admissionDataSep = "-", 
+             birthDataSep     = "-"
+             )
+ff
+@
+
+\noindent As a result, a \texttt{comorbidity} object is obtained. This object will contain those patients that have been diagnosed with at least one of the codes presented in the \texttt{codes} file. Moreover, all the additional disorders that have been suffered by these patients will also be saved.\\
+
+\section{Summary DB}
+
+\noindent The \texttt{comoRbidity} R package allows the user to analyze and characterized the population of your database that suffer from a disease or diseases of interest. In order to have a general idea about the population main characteristics, the user can apply the \texttt{summaryDB} function. A set of graphics describing the age and gender distribution for the subset of patients suffering from the disorder of interest will be obtained (\ref{fig:summaryDB}).\\
+
+\noindent As a input, the \texttt{summaryDB} function requires:
+\begin{itemize}
+\item \texttt{input}: a \texttt{comorbidity} object, obtained with the \texttt{query} function. 
+\item \texttt{maleCode}: the symbol which denotes males in users' database (0, M, Male...etc)
+\item \texttt{femaleCode}: the symbol which denotes females in users' database (1, F, Femaale...etc)
+\end{itemize}
+
+\noindent The output of the \texttt{summaryDB} function is a plot with three different graphics:
+\begin{itemize}
+\item A barplot with the age distribution of the patients suffering the disease of interest. 
+\item A boxplot showing the age distribution by gender. 
+\item A pie chart representing the gender distribution.  
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<summaryDB, fig=TRUE, height=14, width=14 >>=
+summaryDB(input = ff, 
+          maleCode = "Male", 
+          femaleCode ="Female")
+@
+\end{center}
+\caption{Summary plot, containing: age-distribution; age distribution by gender and gender distribution.} 
+\label{fig:summaryDB}
+\end{figure}
+
+
+\section{Population analysis based on the disease under study}
+
+\noindent Following with the age analysis, the \texttt{comoRbidity} R package also allows to compare the age distribution of patients suffering the disease under study with all the patients of the user's database. It is considered the first time in which the patient has been diagnosed with any of the diagnoses of interest (for those patients suffering the disorder of interest) and the first date the patient has an entry in the database for the rest of patients.\\
+
+\noindent As an input, \texttt{populationAge} function requires:
+\begin{itemize}
+\item \texttt{input}: a \texttt{comorbidity} object, obtained with the \texttt{query} function. 
+\item The path where the code file is located. 
+\item The path where the three input files required (ptientData, diagnosisData, admissionData) are located.
+\end{itemize}
+
+\noindent The \texttt{populationAge} function has two more arguments, that are optional for the user:
+\begin{itemize}
+\item \texttt{type} argument allows the user to select the output barplot. By default the type selected is "together" (\ref{fig:popAgeTogether}), but it can be set up to "separate" (\ref{fig:popAgeSeparate}). 
+\item \texttt{interactive} argument allows to create an interactive barplot, that show you the specific information of each bar in the barplot in an interactive way.
+\end{itemize}
+
+
+\noindent This can be visualized together (\ref{fig:popAgeTogether}) or separate .
+
+
+\begin{figure}[H]
+\begin{center}
+<<populationAgeTogether, echo=TRUE, fig=TRUE, height=14, width=14 >>=
+populationAge ( input       = ff, 
+                codesPth    = diagnosticCodes, 
+                databasePth = databasePth, 
+                type        = "together", 
+                interactive = FALSE)
+@
+\end{center}
+\caption{Age-distribution of the disorder of interest vs all population age.} 
+\label{fig:popAgeTogether}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+<<populationAgeSeparate, echo=TRUE, fig=TRUE, height=14, width=14 >>=
+populationAge ( input       = ff, 
+                codesPth    = diagnosticCodes, 
+                databasePth = databasePth, 
+                type        = "separate", 
+                interactive = FALSE)
+@
+\end{center}
+\caption{Age-distribution of the disorder of interest vs all population age.} 
+\label{fig:popAgeSeparate}
+\end{figure}
+
+\section{Study disease/diseases of interest in our database }
+
+\subsection{Code Use}
+
+\noindent When we are studying a disorder that is defined by more than one diagnosed code, \texttt{comoRbidity} R package allows to analyze the percentage of use of each one of the codes (\ref{fig:codeUse}).\\
+
+\noindent As an input, \texttt{diagnosticUse} function requires:
+\begin{itemize}
+\item \texttt{obj}: a \texttt{comorbidity} object, obtained with the \texttt{query} function. 
+\item \texttt{codesPth}: The path where the code file is located. 
+\item \texttt{databasePth}: The path where the three input files required (ptientData, diagnosisData, admissionData) are located.
+\end{itemize}
+
+\noindent The \texttt{diagnosticUse} function has two more arguments, that are optional for the user:
+\begin{itemize}
+\item \texttt{cutOff} argument allows the user to select those diagnostic codes that will be represented in the output barplot. By default the \texttt{cutOff} selected is 0, but it can be set up to any other percentage value. 
+\item \texttt{interactive} argument allows to create an interactive barplot, that show you the specific information of each bar in the barplot in an interactive way. By default the \texttt{interactive} argument is set up as \texttt{FALSE}. 
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<codeUse, fig=TRUE, height=14, width=14 >>=
+diagnosticUse( codesPth     = diagnosticCodes, 
+               databasePth  = databasePth, 
+               obj          = ff, 
+               cutOff       = 0,
+               interactive  = FALSE
+               )
+@
+\end{center}
+\caption{Disorder codes usage in percentage} 
+\label{fig:codeUse}
+\end{figure}
+
+
+\subsection{Comorbidity Analysis}
+
+\noindent Once we have a general overview about the patients that suffer the disorder of interest in our datbase, and the main characteristics of this population, the next step is perform the comorbidity analysis.\\
+
+\noindent Using the \texttt{comorbidity} object previously generated, it can be estimated the comorbidity pairs that are statistically significant applying the \texttt{comorbidityAnalysis} function.\\
+
+\subsection{Comorbidity Measurements}
+
+\noindent Two diseases are connected if they are co-expressed in a significant number of patients in a population. To estimate the correlation starting from disease co-occurrence, we need to quantify the strength of the comorbidity risk. The \texttt{comoRbidity} R package estimates several measures to quantify the strength of comorbidity associations between two diseases:\\
+
+\begin{description}
+\item[Fisher test] A Fisher exact test for each pair of diseases is performed to assess the null hypothesis of independence between the two diseases. Four groups of patients are done in order to perform the statistical testing, patients suffering disease X and disease Y, patients suffering disease X but not disease Y, patients suffering disease Y but not disease X and patients not suffering disease X nor disease Y. Using these values we estimate the p-value of the Fisher exact test for each pair of diseases. The Benjamini-Hochberg false discovery rate method \cite{REF1} is applied on the ranked list to correct for multiple testing.
+
+\item[Comorbidity score] This score is defined in Roque et al. as follows \cite{REF2}:
+
+\begin{equation}
+\label{eq:solve}
+comorbidity score =log_2 \left( \cfrac{observed + 1}{expected + 1} \right)
+expected = \cfrac{n_x x n_y}{n_total}
+\end{equation}
+
+\noindent where observed is the number of disease-disease associations, and expected
+is estimated based on the occurrence of each disease (nx & ny).
+
+
+\item[Relative risk] Fraction between the number of patients diagnosed with both diseases and random expectation based on disease prevalence.
+
+\begin{equation}
+\label{eq:solve}
+RR_ij = \cfrac{C_ij N}{P_i P_j}
+\end{equation}
+
+\item[Phi value] (Pearsons correlation for binary variables) measures the robustness of the comorbidity association.
+
+\begin{equation}
+\label{eq:solve}
+\phi_ij = \cfrac{C_ij N - P_i P_j}{\sqrt{P_i P_j(N - P_i)(N - P_j)}}
+\end{equation}
+
+\noindent where N is the total number of patients in the population, P i and P j are incidences/prevalences of diseases i and j respectively. C i j is the number of patients that have been diagnosed with both diseases i and j, and P i P j is the random expectation based on disease prevalence.\\
+
+\item[Odds ratio] The odds ratio represents the increased chance that someone suffering disease X will have the comorbid disorder Y. It shows the extent to which suffering a disorder increases the risk of developing another illness or disorder. The odds ratio is derived from a comparison of rates of the illness among individuals who do and do not also exhibit the factor of interest. A statistically significant odds ratio (significantly different from 1.00 at the .05 level) indicates an appreciable risk associated with a particular factor. For example, an odds ratio of 2.00 indicates a doubled risk of the illness/disorder appearing.\\
+
+
+
+\end{description}
+
+\noindent These measures allows the user to quantify the co-occurrence of disease pairs compared with the random expectation. User can select the measure and the cut-off in order to asses disease comorbidity.\\ 
+
+\noindent \texttt{comorbidity} function allows the user to perform the comorbidity analysis and save it in a \texttt{cAnalysis} class object. As input the function requires:
+\begin{itemize}
+\item \texttt{obj}: a \texttt{comorbidity} object obtained after applying the \texttt{query} function.
+\item \texttt{databasePth}: determine the path where the three input files required (ptientData, diagnosisData, admissionData) are located.
+\item \texttt{codesPth}: determine the path where the file with the diagnostic codes of interest is located. 
+\item \texttt{ageRange}: determine what is the age range in which we are interested in performing the comorbidity analysis. By default it is set up from 0 to 100 years old. 
+\item \texttt{gender}: determine what is the gender in which we are interested in performing the comorbidity analysis. 
+\end{itemize}
+
+\noindent Moreover, the \texttt{comorbidityAnalysis} function allows us to restrict our results according to a comorbidity measurement value. The posible values that can be applied as a cut-off are:
+\begin{itemize}
+\item score
+\item fdr
+\item oddsRatio
+\ite rr
+\item phi
+\end{itemize}
+
+\noindent User can filter the results applying all the comorbidity measurements that she considers necesary. Note that the cut-off value for these measurements must be numeric. In the next example, it is shown a query in which two of the five comorbidity measurements are applied, the \texttt{score} and the \texttt{fdr}.\\
+
+<<comorbidityAnalysisFemales, eval=FALSE >>=
+comorFemale <- comorbidityAnalysis( obj=ff, 
+                              codesPth    = diagnosticCodes, 
+                              databasePth = databasePth, 
+                              score       = 0, 
+                              fdr         = 1, 
+                              ageRange    = c( 0, 100 ), 
+                              gender      = "Female", 
+                              verbose     = FALSE 
+                              )
+save(comorFemale, file=paste0(databasePth, "comorFemale.RData"))
+@
+
+\noindent As a result, a \texttt{cAnalysis} object is obtained. This object will contain a summary of the comorbidities that have been found, showing:\\
+\begin{itemize}
+\end{itemize}
+
+<<comorFemaleResults>>=
+load(system.file("extdata", "comorFemale.RData", package="comoRbidity"))
+comorFemale
+@
+
+\noindent Moreover, the \texttt{extract} function can also be applied to the \texttt{cAnalysis} object. This function returns a formatted data.frame with the complete set of information obtained from the comorbidity analysis.\\
+
+<<extractData2>>=
+comorbidityDataFem <- extract ( comorFemale )
+head( comorbidityDataFem )
+@
+
+
+\subsection{Comorbidity representation}
+
+\noindent In order to visualize the comorbidity analysis results, \texttt{comoRbidity} package provides two different options:
+\begin{itemize}
+\item Network: obtained applying \texttt{network} function. 
+\item Heatmap: obtained applying \texttt{heatmapPlot} function. 
+\end{itemize}
+
+
+\subsubsection{Network}
+\noindent \texttt {network} function allows the user to visualize the data contained in the \texttt{cAnalysis} object obtained after applying the \texttt{comorbidityAnalysis} function.\\
+
+\noindent As input \texttt{network} function requires:
+\begin{itemize}
+\item \texttt{input}: an object of the \texttt{cAnalysis} type, obtained after applying the \texttt{comorbidityAnalysis} function. 
+\item \texttt{databasePth}: The path where the three input files required (ptientData, diagnosisData, admissionData) are located.
+\item \texttt{layout}: by deafult \texttt{"layout.fruchterman.reingold"}. It can be set up to other of the possible igraph layouts. 
+\item \texttt{selectValue}: By default \texttt{"score"} variable will be selected. It can be set up to any of the other possible variables ('fdr', 'odds ratio', 'phi', 'rr') that makes easier the interpretation of your results.
+\item \texttt{cutOff}: By default \code{'0.05'}. Change it to any other numeric variable, according to the range of the selected value.
+\item \texttt{npairs}: By default \code{'0'}. Change it to any other numeric variable to show in the network only those comorbidities suffered by at least npairs patients.
+\item \texttt{prop}: By default 1. It allows to change the node size. 
+\item \texttt{title}: By default \code{'Comorbidity network'}. 
+\item \texttt{interactive} argument allows to create an interactive barplot, that show you the specific information of each node in the network in an interactive way. By default the \texttt{interactive} argument is set up as \texttt{FALSE}. 
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<networkMale, fig=TRUE, height=14, width=14, eval = FALSE >>=
+load(system.file("extdata", "comorMale.RData", package="comoRbidity"))
+network ( input = comorMale, 
+          databasePth = databasePth,
+          layout = "layout.fruchterman.reingold", 
+          selectValue = "score", 
+          cutOff = 1.45,
+          npairs = 2, 
+          prop  = 1,
+          title = "Male comorbidity network", 
+          interactive = FALSE
+        )
+@
+\end{center}
+\caption{Comorbidity network in male population} 
+\label{fig:maleNet}
+\end{figure}
+
+\noindent As a result, a netwok is obtained (\ref{fig:femaleNet}). Nodes in pink belong to the disorder of interest, while the blue ones correspond to the comorbidity disorders. Note that the color of the nodes can be change adding the next arguments to the \texttt{network} function:\\
+\begin{itemize}
+\item \texttt{diseaseColor}: By default "pink". It defines the node color for the disorder of interest.
+\item \texttt{comorColor}: By default "lightblue". It defines the node color for the comorbid disorders.
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<networkFemale, fig=TRUE, height=14, width=14,  echo = FALSE >>=
+load(system.file("extdata", "comorFemale.RData", package="comoRbidity"))
+network ( input = comorFemale, 
+          databasePth = databasePth,
+          layout = "layout.fruchterman.reingold", 
+          selectValue = "score", 
+          cutOff = 1.45, 
+          npairs = 2,
+          prop  = 1,
+          title = "Female comorbidity network"
+        )
+@
+\end{center}
+\caption{Comorbidity network in female population} 
+\label{fig:femaleNet}
+\end{figure}
+
+\noindent \texttt{comoRbidity} package also allows to visualize this data in a heatmap instead in a network(\ref{fig:femaleHeatmap}).The input required is the same than for the \texttt{network} function.\\ 
+
+<<heatmapPlotMale, eval=FALSE >>=
+heatmapPlot( input       = comorFemale,
+             selectValue = "score", 
+             npairs      = 2,
+             cutOff      = 1.45, 
+             verbose     = FALSE,
+             interactive = FALSE)
+@
+
+
+\noindent Note that the color of the heatmap can be change adding the next arguments to the \texttt{heatmaPlot} function:\\
+\begin{itemize}
+\item \texttt{lowColor}: By default "#0000FF". It defines the heatmap color for the lowest value.
+\item \texttt{highColor}: By default "yellow". It defines the heatmap color for the highest value. 
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<heatmapPlotfemale, fig=TRUE, height=14, width=14, echo=FALSE >>=
+heatmapPlot( input       = comorFemale,
+             selectValue = "score", 
+             npairs      = 2, 
+             cutOff      = 1.45, 
+             verbose     = FALSE,
+             interactive = FALSE)
+@
+\end{center}
+\caption{Comorbidity heatmap in female population} 
+\label{fig:femaleHeatmap}
+\end{figure}
+
+
+\subsection{Sex ratio analysis}
+
+\noindent The \texttt{comoRbidity} package allows to compute the sex ratio (SR) parameter. The sex ratio (SR) parameter allows to see, for those comorbidities that are present in both, men and women, if the co-occurrence is equally likely for both or on the contrary if it is more likely in one group than in the other. For a comorbidity x and age group t, SR \eqref{eq:solve} is defined by Klimek et al. \cite{REF3} as follows:\\
+
+\begin{equation*}
+\label{eq:solve}
+SR(x,t)=log \left( \cfrac{1 + \cfrac{{D_{f}(t)}}{D_{f}(x,t)}}
+{1 + \cfrac{{D_{m}(t)}}{D_{m}(x,t)}} \right)
+\end{equation*}
+
+
+\\
+
+\noindent where Dm(f)(t) stands for the number of depression patients (men or women) in age group t, and Dm(f)(x,t) denotes those depression patients who also has been diagnosed with a disease x. SR values close to 0 means that the comorbidity is equally likely for men and women. A positive value indicates that the comorbidity is more likely for women, while negative value indicates that the comorbidity is more likely in men.\\
+
+\noindent In order to obtain the sex ratio heatmap, two steps should be followed:\\
+\begin{itemize}
+\item Apply the \texttt{sexRatio} function using as input the \texttt{cAnalysis} object obtained for both genders. Note that fisher test is performed, so it can be determined the cut-off to be applied. 
+\item Apply the \texttt{sexRatioHeatmap} to the previous results. \texttt{interactive} argument can be set up to \texttt{TRUE} if an interactive heatmap is required. 
+\end{itemize}
+
+\noindent In the next example, we apply a filter to the sex ratio results in order to show only those that have more extreme values.\\
+
+<<sexRatio >>=
+srAnalysis <- sexRatio(female    = comorFemale, 
+                       male      = comorMale, 
+                       fisherTest = 0 
+                       )
+
+srAnalysis <- srAnalysis[as.numeric(srAnalysis$SR) <= -0.5 
+                         | as.numeric(srAnalysis$SR) >= 0.5,]
+@
+
+\noindent As a result a heatmap (\ref{fig:srHeatmap}) is obtained. Red color (positive values) in the heatmap belong to those comorbidities that are more likely for women, while blue color (negative values) belong to those that are more likely for men. These colors can be changed adding the arguments:\\
+\begin{itemize}
+\item maleColor
+\item femaleColor
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+<<SRplot, fig=TRUE, height=14, width=14>>=
+sexRatioHeatmap(srAnalysis, 
+                interactive = FALSE
+                )
+@
+\end{center}
+\caption{Sex ratio (SR) comorbidities heatmap} 
+\label{fig:srHeatmap}
+\end{figure}
+
+\subsection{Directionality analysis}
+
+\noindent Additionally, the \texttt{comoRbidity} package allows to analyze of the temporal directionality of the co-occurring diseases, which allows the inference of temporal disease trajectories (\ref{fig:directionHeatmap}).\\
+
+\noindent The temporal direction of disease association (d1 → d2 and d2 → d1) is assessed for the diagnosis pairs with a significant Bonferroni-corrected p-value. Specifically, the number of patients for whom, diagnosis d2 follows diagnosis d1, or vice versa, is calculated and an exact binomial test is, subsequently, used with a probability of success equal to 0.5. A preferred (significant) direction is determined for those diagnosis pairs that result in binomial tests with p-values < 0.05 and according to the pair that appears more often.\\
+
+<<directionality>>=
+comorbidityDirection <- directionality( input       = comorFemale, 
+                                        databasePth = databasePth, 
+                                        gender      = "Female",
+                                        ageRange    = c(0,100),
+                                        days        = 0,
+                                        minPairs    = 1,
+                                        dataSep     = "-")
+summary(as.factor(comorbidityDirection$result))
+@
+
+<<directionHeatmapData, echo = FALSE >>=
+test <- comorbidityDirection[1:50,]
+test$result[1:10] <- "From A to B"
+test$test[1:10] <- -1
+test$result[25:40] <- "From B to A"
+test$test[25:40] <- 1
+test$test[41:50] <- 0
+@
+
+\begin{figure}[H]
+\begin{center}
+<<directionHeatmap, fig=TRUE, height=14, width=14>>=
+heatmapDireccion(test, 
+                 interactive = FALSE)
+@
+\end{center}
+\caption{Comorbidities directionality heatmap} 
+\label{fig:directionHeatmap}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\section{Bibliography}
+
+\begin{thebibliography}{9}
+
+\bibitem{REF1}
+    Yoav Benjaminia; Dan Draib; Greg Elmerc; Neri Kafkafid; Ilan Golanib
+  \textbf{Controlling the false discovery rate in behavior genetics research}
+  Behavioural Brain Research 2001
+  doi:10.1016/S0166-4328(01)00297-2
+  
+\bibitem{REF2}
+    Francisco S. Roque; Peter B. Jensen; Henriette Schmock; Marlene Dalgaard; Massimo     Andreatta; Thomas Hansen; Karen Søeby; Søren Bredkjær; Anders Juul; Thomas Werge; Lars J. Jensen; Søren Brunak
+  \textbf{Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts}
+  PLOS Computational Biology 2011
+  doi:10.1371/journal.pcbi.1002141
+
+\bibitem{REF3}
+    Peter Klimek; Alexandra Kautzky-Willer; Anna Chmiel; Irmgard Schiller-Frühwirth;
+    Stefan Thurner
+  \textbf{Quantification of diabetes comorbidity risks across life using nation-wide big claims data.}
+  PLoS Comput. Biol. 2015
+  doi: 0.1371/journal.pcbi.1004125
+
+
+ 
+\end{thebibliography}
+
+\end{document}
