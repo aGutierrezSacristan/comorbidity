@@ -33,7 +33,7 @@ dataframe2molecularcomorbidity <- function ( filePth, verbose = FALSE, warnings 
     
     if(length(checkA) != length(colnamesRequired) ){
         message("Check the input file structure. Remember that this
-                file must contain at least at least two columns with the column
+                file must contain at least two columns with the column
                     names as follows:\n -> gene \n -> diseaseName\n")
         stop()
     }

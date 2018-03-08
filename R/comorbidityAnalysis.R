@@ -143,7 +143,7 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     
     
     
-    colnames(resultad2) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "relativeRisk", "phi" )
+    colnames(resultad2) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "95%confidenceInterval","relativeRisk", "phi" )
     
     
     resultad2$expect          <-  as.numeric( resultad2$disA ) * as.numeric( resultad2$disB ) / totPatients
@@ -219,7 +219,7 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
                       rangeRR = paste0("[", round(min(as.numeric(comb_table_sort$relativeRisk)), digits = 3)," , ", round(max(as.numeric(comb_table_sort$relativeRisk)), digits = 3)  ,"]" ),
                       rangePhi= paste0("[", round(min(as.numeric(comb_table_sort$phi)), digits = 3)," , ", round(max(as.numeric(comb_table_sort$phi)), digits = 3)  ,"]" ),
                       dispairs  = nrow( comb_table_sort ),
-                      result    = comb_table_sort[,c(1:15,23)] 
+                      result    = comb_table_sort[,c(1:16,24)] 
     )
     return( cAnalysis )
 }
@@ -258,8 +258,9 @@ tableData <- function ( pairCode, data, lenActPa ) {
     phi <- ((num)/sqrt(den))
     
     oddsRatio <- (as.numeric(AB)*as.numeric(notAB))/(as.numeric(AnotB)*as.numeric(BnotA))
+    conf.interval <- paste0("( ", round(ff$conf.int[1],3), " , ", round(ff$conf.int[2],3), " )" )
     
-    c( disAcode, disBcode, disA, disB, AB, AnotB, BnotA, notAB, ff$p.value, oddsRatio, relativeRisk, phi )    
+    c( disAcode, disBcode, disA, disB, AB, AnotB, BnotA, notAB, ff$p.value, oddsRatio, conf.interval, relativeRisk, phi )    
     
   }
   

@@ -49,7 +49,7 @@ sexRatio <- function (female, male, fisherTest = 0, fisherCutOff=0.05, verbose =
     female$pairs <- NA
     
     for(i in 1:nrow(female)){
-        pairDisF <- sort(c(female[i,1],female[i,2]))
+        pairDisF <- sort(c(female[i,"disAcode"],female[i,"disBcode"]))
         female$pairs[i] <- paste(pairDisF[1], pairDisF[2], sep="-")
     }
     female <- female[,c("disAcode", "disBcode", "pairs", "AB")]
@@ -58,7 +58,7 @@ sexRatio <- function (female, male, fisherTest = 0, fisherCutOff=0.05, verbose =
     male$pairs <- NA
     
     for(i in 1:nrow(male)){
-        pairDisM <- sort(c(male[i,1], male[i,2]))
+        pairDisM <- sort(c(male[i,"disAcode"], male[i,"disBcode"]))
         male$pairs[i] <- paste(pairDisM[1], pairDisM[2], sep="-")
     }
     
