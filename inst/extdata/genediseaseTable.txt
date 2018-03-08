@@ -1,0 +1,3483 @@
+geneId	gene	disease	diseaseName
+217	ALDH2	C0001969	Alcohol use disorders
+125	ADH1B	C0001969	Alcohol use disorders
+10327	AKR1A1	C0001969	Alcohol use disorders
+126	ADH1C	C0001969	Alcohol use disorders
+2908	NR3C1	C0001969	Alcohol use disorders
+4524	MTHFR	C0001969	Alcohol use disorders
+216	ALDH1A1	C0001969	Alcohol use disorders
+1815	DRD4	C0001969	Alcohol use disorders
+7157	TP53	C0001969	Alcohol use disorders
+6648	SOD2	C0001969	Alcohol use disorders
+4548	MTR	C0001969	Alcohol use disorders
+4988	OPRM1	C0001969	Alcohol use disorders
+5444	PON1	C0001969	Alcohol use disorders
+590	BCHE	C0001969	Alcohol use disorders
+5970	RELA	C0001969	Alcohol use disorders
+5972	REN	C0001969	Alcohol use disorders
+8864	PER2	C0001969	Alcohol use disorders
+627	BDNF	C0001969	Alcohol use disorders
+6532	SLC6A4	C0001969	Alcohol use disorders
+6480	ST6GAL1	C0001969	Alcohol use disorders
+4353	MPO	C0001969	Alcohol use disorders
+1103	CHAT	C0001969	Alcohol use disorders
+1351	COX8A	C0001969	Alcohol use disorders
+1974	EIF4A2	C0001969	Alcohol use disorders
+2534	FYN	C0001969	Alcohol use disorders
+2554	GABRA1	C0001969	Alcohol use disorders
+2897	GRIK1	C0001969	Alcohol use disorders
+3308	HSPA4	C0001969	Alcohol use disorders
+3479	IGF1	C0001969	Alcohol use disorders
+3576	CXCL8	C0001969	Alcohol use disorders
+3606	IL18	C0001969	Alcohol use disorders
+3929	LBP	C0001969	Alcohol use disorders
+4306	NR3C2	C0001969	Alcohol use disorders
+930	CD19	C0001969	Alcohol use disorders
+217	ALDH2	C0001973	Alcohol use disorders
+125	ADH1B	C0001973	Alcohol use disorders
+6532	SLC6A4	C0001973	Alcohol use disorders
+126	ADH1C	C0001973	Alcohol use disorders
+2555	GABRA2	C0001973	Alcohol use disorders
+1571	CYP2E1	C0001973	Alcohol use disorders
+4988	OPRM1	C0001973	Alcohol use disorders
+3356	HTR2A	C0001973	Alcohol use disorders
+4852	NPY	C0001973	Alcohol use disorders
+2566	GABRG2	C0001973	Alcohol use disorders
+1138	CHRNA5	C0001973	Alcohol use disorders
+1136	CHRNA3	C0001973	Alcohol use disorders
+886	CCKAR	C0001973	Alcohol use disorders
+6870	TACR3	C0001973	Alcohol use disorders
+6622	SNCA	C0001973	Alcohol use disorders
+6869	TACR1	C0001973	Alcohol use disorders
+4887	NPY2R	C0001973	Alcohol use disorders
+5173	PDYN	C0001973	Alcohol use disorders
+2550	GABBR1	C0001973	Alcohol use disorders
+5726	TAS2R38	C0001973	Alcohol use disorders
+6462	SHBG	C0001973	Alcohol use disorders
+1813	DRD2	C0001973	Alcohol use disorders
+2030	SLC29A1	C0001973	Alcohol use disorders
+5179	PENK	C0001973	Alcohol use disorders
+3066	HDAC2	C0001973	Alcohol use disorders
+1312	COMT	C0001973	Alcohol use disorders
+6531	SLC6A3	C0001973	Alcohol use disorders
+4128	MAOA	C0001973	Alcohol use disorders
+1815	DRD4	C0001973	Alcohol use disorders
+2904	GRIN2B	C0001973	Alcohol use disorders
+3351	HTR1B	C0001973	Alcohol use disorders
+4524	MTHFR	C0001973	Alcohol use disorders
+255239	ANKK1	C0001973	Alcohol use disorders
+10327	AKR1A1	C0001973	Alcohol use disorders
+127	ADH4	C0001973	Alcohol use disorders
+348	APOE	C0001973	Alcohol use disorders
+2559	GABRA6	C0001973	Alcohol use disorders
+2944	GSTM1	C0001973	Alcohol use disorders
+627	BDNF	C0001973	Alcohol use disorders
+3350	HTR1A	C0001973	Alcohol use disorders
+1812	DRD1	C0001973	Alcohol use disorders
+2562	GABRB3	C0001973	Alcohol use disorders
+1814	DRD3	C0001973	Alcohol use disorders
+216	ALDH1A1	C0001973	Alcohol use disorders
+4790	NFKB1	C0001973	Alcohol use disorders
+131	ADH7	C0001973	Alcohol use disorders
+5443	POMC	C0001973	Alcohol use disorders
+2902	GRIN1	C0001973	Alcohol use disorders
+2554	GABRA1	C0001973	Alcohol use disorders
+1143	CHRNB4	C0001973	Alcohol use disorders
+124	ADH1A	C0001973	Alcohol use disorders
+1636	ACE	C0001973	Alcohol use disorders
+2899	GRIK3	C0001973	Alcohol use disorders
+128	ADH5	C0001973	Alcohol use disorders
+2561	GABRB2	C0001973	Alcohol use disorders
+1129	CHRM2	C0001973	Alcohol use disorders
+1621	DBH	C0001973	Alcohol use disorders
+4986	OPRK1	C0001973	Alcohol use disorders
+2693	GHSR	C0001973	Alcohol use disorders
+7166	TPH1	C0001973	Alcohol use disorders
+885	CCK	C0001973	Alcohol use disorders
+2571	GAD1	C0001973	Alcohol use disorders
+2565	GABRG1	C0001973	Alcohol use disorders
+1137	CHRNA4	C0001973	Alcohol use disorders
+3553	IL1B	C0001973	Alcohol use disorders
+3586	IL10	C0001973	Alcohol use disorders
+3176	HNMT	C0001973	Alcohol use disorders
+4987	OPRL1	C0001973	Alcohol use disorders
+54970	TTC12	C0001973	Alcohol use disorders
+3552	IL1A	C0001973	Alcohol use disorders
+367	AR	C0001973	Alcohol use disorders
+3557	IL1RN	C0001973	Alcohol use disorders
+2918	GRM8	C0001973	Alcohol use disorders
+2534	FYN	C0001973	Alcohol use disorders
+2897	GRIK1	C0001973	Alcohol use disorders
+1394	CRHR1	C0001973	Alcohol use disorders
+4129	MAOB	C0001973	Alcohol use disorders
+1012	CDH13	C0001973	Alcohol use disorders
+4684	NCAM1	C0001973	Alcohol use disorders
+1950	EGF	C0001973	Alcohol use disorders
+1268	CNR1	C0001973	Alcohol use disorders
+7054	TH	C0001973	Alcohol use disorders
+3358	HTR2C	C0001973	Alcohol use disorders
+4929	NR4A2	C0001973	Alcohol use disorders
+2560	GABRB1	C0001973	Alcohol use disorders
+2903	GRIN2A	C0001973	Alcohol use disorders
+51083	GAL	C0001973	Alcohol use disorders
+1385	CREB1	C0001973	Alcohol use disorders
+2626	GATA4	C0001973	Alcohol use disorders
+3359	HTR3A	C0001973	Alcohol use disorders
+4985	OPRD1	C0001973	Alcohol use disorders
+84251	SGIP1	C0001973	Alcohol use disorders
+2572	GAD2	C0001973	Alcohol use disorders
+410	ARSA	C0001973	Alcohol use disorders
+9177	HTR3B	C0001973	Alcohol use disorders
+6506	SLC1A2	C0001973	Alcohol use disorders
+4915	NTRK2	C0001973	Alcohol use disorders
+57001	SDHAF3	C0001973	Alcohol use disorders
+27123	DKK2	C0001973	Alcohol use disorders
+374879	ZNF699	C0001973	Alcohol use disorders
+1393	CRHBP	C0001973	Alcohol use disorders
+8644	AKR1C3	C0001973	Alcohol use disorders
+2567	GABRG3	C0001973	Alcohol use disorders
+2784	GNB3	C0001973	Alcohol use disorders
+1142	CHRNB3	C0001973	Alcohol use disorders
+114879	OSBPL5	C0001973	Alcohol use disorders
+130	ADH6	C0001973	Alcohol use disorders
+7520	XRCC5	C0001973	Alcohol use disorders
+8484	GALR3	C0001973	Alcohol use disorders
+2587	GALR1	C0001973	Alcohol use disorders
+2169	FABP2	C0001973	Alcohol use disorders
+3554	IL1R1	C0001973	Alcohol use disorders
+5999	RGS4	C0001973	Alcohol use disorders
+2917	GRM7	C0001973	Alcohol use disorders
+152330	CNTN4	C0001973	Alcohol use disorders
+1109	AKR1C4	C0001973	Alcohol use disorders
+4318	MMP9	C0001973	Alcohol use disorders
+9607	CARTPT	C0001973	Alcohol use disorders
+9456	HOMER1	C0001973	Alcohol use disorders
+9369	NRXN3	C0001973	Alcohol use disorders
+4889	NPY5R	C0001973	Alcohol use disorders
+10280	SIGMAR1	C0001973	Alcohol use disorders
+9	NAT1	C0001973	Alcohol use disorders
+814	CAMK4	C0001973	Alcohol use disorders
+57453	DSCAML1	C0001973	Alcohol use disorders
+10846	PDE10A	C0001973	Alcohol use disorders
+833	CARS	C0001973	Alcohol use disorders
+5002	SLC22A18	C0001973	Alcohol use disorders
+1080	CFTR	C0001973	Alcohol use disorders
+7450	VWF	C0001973	Alcohol use disorders
+4676	NAP1L4	C0001973	Alcohol use disorders
+5142	PDE4B	C0001973	Alcohol use disorders
+5981	RFC1	C0001973	Alcohol use disorders
+5972	REN	C0001973	Alcohol use disorders
+2914	GRM4	C0001973	Alcohol use disorders
+7262	PHLDA2	C0001973	Alcohol use disorders
+677833	SNORA54	C0001973	Alcohol use disorders
+2736	GLI2	C0001973	Alcohol use disorders
+2289	FKBP5	C0001973	Alcohol use disorders
+7157	TP53	C0001973	Alcohol use disorders
+7200	TRH	C0001973	Alcohol use disorders
+1392	CRH	C0001973	Alcohol use disorders
+8777	MPDZ	C0001973	Alcohol use disorders
+2688	GH1	C0001973	Alcohol use disorders
+6530	SLC6A2	C0001973	Alcohol use disorders
+79068	FTO	C0001973	Alcohol use disorders
+2752	GLUL	C0001973	Alcohol use disorders
+3363	HTR7	C0001973	Alcohol use disorders
+9575	CLOCK	C0001973	Alcohol use disorders
+6571	SLC18A2	C0001973	Alcohol use disorders
+28	ABO	C0001973	Alcohol use disorders
+23469	PHF3	C0001973	Alcohol use disorders
+8910	SGCE	C0001973	Alcohol use disorders
+847	CAT	C0001973	Alcohol use disorders
+6625	SNRNP70	C0001973	Alcohol use disorders
+6715	SRD5A1	C0001973	Alcohol use disorders
+3569	IL6	C0001973	Alcohol use disorders
+347735	SERINC2	C0001973	Alcohol use disorders
+79570	NKAIN1	C0001973	Alcohol use disorders
+150	ADRA2A	C0001973	Alcohol use disorders
+63876	PKNOX2	C0001973	Alcohol use disorders
+9674	KIAA0040	C0001973	Alcohol use disorders
+6863	TAC1	C0001973	Alcohol use disorders
+4923	NTSR1	C0001973	Alcohol use disorders
+7803	PTP4A1	C0001973	Alcohol use disorders
+7086	TKT	C0001973	Alcohol use disorders
+50628	GEMIN4	C0001973	Alcohol use disorders
+7021	TFAP2B	C0001973	Alcohol use disorders
+9709	HERPUD1	C0001973	Alcohol use disorders
+51324	SPG21	C0001973	Alcohol use disorders
+9037	SEMA5A	C0001973	Alcohol use disorders
+50833	TAS2R16	C0001973	Alcohol use disorders
+6716	SRD5A2	C0001973	Alcohol use disorders
+51194	IPO11	C0001973	Alcohol use disorders
+9152	SLC6A5	C0001973	Alcohol use disorders
+6536	SLC6A9	C0001973	Alcohol use disorders
+8863	PER3	C0001973	Alcohol use disorders
+796	CALCA	C0001973	Alcohol use disorders
+815	CAMK2A	C0001973	Alcohol use disorders
+84062	DTNBP1	C0001973	Alcohol use disorders
+8462	KLF11	C0001973	Alcohol use disorders
+6303	SAT1	C0001973	Alcohol use disorders
+5992	RFX4	C0001973	Alcohol use disorders
+7804	LRP8	C0001973	Alcohol use disorders
+6529	SLC6A1	C0001973	Alcohol use disorders
+57817	HAMP	C0001973	Alcohol use disorders
+85439	STON2	C0001973	Alcohol use disorders
+56311	ANKRD7	C0001973	Alcohol use disorders
+55833	UBAP2	C0001973	Alcohol use disorders
+57502	NLGN4X	C0001973	Alcohol use disorders
+8811	GALR2	C0001973	Alcohol use disorders
+54360	CYTL1	C0001973	Alcohol use disorders
+5295	PIK3R1	C0001973	Alcohol use disorders
+80731	THSD7B	C0001973	Alcohol use disorders
+1009	CDH11	C0001973	Alcohol use disorders
+23189	KANK1	C0001973	Alcohol use disorders
+23237	ARC	C0001973	Alcohol use disorders
+2558	GABRA5	C0001973	Alcohol use disorders
+2569	GABRR1	C0001973	Alcohol use disorders
+2570	GABRR2	C0001973	Alcohol use disorders
+2596	GAP43	C0001973	Alcohol use disorders
+2597	GAPDH	C0001973	Alcohol use disorders
+25976	TIPARP	C0001973	Alcohol use disorders
+26047	CNTNAP2	C0001973	Alcohol use disorders
+26503	SLC17A5	C0001973	Alcohol use disorders
+26523	AGO1	C0001973	Alcohol use disorders
+2678	GGT1	C0001973	Alcohol use disorders
+27161	AGO2	C0001973	Alcohol use disorders
+27255	CNTN6	C0001973	Alcohol use disorders
+23174	ZCCHC14	C0001973	Alcohol use disorders
+222	ALDH3B2	C0001973	Alcohol use disorders
+2052	EPHX1	C0001973	Alcohol use disorders
+10438	C1D	C0001973	Alcohol use disorders
+11024	LILRA1	C0001973	Alcohol use disorders
+113	ADCY7	C0001973	Alcohol use disorders
+113201	CASC4	C0001973	Alcohol use disorders
+11343	MGLL	C0001973	Alcohol use disorders
+1269	CNR2	C0001973	Alcohol use disorders
+1496	CTNNA2	C0001973	Alcohol use disorders
+154215	NKAIN2	C0001973	Alcohol use disorders
+1553	CYP2A13	C0001973	Alcohol use disorders
+1808	DPYSL2	C0001973	Alcohol use disorders
+1850	DUSP8	C0001973	Alcohol use disorders
+1956	EGFR	C0001973	Alcohol use disorders
+2033	EP300	C0001973	Alcohol use disorders
+2046	EPHA8	C0001973	Alcohol use disorders
+28232	SLCO3A1	C0001973	Alcohol use disorders
+2912	GRM2	C0001973	Alcohol use disorders
+4336	MOBP	C0001973	Alcohol use disorders
+387357	THEMIS	C0001973	Alcohol use disorders
+10420	TESK2	C0001973	Alcohol use disorders
+3763	KCNJ6	C0001973	Alcohol use disorders
+400359	C15orf53	C0001973	Alcohol use disorders
+3839	KPNA3	C0001973	Alcohol use disorders
+4898	NRDC	C0001973	Alcohol use disorders
+3952	LEP	C0001973	Alcohol use disorders
+4922	NTS	C0001973	Alcohol use disorders
+4835	NQO2	C0001973	Alcohol use disorders
+3576	CXCL8	C0001973	Alcohol use disorders
+2185	PTK2B	C0001973	Alcohol use disorders
+460	ASTN1	C0001973	Alcohol use disorders
+4761	NEUROD2	C0001973	Alcohol use disorders
+3146	HMGB1	C0001973	Alcohol use disorders
+4340	MOG	C0001973	Alcohol use disorders
+3122	HLA-DRA	C0001973	Alcohol use disorders
+2913	GRM3	C0001973	Alcohol use disorders
+1892	ECHS1	C0001973	Alcohol use disorders
+111	ADCY5	C0001973	Alcohol use disorders
+8836	GGH	C0001973	Alcohol use disorders
+130749	CPO	C0001973	Alcohol use disorders
+51294	PCDH12	C0001973	Alcohol use disorders
+113235	SLC46A1	C0001973	Alcohol use disorders
+494331	MIR382	C0001973	Alcohol use disorders
+9705	ST18	C0001973	Alcohol use disorders
+1007	CDH9	C0001973	Alcohol use disorders
+1008	CDH10	C0001973	Alcohol use disorders
+5020	OXT	C0001973	Alcohol use disorders
+9531	BAG3	C0001973	Alcohol use disorders
+1010	CDH12	C0001973	Alcohol use disorders
+1013	CDH15	C0001973	Alcohol use disorders
+1016	CDH18	C0001973	Alcohol use disorders
+10243	GPHN	C0001973	Alcohol use disorders
+9095	TBX19	C0001973	Alcohol use disorders
+10399	RACK1	C0001973	Alcohol use disorders
+4155	MBP	C0001973	Alcohol use disorders
+1006	CDH8	C0001973	Alcohol use disorders
+84152	PPP1R1B	C0001973	Alcohol use disorders
+238	ALK	C0001973	Alcohol use disorders
+2488	FSHB	C0001973	Alcohol use disorders
+7018	TF	C0001973	Alcohol use disorders
+57575	PCDH10	C0001973	Alcohol use disorders
+5924	RASGRF2	C0001973	Alcohol use disorders
+594857	NPS	C0001973	Alcohol use disorders
+3605	IL17A	C0001973	Alcohol use disorders
+2670	GFAP	C0001973	Alcohol use disorders
+635	BHMT	C0001973	Alcohol use disorders
+2911	GRM1	C0001973	Alcohol use disorders
+29114	TAGLN3	C0001973	Alcohol use disorders
+23552	CDK20	C0001973	Alcohol use disorders
+2348	FOLR1	C0001973	Alcohol use disorders
+1555	CYP2B6	C0001973	Alcohol use disorders
+1728	NQO1	C0001973	Alcohol use disorders
+4313	MMP2	C0001973	Alcohol use disorders
+4306	NR3C2	C0001973	Alcohol use disorders
+3490	IGFBP7	C0001973	Alcohol use disorders
+7971	GHS	C0001973	Alcohol use disorders
+55213	RCBTB1	C0001973	Alcohol use disorders
+3972	LHB	C0001973	Alcohol use disorders
+1003	CDH5	C0001973	Alcohol use disorders
+56923	NMUR2	C0001973	Alcohol use disorders
+387129	NPSR1	C0001973	Alcohol use disorders
+64682	ANAPC1	C0001973	Alcohol use disorders
+4986	OPRK1	C0038587	Alcohol use disorders
+1813	DRD2	C0038587	Alcohol use disorders
+6532	SLC6A4	C0038587	Alcohol use disorders
+2166	FAAH	C0038587	Alcohol use disorders
+3358	HTR2C	C0038587	Alcohol use disorders
+4852	NPY	C0038587	Alcohol use disorders
+4887	NPY2R	C0038587	Alcohol use disorders
+1141	CHRNB2	C0038587	Alcohol use disorders
+1268	CNR1	C0038587	Alcohol use disorders
+5443	POMC	C0038587	Alcohol use disorders
+627	BDNF	C0038587	Alcohol use disorders
+8863	PER3	C0038587	Alcohol use disorders
+4985	OPRD1	C0038587	Alcohol use disorders
+8864	PER2	C0038587	Alcohol use disorders
+4885	NPTX2	C0038587	Alcohol use disorders
+887	CCKBR	C0038587	Alcohol use disorders
+4843	NOS2	C0038587	Alcohol use disorders
+8973	CHRNA6	C0038587	Alcohol use disorders
+4987	OPRL1	C0038587	Alcohol use disorders
+5187	PER1	C0038587	Alcohol use disorders
+5368	PNOC	C0038587	Alcohol use disorders
+551	AVP	C0038587	Alcohol use disorders
+6869	TACR1	C0038587	Alcohol use disorders
+6529	SLC6A1	C0038587	Alcohol use disorders
+5594	MAPK1	C0038587	Alcohol use disorders
+5595	MAPK3	C0038587	Alcohol use disorders
+5617	PRL	C0038587	Alcohol use disorders
+5972	REN	C0038587	Alcohol use disorders
+4318	MMP9	C0038587	Alcohol use disorders
+3440	IFNA2	C0038587	Alcohol use disorders
+1392	CRH	C0038587	Alcohol use disorders
+1385	CREB1	C0038587	Alcohol use disorders
+135	ADORA2A	C0038587	Alcohol use disorders
+134	ADORA1	C0038587	Alcohol use disorders
+1143	CHRNB4	C0038587	Alcohol use disorders
+10550	ARL6IP5	C0038587	Alcohol use disorders
+114	ADCY8	C0038587	Alcohol use disorders
+1139	CHRNA7	C0038587	Alcohol use disorders
+1138	CHRNA5	C0038587	Alcohol use disorders
+1133	CHRM5	C0038587	Alcohol use disorders
+1401	CRP	C0038587	Alcohol use disorders
+2353	FOS	C0038587	Alcohol use disorders
+3274	HRH2	C0038587	Alcohol use disorders
+3269	HRH1	C0038587	Alcohol use disorders
+3061	HCRTR1	C0038587	Alcohol use disorders
+3060	HCRT	C0038587	Alcohol use disorders
+2903	GRIN2A	C0038587	Alcohol use disorders
+2891	GRIA2	C0038587	Alcohol use disorders
+2890	GRIA1	C0038587	Alcohol use disorders
+2778	GNAS	C0038587	Alcohol use disorders
+2775	GNAO1	C0038587	Alcohol use disorders
+2770	GNAI1	C0038587	Alcohol use disorders
+107	ADCY1	C0038587	Alcohol use disorders
+2030	SLC29A1	C0586323	Alcohol use disorders
+8777	MPDZ	C0586323	Alcohol use disorders
+1153	CIRBP	C0751865	Alcohol use disorders
+627	BDNF	C0005586	Bipolar disorders and related disorders
+6532	SLC6A4	C0005586	Bipolar disorders and related disorders
+1312	COMT	C0005586	Bipolar disorders and related disorders
+3356	HTR2A	C0005586	Bipolar disorders and related disorders
+775	CACNA1C	C0005586	Bipolar disorders and related disorders
+2932	GSK3B	C0005586	Bipolar disorders and related disorders
+4524	MTHFR	C0005586	Bipolar disorders and related disorders
+4729	NDUFV2	C0005586	Bipolar disorders and related disorders
+288	ANK3	C0005586	Bipolar disorders and related disorders
+1812	DRD1	C0005586	Bipolar disorders and related disorders
+2908	NR3C1	C0005586	Bipolar disorders and related disorders
+2571	GAD1	C0005586	Bipolar disorders and related disorders
+4915	NTRK2	C0005586	Bipolar disorders and related disorders
+8553	BHLHE40	C0005586	Bipolar disorders and related disorders
+157	GRK3	C0005586	Bipolar disorders and related disorders
+5649	RELN	C0005586	Bipolar disorders and related disorders
+5142	PDE4B	C0005586	Bipolar disorders and related disorders
+1816	DRD5	C0005586	Bipolar disorders and related disorders
+6671	SP4	C0005586	Bipolar disorders and related disorders
+6616	SNAP25	C0005586	Bipolar disorders and related disorders
+6285	S100B	C0005586	Bipolar disorders and related disorders
+488	ATP2A2	C0005586	Bipolar disorders and related disorders
+5265	SERPINA1	C0005586	Bipolar disorders and related disorders
+6869	TACR1	C0005586	Bipolar disorders and related disorders
+1109	AKR1C4	C0005586	Bipolar disorders and related disorders
+2898	GRIK2	C0005586	Bipolar disorders and related disorders
+84628	NTNG2	C0005586	Bipolar disorders and related disorders
+5443	POMC	C0005586	Bipolar disorders and related disorders
+3630	INS	C0005586	Bipolar disorders and related disorders
+4128	MAOA	C0005586	Bipolar disorders and related disorders
+3084	NRG1	C0005586	Bipolar disorders and related disorders
+27185	DISC1	C0005586	Bipolar disorders and related disorders
+267012	DAOA	C0005586	Bipolar disorders and related disorders
+10611	PDLIM5	C0005586	Bipolar disorders and related disorders
+1815	DRD4	C0005586	Bipolar disorders and related disorders
+1814	DRD3	C0005586	Bipolar disorders and related disorders
+1813	DRD2	C0005586	Bipolar disorders and related disorders
+121278	TPH2	C0005586	Bipolar disorders and related disorders
+9575	CLOCK	C0005586	Bipolar disorders and related disorders
+7166	TPH1	C0005586	Bipolar disorders and related disorders
+6531	SLC6A3	C0005586	Bipolar disorders and related disorders
+84062	DTNBP1	C0005586	Bipolar disorders and related disorders
+2558	GABRA5	C0005586	Bipolar disorders and related disorders
+9572	NR1D1	C0005586	Bipolar disorders and related disorders
+3358	HTR2C	C0005586	Bipolar disorders and related disorders
+7054	TH	C0005586	Bipolar disorders and related disorders
+406	ARNTL	C0005586	Bipolar disorders and related disorders
+5027	P2RX7	C0005586	Bipolar disorders and related disorders
+160851	DGKH	C0005586	Bipolar disorders and related disorders
+2904	GRIN2B	C0005586	Bipolar disorders and related disorders
+1610	DAO	C0005586	Bipolar disorders and related disorders
+7494	XBP1	C0005586	Bipolar disorders and related disorders
+3782	KCNN3	C0005586	Bipolar disorders and related disorders
+1636	ACE	C0005586	Bipolar disorders and related disorders
+8863	PER3	C0005586	Bipolar disorders and related disorders
+3351	HTR1B	C0005586	Bipolar disorders and related disorders
+7226	TRPM2	C0005586	Bipolar disorders and related disorders
+84152	PPP1R1B	C0005586	Bipolar disorders and related disorders
+2099	ESR1	C0005586	Bipolar disorders and related disorders
+7124	TNF	C0005586	Bipolar disorders and related disorders
+5999	RGS4	C0005586	Bipolar disorders and related disorders
+2900	GRIK4	C0005586	Bipolar disorders and related disorders
+4684	NCAM1	C0005586	Bipolar disorders and related disorders
+8914	TIMELESS	C0005586	Bipolar disorders and related disorders
+2902	GRIN1	C0005586	Bipolar disorders and related disorders
+3350	HTR1A	C0005586	Bipolar disorders and related disorders
+1454	CSNK1E	C0005586	Bipolar disorders and related disorders
+2774	GNAL	C0005586	Bipolar disorders and related disorders
+5116	PCNT	C0005586	Bipolar disorders and related disorders
+5992	RFX4	C0005586	Bipolar disorders and related disorders
+5305	PIP4K2A	C0005586	Bipolar disorders and related disorders
+116	ADCYAP1	C0005586	Bipolar disorders and related disorders
+8774	NAPG	C0005586	Bipolar disorders and related disorders
+3613	IMPA2	C0005586	Bipolar disorders and related disorders
+239	ALOX12	C0005586	Bipolar disorders and related disorders
+6347	CCL2	C0005586	Bipolar disorders and related disorders
+91752	ZNF804A	C0005586	Bipolar disorders and related disorders
+1408	CRY2	C0005586	Bipolar disorders and related disorders
+2784	GNB3	C0005586	Bipolar disorders and related disorders
+1139	CHRNA7	C0005586	Bipolar disorders and related disorders
+79365	BHLHE41	C0005586	Bipolar disorders and related disorders
+56938	ARNTL2	C0005586	Bipolar disorders and related disorders
+3553	IL1B	C0005586	Bipolar disorders and related disorders
+7466	WFS1	C0005586	Bipolar disorders and related disorders
+2913	GRM3	C0005586	Bipolar disorders and related disorders
+7257	TSNAX	C0005586	Bipolar disorders and related disorders
+9145	SYNGR1	C0005586	Bipolar disorders and related disorders
+319100	TAAR6	C0005586	Bipolar disorders and related disorders
+8864	PER2	C0005586	Bipolar disorders and related disorders
+2556	GABRA3	C0005586	Bipolar disorders and related disorders
+6570	SLC18A1	C0005586	Bipolar disorders and related disorders
+6571	SLC18A2	C0005586	Bipolar disorders and related disorders
+1848	DUSP6	C0005586	Bipolar disorders and related disorders
+9177	HTR3B	C0005586	Bipolar disorders and related disorders
+2890	GRIA1	C0005586	Bipolar disorders and related disorders
+3309	HSPA5	C0005586	Bipolar disorders and related disorders
+22809	ATF5	C0005586	Bipolar disorders and related disorders
+23348	DOCK9	C0005586	Bipolar disorders and related disorders
+1826	DSCAM	C0005586	Bipolar disorders and related disorders
+468	ATF4	C0005586	Bipolar disorders and related disorders
+2560	GABRB1	C0005586	Bipolar disorders and related disorders
+1407	CRY1	C0005586	Bipolar disorders and related disorders
+25861	WHRN	C0005586	Bipolar disorders and related disorders
+1808	DPYSL2	C0005586	Bipolar disorders and related disorders
+6095	RORA	C0005586	Bipolar disorders and related disorders
+57537	SORCS2	C0005586	Bipolar disorders and related disorders
+3557	IL1RN	C0005586	Bipolar disorders and related disorders
+2534	FYN	C0005586	Bipolar disorders and related disorders
+4862	NPAS2	C0005586	Bipolar disorders and related disorders
+3360	HTR4	C0005586	Bipolar disorders and related disorders
+1453	CSNK1D	C0005586	Bipolar disorders and related disorders
+79728	PALB2	C0005586	Bipolar disorders and related disorders
+65258	MPPE1	C0005586	Bipolar disorders and related disorders
+478	ATP1A3	C0005586	Bipolar disorders and related disorders
+5335	PLCG1	C0005586	Bipolar disorders and related disorders
+2554	GABRA1	C0005586	Bipolar disorders and related disorders
+2903	GRIN2A	C0005586	Bipolar disorders and related disorders
+57132	CHMP1B	C0005586	Bipolar disorders and related disorders
+2914	GRM4	C0005586	Bipolar disorders and related disorders
+282706	DAOA-AS1	C0005586	Bipolar disorders and related disorders
+1385	CREB1	C0005586	Bipolar disorders and related disorders
+207	AKT1	C0005586	Bipolar disorders and related disorders
+6530	SLC6A2	C0005586	Bipolar disorders and related disorders
+7184	HSP90B1	C0005586	Bipolar disorders and related disorders
+2289	FKBP5	C0005586	Bipolar disorders and related disorders
+1644	DDC	C0005586	Bipolar disorders and related disorders
+9248	GPR50	C0005586	Bipolar disorders and related disorders
+23774	BRD1	C0005586	Bipolar disorders and related disorders
+613	BCR	C0005586	Bipolar disorders and related disorders
+1493	CTLA4	C0005586	Bipolar disorders and related disorders
+3337	DNAJB1	C0005586	Bipolar disorders and related disorders
+2670	GFAP	C0005586	Bipolar disorders and related disorders
+4929	NR4A2	C0005586	Bipolar disorders and related disorders
+3628	INPP1	C0005586	Bipolar disorders and related disorders
+6750	SST	C0005586	Bipolar disorders and related disorders
+4318	MMP9	C0005586	Bipolar disorders and related disorders
+23316	CUX2	C0005586	Bipolar disorders and related disorders
+3308	HSPA4	C0005586	Bipolar disorders and related disorders
+3359	HTR3A	C0005586	Bipolar disorders and related disorders
+55193	PBRM1	C0005586	Bipolar disorders and related disorders
+23209	MLC1	C0005586	Bipolar disorders and related disorders
+2917	GRM7	C0005586	Bipolar disorders and related disorders
+2897	GRIK1	C0005586	Bipolar disorders and related disorders
+8224	SYN3	C0005586	Bipolar disorders and related disorders
+4161	MC5R	C0005586	Bipolar disorders and related disorders
+23395	LARS2	C0005586	Bipolar disorders and related disorders
+2643	GCH1	C0005586	Bipolar disorders and related disorders
+5015	OTX2	C0005586	Bipolar disorders and related disorders
+1393	CRHBP	C0005586	Bipolar disorders and related disorders
+3485	IGFBP2	C0005586	Bipolar disorders and related disorders
+400359	C15orf53	C0005586	Bipolar disorders and related disorders
+8843	HCAR3	C0005586	Bipolar disorders and related disorders
+1268	CNR1	C0005586	Bipolar disorders and related disorders
+3361	HTR5A	C0005586	Bipolar disorders and related disorders
+2173	FABP7	C0005586	Bipolar disorders and related disorders
+2562	GABRB3	C0005586	Bipolar disorders and related disorders
+9990	SLC12A6	C0005586	Bipolar disorders and related disorders
+1392	CRH	C0005586	Bipolar disorders and related disorders
+4846	NOS3	C0005586	Bipolar disorders and related disorders
+7432	VIP	C0005586	Bipolar disorders and related disorders
+84539	MCHR2	C0005586	Bipolar disorders and related disorders
+9612	NCOR2	C0005586	Bipolar disorders and related disorders
+4522	MTHFD1	C0005586	Bipolar disorders and related disorders
+9607	CARTPT	C0005586	Bipolar disorders and related disorders
+5289	PIK3C3	C0005586	Bipolar disorders and related disorders
+154664	ABCA13	C0005586	Bipolar disorders and related disorders
+6999	TDO2	C0005586	Bipolar disorders and related disorders
+5467	PPARD	C0005586	Bipolar disorders and related disorders
+29985	SLC39A3	C0005586	Bipolar disorders and related disorders
+1734	DIO2	C0005586	Bipolar disorders and related disorders
+7101	NR2E1	C0005586	Bipolar disorders and related disorders
+55300	PI4K2B	C0005586	Bipolar disorders and related disorders
+6755	SSTR5	C0005586	Bipolar disorders and related disorders
+6334	SCN8A	C0005586	Bipolar disorders and related disorders
+9218	VAPA	C0005586	Bipolar disorders and related disorders
+4548	MTR	C0005586	Bipolar disorders and related disorders
+6697	SPR	C0005586	Bipolar disorders and related disorders
+64854	USP46	C0005586	Bipolar disorders and related disorders
+5321	PLA2G4A	C0005586	Bipolar disorders and related disorders
+477	ATP1A2	C0005586	Bipolar disorders and related disorders
+3560	IL2RB	C0005586	Bipolar disorders and related disorders
+4314	MMP3	C0005586	Bipolar disorders and related disorders
+4919	ROR1	C0005586	Bipolar disorders and related disorders
+51807	TUBA8	C0005586	Bipolar disorders and related disorders
+7103	TSPAN8	C0005586	Bipolar disorders and related disorders
+183	AGT	C0005586	Bipolar disorders and related disorders
+2561	GABRB2	C0005586	Bipolar disorders and related disorders
+774	CACNA1B	C0005586	Bipolar disorders and related disorders
+815	CAMK2A	C0005586	Bipolar disorders and related disorders
+7533	YWHAH	C0005586	Bipolar disorders and related disorders
+2565	GABRG1	C0005586	Bipolar disorders and related disorders
+27201	GPR78	C0005586	Bipolar disorders and related disorders
+2891	GRIA2	C0005586	Bipolar disorders and related disorders
+1463	NCAN	C0005586	Bipolar disorders and related disorders
+476	ATP1A1	C0005586	Bipolar disorders and related disorders
+2894	GRID1	C0005586	Bipolar disorders and related disorders
+9341	VAMP3	C0005586	Bipolar disorders and related disorders
+2570	GABRR2	C0005586	Bipolar disorders and related disorders
+1960	EGR3	C0005586	Bipolar disorders and related disorders
+2569	GABRR1	C0005586	Bipolar disorders and related disorders
+3123	HLA-DRB1	C0005586	Bipolar disorders and related disorders
+10043	TOM1	C0005586	Bipolar disorders and related disorders
+6844	VAMP2	C0005586	Bipolar disorders and related disorders
+10042	HMGXB4	C0005586	Bipolar disorders and related disorders
+9030	ERDA1	C0005586	Bipolar disorders and related disorders
+6925	TCF4	C0005586	Bipolar disorders and related disorders
+26011	TENM4	C0005586	Bipolar disorders and related disorders
+406928	MIR137	C0005586	Bipolar disorders and related disorders
+1769	DNAH8	C0005586	Bipolar disorders and related disorders
+6506	SLC1A2	C0005586	Bipolar disorders and related disorders
+553	AVPR1B	C0005586	Bipolar disorders and related disorders
+8128	ST8SIA2	C0005586	Bipolar disorders and related disorders
+348	APOE	C0005586	Bipolar disorders and related disorders
+2066	ERBB4	C0005586	Bipolar disorders and related disorders
+5211	PFKL	C0005586	Bipolar disorders and related disorders
+596	BCL2	C0005586	Bipolar disorders and related disorders
+1621	DBH	C0005586	Bipolar disorders and related disorders
+2158	F9	C0005586	Bipolar disorders and related disorders
+217	ALDH2	C0005586	Bipolar disorders and related disorders
+3699	ITIH3	C0005586	Bipolar disorders and related disorders
+89832	CHRFAM7A	C0005586	Bipolar disorders and related disorders
+23411	SIRT1	C0005586	Bipolar disorders and related disorders
+10846	PDE10A	C0005586	Bipolar disorders and related disorders
+104	ADARB1	C0005586	Bipolar disorders and related disorders
+5816	PVALB	C0005586	Bipolar disorders and related disorders
+4855	NOTCH4	C0005586	Bipolar disorders and related disorders
+5444	PON1	C0005586	Bipolar disorders and related disorders
+5319	PLA2G1B	C0005586	Bipolar disorders and related disorders
+5594	MAPK1	C0005586	Bipolar disorders and related disorders
+1394	CRHR1	C0005586	Bipolar disorders and related disorders
+7097	TLR2	C0005586	Bipolar disorders and related disorders
+1786	DNMT1	C0005586	Bipolar disorders and related disorders
+255239	ANKK1	C0005586	Bipolar disorders and related disorders
+3479	IGF1	C0005586	Bipolar disorders and related disorders
+1741	DLG3	C0005586	Bipolar disorders and related disorders
+1742	DLG4	C0005586	Bipolar disorders and related disorders
+10255	HCG9	C0005586	Bipolar disorders and related disorders
+144717	FAM109A	C0005586	Bipolar disorders and related disorders
+2896	GRN	C0005586	Bipolar disorders and related disorders
+9348	NDST3	C0005586	Bipolar disorders and related disorders
+2944	GSTM1	C0005586	Bipolar disorders and related disorders
+7052	TGM2	C0005586	Bipolar disorders and related disorders
+1959	EGR2	C0005586	Bipolar disorders and related disorders
+6934	TCF7L2	C0005586	Bipolar disorders and related disorders
+7425	VGF	C0005586	Bipolar disorders and related disorders
+9223	MAGI1	C0005586	Bipolar disorders and related disorders
+22854	NTNG1	C0005586	Bipolar disorders and related disorders
+5730	PTGDS	C0005586	Bipolar disorders and related disorders
+551	AVP	C0005586	Bipolar disorders and related disorders
+2952	GSTT1	C0005586	Bipolar disorders and related disorders
+7531	YWHAE	C0005586	Bipolar disorders and related disorders
+796	CALCA	C0005586	Bipolar disorders and related disorders
+5243	ABCB1	C0005586	Bipolar disorders and related disorders
+10462	CLEC10A	C0005586	Bipolar disorders and related disorders
+6303	SAT1	C0005586	Bipolar disorders and related disorders
+10660	LBX1	C0005586	Bipolar disorders and related disorders
+108	ADCY2	C0005586	Bipolar disorders and related disorders
+2539	G6PD	C0005586	Bipolar disorders and related disorders
+2668	GDNF	C0005586	Bipolar disorders and related disorders
+4908	NTF3	C0005586	Bipolar disorders and related disorders
+23345	SYNE1	C0005586	Bipolar disorders and related disorders
+4900	NRGN	C0005586	Bipolar disorders and related disorders
+7099	TLR4	C0005586	Bipolar disorders and related disorders
+9378	NRXN1	C0005586	Bipolar disorders and related disorders
+438	ASMT	C0005586	Bipolar disorders and related disorders
+3612	IMPA1	C0005586	Bipolar disorders and related disorders
+9026	HIP1R	C0005586	Bipolar disorders and related disorders
+6854	SYN2	C0005586	Bipolar disorders and related disorders
+27306	HPGDS	C0005586	Bipolar disorders and related disorders
+573	BAG1	C0005586	Bipolar disorders and related disorders
+3786	KCNQ3	C0005586	Bipolar disorders and related disorders
+3785	KCNQ2	C0005586	Bipolar disorders and related disorders
+27445	PCLO	C0005586	Bipolar disorders and related disorders
+3708	ITPR1	C0005586	Bipolar disorders and related disorders
+3700	ITIH4	C0005586	Bipolar disorders and related disorders
+5584	PRKCI	C0005586	Bipolar disorders and related disorders
+5664	PSEN2	C0005586	Bipolar disorders and related disorders
+3569	IL6	C0005586	Bipolar disorders and related disorders
+283871	PGP	C0005586	Bipolar disorders and related disorders
+2847	MCHR1	C0005586	Bipolar disorders and related disorders
+3576	CXCL8	C0005586	Bipolar disorders and related disorders
+6648	SOD2	C0005586	Bipolar disorders and related disorders
+57030	SLC17A7	C0005586	Bipolar disorders and related disorders
+291	SLC25A4	C0005586	Bipolar disorders and related disorders
+1142	CHRNB3	C0005586	Bipolar disorders and related disorders
+4306	NR3C2	C0005586	Bipolar disorders and related disorders
+55364	IMPACT	C0005586	Bipolar disorders and related disorders
+114	ADCY8	C0005586	Bipolar disorders and related disorders
+793	CALB1	C0005586	Bipolar disorders and related disorders
+128674	PROKR2	C0005586	Bipolar disorders and related disorders
+55507	GPRC5D	C0005586	Bipolar disorders and related disorders
+4158	MC2R	C0005586	Bipolar disorders and related disorders
+60	ACTB	C0005586	Bipolar disorders and related disorders
+9632	SEC24C	C0005586	Bipolar disorders and related disorders
+8398	PLA2G6	C0005586	Bipolar disorders and related disorders
+64067	NPAS3	C0005586	Bipolar disorders and related disorders
+7093	TLL2	C0005586	Bipolar disorders and related disorders
+85413	SLC22A16	C0005586	Bipolar disorders and related disorders
+7534	YWHAZ	C0005586	Bipolar disorders and related disorders
+9863	MAGI2	C0005586	Bipolar disorders and related disorders
+5923	RASGRF1	C0005586	Bipolar disorders and related disorders
+590	BCHE	C0005586	Bipolar disorders and related disorders
+57084	SLC17A6	C0005586	Bipolar disorders and related disorders
+57113	TRPC7	C0005586	Bipolar disorders and related disorders
+57142	RTN4	C0005586	Bipolar disorders and related disorders
+9771	RAPGEF5	C0005586	Bipolar disorders and related disorders
+6474	SHOX2	C0005586	Bipolar disorders and related disorders
+9721	GPRIN2	C0005586	Bipolar disorders and related disorders
+9638	FEZ1	C0005586	Bipolar disorders and related disorders
+5972	REN	C0005586	Bipolar disorders and related disorders
+607	BCL9	C0005586	Bipolar disorders and related disorders
+706	TSPO	C0005586	Bipolar disorders and related disorders
+6509	SLC1A4	C0005586	Bipolar disorders and related disorders
+7422	VEGFA	C0005586	Bipolar disorders and related disorders
+6899	TBX1	C0005586	Bipolar disorders and related disorders
+6511	SLC1A6	C0005586	Bipolar disorders and related disorders
+9201	DCLK1	C0005586	Bipolar disorders and related disorders
+7351	UCP2	C0005586	Bipolar disorders and related disorders
+728448	PPIEL	C0005586	Bipolar disorders and related disorders
+9168	TMSB10	C0005586	Bipolar disorders and related disorders
+81562	LMAN2L	C0005586	Bipolar disorders and related disorders
+6891	TAP2	C0005586	Bipolar disorders and related disorders
+9048	ARTN	C0005586	Bipolar disorders and related disorders
+6611	SMS	C0005586	Bipolar disorders and related disorders
+6647	SOD1	C0005586	Bipolar disorders and related disorders
+783	CACNB2	C0005586	Bipolar disorders and related disorders
+8973	CHRNA6	C0005586	Bipolar disorders and related disorders
+675	BRCA2	C0005586	Bipolar disorders and related disorders
+841	CASP8	C0005586	Bipolar disorders and related disorders
+7222	TRPC3	C0005586	Bipolar disorders and related disorders
+7434	VIPR2	C0005586	Bipolar disorders and related disorders
+8644	AKR1C3	C0005586	Bipolar disorders and related disorders
+6281	S100A10	C0005586	Bipolar disorders and related disorders
+6505	SLC1A1	C0005586	Bipolar disorders and related disorders
+7040	TGFB1	C0005586	Bipolar disorders and related disorders
+637	BID	C0005586	Bipolar disorders and related disorders
+79837	PIP4K2C	C0005586	Bipolar disorders and related disorders
+875	CBS	C0005586	Bipolar disorders and related disorders
+9415	FADS2	C0005586	Bipolar disorders and related disorders
+7173	TPO	C0005586	Bipolar disorders and related disorders
+64127	NOD2	C0005586	Bipolar disorders and related disorders
+64211	LHX5	C0005586	Bipolar disorders and related disorders
+7421	VDR	C0005586	Bipolar disorders and related disorders
+6428	SRSF3	C0005586	Bipolar disorders and related disorders
+64478	CSMD1	C0005586	Bipolar disorders and related disorders
+84516	DCTN5	C0005586	Bipolar disorders and related disorders
+886	CCKAR	C0005586	Bipolar disorders and related disorders
+6482	ST3GAL1	C0005586	Bipolar disorders and related disorders
+6787	NEK4	C0005586	Bipolar disorders and related disorders
+5625	PRODH	C0005586	Bipolar disorders and related disorders
+347	APOD	C0005586	Bipolar disorders and related disorders
+266727	MDGA1	C0005586	Bipolar disorders and related disorders
+26047	CNTNAP2	C0005586	Bipolar disorders and related disorders
+2572	GAD2	C0005586	Bipolar disorders and related disorders
+100303453	TSNAX-DISC1	C0005586	Bipolar disorders and related disorders
+246269	LACE1	C0005586	Bipolar disorders and related disorders
+23544	SEZ6L	C0005586	Bipolar disorders and related disorders
+23413	NCS1	C0005586	Bipolar disorders and related disorders
+2332	FMR1	C0005586	Bipolar disorders and related disorders
+23236	PLCB1	C0005586	Bipolar disorders and related disorders
+23166	STAB1	C0005586	Bipolar disorders and related disorders
+2309	FOXO3	C0005586	Bipolar disorders and related disorders
+22871	NLGN1	C0005586	Bipolar disorders and related disorders
+2280	FKBP1A	C0005586	Bipolar disorders and related disorders
+2263	FGFR2	C0005586	Bipolar disorders and related disorders
+2694	GIF	C0005586	Bipolar disorders and related disorders
+27091	CACNG5	C0005586	Bipolar disorders and related disorders
+27255	CNTN6	C0005586	Bipolar disorders and related disorders
+3458	IFNG	C0005586	Bipolar disorders and related disorders
+345557	PLCXD3	C0005586	Bipolar disorders and related disorders
+3439	IFNA1	C0005586	Bipolar disorders and related disorders
+338442	HCAR2	C0005586	Bipolar disorders and related disorders
+3135	HLA-G	C0005586	Bipolar disorders and related disorders
+30816	ERVW-1	C0005586	Bipolar disorders and related disorders
+29801	ZDHHC8	C0005586	Bipolar disorders and related disorders
+2954	GSTZ1	C0005586	Bipolar disorders and related disorders
+2915	GRM5	C0005586	Bipolar disorders and related disorders
+2899	GRIK3	C0005586	Bipolar disorders and related disorders
+28988	DBNL	C0005586	Bipolar disorders and related disorders
+2893	GRIA4	C0005586	Bipolar disorders and related disorders
+2892	GRIA3	C0005586	Bipolar disorders and related disorders
+2739	GLO1	C0005586	Bipolar disorders and related disorders
+2260	FGFR1	C0005586	Bipolar disorders and related disorders
+221833	SP8	C0005586	Bipolar disorders and related disorders
+1135	CHRNA2	C0005586	Bipolar disorders and related disorders
+1131	CHRM3	C0005586	Bipolar disorders and related disorders
+1129	CHRM2	C0005586	Bipolar disorders and related disorders
+11216	AKAP10	C0005586	Bipolar disorders and related disorders
+11202	KLK8	C0005586	Bipolar disorders and related disorders
+11020	IFT27	C0005586	Bipolar disorders and related disorders
+109	ADCY3	C0005586	Bipolar disorders and related disorders
+10815	CPLX1	C0005586	Bipolar disorders and related disorders
+10718	NRG3	C0005586	Bipolar disorders and related disorders
+10249	GLYAT	C0005586	Bipolar disorders and related disorders
+10194	TSHZ1	C0005586	Bipolar disorders and related disorders
+10193	RNF41	C0005586	Bipolar disorders and related disorders
+1015	CDH17	C0005586	Bipolar disorders and related disorders
+10125	RASGRP1	C0005586	Bipolar disorders and related disorders
+116443	GRIN3A	C0005586	Bipolar disorders and related disorders
+1269	CNR2	C0005586	Bipolar disorders and related disorders
+127933	UHMK1	C0005586	Bipolar disorders and related disorders
+208	AKT2	C0005586	Bipolar disorders and related disorders
+2065	ERBB3	C0005586	Bipolar disorders and related disorders
+203228	C9orf72	C0005586	Bipolar disorders and related disorders
+1901	S1PR1	C0005586	Bipolar disorders and related disorders
+1745	DLX1	C0005586	Bipolar disorders and related disorders
+154	ADRB2	C0005586	Bipolar disorders and related disorders
+152330	CNTN4	C0005586	Bipolar disorders and related disorders
+152	ADRA2C	C0005586	Bipolar disorders and related disorders
+1501	CTNND2	C0005586	Bipolar disorders and related disorders
+148	ADRA1A	C0005586	Bipolar disorders and related disorders
+1465	CSRP1	C0005586	Bipolar disorders and related disorders
+1395	CRHR2	C0005586	Bipolar disorders and related disorders
+1390	CREM	C0005586	Bipolar disorders and related disorders
+1387	CREBBP	C0005586	Bipolar disorders and related disorders
+100616452	MIR2682	C0005586	Bipolar disorders and related disorders
+5074	PAWR	C0005586	Bipolar disorders and related disorders
+5320	PLA2G2A	C0005586	Bipolar disorders and related disorders
+5428	POLG	C0005586	Bipolar disorders and related disorders
+4319	MMP10	C0005586	Bipolar disorders and related disorders
+5454	POU3F2	C0005586	Bipolar disorders and related disorders
+54584	GNB1L	C0005586	Bipolar disorders and related disorders
+54806	AHI1	C0005586	Bipolar disorders and related disorders
+4300	MLLT3	C0005586	Bipolar disorders and related disorders
+4240	MFGE8	C0005586	Bipolar disorders and related disorders
+4200	ME2	C0005586	Bipolar disorders and related disorders
+4723	NDUFV1	C0005586	Bipolar disorders and related disorders
+4734	NEDD4	C0005586	Bipolar disorders and related disorders
+5223	PGAM1	C0005586	Bipolar disorders and related disorders
+51083	GAL	C0005586	Bipolar disorders and related disorders
+5053	PAH	C0005586	Bipolar disorders and related disorders
+5141	PDE4A	C0005586	Bipolar disorders and related disorders
+4902	NRTN	C0005586	Bipolar disorders and related disorders
+4837	NNMT	C0005586	Bipolar disorders and related disorders
+4784	NFIX	C0005586	Bipolar disorders and related disorders
+51593	SRRT	C0005586	Bipolar disorders and related disorders
+5173	PDYN	C0005586	Bipolar disorders and related disorders
+1005	CDH7	C0005586	Bipolar disorders and related disorders
+54986	ULK4	C0005586	Bipolar disorders and related disorders
+4535	ND1	C0005586	Bipolar disorders and related disorders
+4909	NTF4	C0005586	Bipolar disorders and related disorders
+5550	PREP	C0005586	Bipolar disorders and related disorders
+406989	MIR206	C0005586	Bipolar disorders and related disorders
+55752	SEPT11	C0005586	Bipolar disorders and related disorders
+3680	ITGA9	C0005586	Bipolar disorders and related disorders
+55777	MBD5	C0005586	Bipolar disorders and related disorders
+3670	ISL1	C0005586	Bipolar disorders and related disorders
+406994	MIR212	C0005586	Bipolar disorders and related disorders
+3697	ITIH1	C0005586	Bipolar disorders and related disorders
+5623	PSPN	C0005586	Bipolar disorders and related disorders
+35	ACADS	C0005586	Bipolar disorders and related disorders
+5590	PRKCZ	C0005586	Bipolar disorders and related disorders
+4129	MAOB	C0005586	Bipolar disorders and related disorders
+5524	PTPA	C0005586	Bipolar disorders and related disorders
+55816	DOK5	C0005586	Bipolar disorders and related disorders
+4137	MAPT	C0005586	Bipolar disorders and related disorders
+4153	MBL2	C0005586	Bipolar disorders and related disorders
+3684	ITGAM	C0005586	Bipolar disorders and related disorders
+624	BDKRB2	C0005586	Bipolar disorders and related disorders
+5152	PDE9A	C0005586	Bipolar disorders and related disorders
+115207	KCTD12	C0005586	Bipolar disorders and related disorders
+8822	FGF17	C0005586	Bipolar disorders and related disorders
+1607	DGKB	C0005586	Bipolar disorders and related disorders
+93986	FOXP2	C0005586	Bipolar disorders and related disorders
+9639	ARHGEF10	C0005586	Bipolar disorders and related disorders
+5481	PPID	C0005586	Bipolar disorders and related disorders
+10814	CPLX2	C0005586	Bipolar disorders and related disorders
+5914	RARA	C0005586	Bipolar disorders and related disorders
+5533	PPP3CC	C0005586	Bipolar disorders and related disorders
+5209	PFKFB3	C0005586	Bipolar disorders and related disorders
+10399	RACK1	C0005586	Bipolar disorders and related disorders
+122525	C14orf28	C0005586	Bipolar disorders and related disorders
+5522	PPP2R2C	C0005586	Bipolar disorders and related disorders
+5367	PMCH	C0005586	Bipolar disorders and related disorders
+133	ADM	C0005586	Bipolar disorders and related disorders
+5244	ABCB4	C0005586	Bipolar disorders and related disorders
+1627	DBN1	C0005586	Bipolar disorders and related disorders
+1740	DLG2	C0005586	Bipolar disorders and related disorders
+85458	DIXDC1	C0005586	Bipolar disorders and related disorders
+26281	FGF20	C0005586	Bipolar disorders and related disorders
+26528	DAZAP1	C0005586	Bipolar disorders and related disorders
+2691	GHRH	C0005586	Bipolar disorders and related disorders
+27121	DKK4	C0005586	Bipolar disorders and related disorders
+6540	SLC6A13	C0005586	Bipolar disorders and related disorders
+7252	TSHB	C0005586	Bipolar disorders and related disorders
+4133	MAP2	C0005586	Bipolar disorders and related disorders
+409	ARRB2	C0005586	Bipolar disorders and related disorders
+2901	GRIK5	C0005586	Bipolar disorders and related disorders
+2931	GSK3A	C0005586	Bipolar disorders and related disorders
+3939	LDHA	C0005586	Bipolar disorders and related disorders
+6715	SRD5A1	C0005586	Bipolar disorders and related disorders
+3091	HIF1A	C0005586	Bipolar disorders and related disorders
+3094	HINT1	C0005586	Bipolar disorders and related disorders
+3126	HLA-DRB4	C0005586	Bipolar disorders and related disorders
+3133	HLA-E	C0005586	Bipolar disorders and related disorders
+351	APP	C0005586	Bipolar disorders and related disorders
+26224	FBXL3	C0005586	Bipolar disorders and related disorders
+6526	SLC5A3	C0005586	Bipolar disorders and related disorders
+50943	FOXP3	C0005586	Bipolar disorders and related disorders
+1962	EHHADH	C0005586	Bipolar disorders and related disorders
+4986	OPRK1	C0005586	Bipolar disorders and related disorders
+4914	NTRK1	C0005586	Bipolar disorders and related disorders
+8322	FZD4	C0005586	Bipolar disorders and related disorders
+6422	SFRP1	C0005586	Bipolar disorders and related disorders
+4747	NEFL	C0005586	Bipolar disorders and related disorders
+811	CALR	C0005586	Bipolar disorders and related disorders
+805	CALM2	C0005586	Bipolar disorders and related disorders
+4741	NEFM	C0005586	Bipolar disorders and related disorders
+23245	ASTN2	C0005586	Bipolar disorders and related disorders
+4731	NDUFV3	C0005586	Bipolar disorders and related disorders
+6507	SLC1A3	C0005586	Bipolar disorders and related disorders
+23706	IBGC1	C0005586	Bipolar disorders and related disorders
+773	CACNA1A	C0005586	Bipolar disorders and related disorders
+4391	MRX27	C0005586	Bipolar disorders and related disorders
+2596	GAP43	C0005586	Bipolar disorders and related disorders
+6863	TAC1	C0005586	Bipolar disorders and related disorders
+2166	FAAH	C0006870	Cannabis use disorders
+2555	GABRA2	C0006870	Cannabis use disorders
+5179	PENK	C0006870	Cannabis use disorders
+148	ADRA1A	C0006870	Cannabis use disorders
+1813	DRD2	C0006870	Cannabis use disorders
+255239	ANKK1	C0006870	Cannabis use disorders
+3060	HCRT	C0006870	Cannabis use disorders
+3084	NRG1	C0006870	Cannabis use disorders
+1268	CNR1	C0024809	Cannabis use disorders
+1312	COMT	C0024809	Cannabis use disorders
+1813	DRD2	C0024809	Cannabis use disorders
+2166	FAAH	C0024809	Cannabis use disorders
+207	AKT1	C0024809	Cannabis use disorders
+255239	ANKK1	C0024809	Cannabis use disorders
+3084	NRG1	C0024809	Cannabis use disorders
+5243	ABCB1	C0024809	Cannabis use disorders
+1815	DRD4	C0024809	Cannabis use disorders
+6532	SLC6A4	C0024809	Cannabis use disorders
+5179	PENK	C0024809	Cannabis use disorders
+1269	CNR2	C0024809	Cannabis use disorders
+5743	PTGS2	C0024809	Cannabis use disorders
+7157	TP53	C0024809	Cannabis use disorders
+1133	CHRM5	C0024809	Cannabis use disorders
+801	CALM1	C0024809	Cannabis use disorders
+805	CALM2	C0024809	Cannabis use disorders
+8601	RGS20	C0024809	Cannabis use disorders
+51083	GAL	C0024809	Cannabis use disorders
+4684	NCAM1	C0024809	Cannabis use disorders
+2099	ESR1	C0024809	Cannabis use disorders
+1432	MAPK14	C0024809	Cannabis use disorders
+3060	HCRT	C0024809	Cannabis use disorders
+26575	RGS17	C0024809	Cannabis use disorders
+1548	CYP2A6	C0024809	Cannabis use disorders
+1956	EGFR	C0024809	Cannabis use disorders
+816	CAMK2B	C0024809	Cannabis use disorders
+79571	GCC1	C0024809	Cannabis use disorders
+3553	IL1B	C0024809	Cannabis use disorders
+2222	FDFT1	C0024809	Cannabis use disorders
+23780	APOL2	C0024809	Cannabis use disorders
+5173	PDYN	C0024809	Cannabis use disorders
+949	SCARB1	C0024809	Cannabis use disorders
+6532	SLC6A4	C0011570	Depressive disorders
+627	BDNF	C0011570	Depressive disorders
+3350	HTR1A	C0011570	Depressive disorders
+3356	HTR2A	C0011570	Depressive disorders
+1312	COMT	C0011570	Depressive disorders
+4128	MAOA	C0011570	Depressive disorders
+7166	TPH1	C0011570	Depressive disorders
+121278	TPH2	C0011570	Depressive disorders
+1394	CRHR1	C0011570	Depressive disorders
+6531	SLC6A3	C0011570	Depressive disorders
+4524	MTHFR	C0011570	Depressive disorders
+2908	NR3C1	C0011570	Depressive disorders
+6530	SLC6A2	C0011570	Depressive disorders
+2289	FKBP5	C0011570	Depressive disorders
+1815	DRD4	C0011570	Depressive disorders
+1565	CYP2D6	C0011570	Depressive disorders
+1385	CREB1	C0011570	Depressive disorders
+4852	NPY	C0011570	Depressive disorders
+1557	CYP2C19	C0011570	Depressive disorders
+3351	HTR1B	C0011570	Depressive disorders
+2784	GNB3	C0011570	Depressive disorders
+5243	ABCB1	C0011570	Depressive disorders
+1392	CRH	C0011570	Depressive disorders
+1813	DRD2	C0011570	Depressive disorders
+3358	HTR2C	C0011570	Depressive disorders
+3553	IL1B	C0011570	Depressive disorders
+7124	TNF	C0011570	Depressive disorders
+4915	NTRK2	C0011570	Depressive disorders
+5027	P2RX7	C0011570	Depressive disorders
+84062	DTNBP1	C0011570	Depressive disorders
+27185	DISC1	C0011570	Depressive disorders
+2932	GSK3B	C0011570	Depressive disorders
+3569	IL6	C0011570	Depressive disorders
+1268	CNR1	C0011570	Depressive disorders
+775	CACNA1C	C0011570	Depressive disorders
+5743	PTGS2	C0011570	Depressive disorders
+1129	CHRM2	C0011570	Depressive disorders
+3359	HTR3A	C0011570	Depressive disorders
+183	AGT	C0011570	Depressive disorders
+6095	RORA	C0011570	Depressive disorders
+2571	GAD1	C0011570	Depressive disorders
+267012	DAOA	C0011570	Depressive disorders
+1270	CNTF	C0011570	Depressive disorders
+367	AR	C0011570	Depressive disorders
+5021	OXTR	C0011570	Depressive disorders
+9575	CLOCK	C0011570	Depressive disorders
+3776	KCNK2	C0011570	Depressive disorders
+8864	PER2	C0011570	Depressive disorders
+406	ARNTL	C0011570	Depressive disorders
+3952	LEP	C0011570	Depressive disorders
+80114	BICC1	C0011570	Depressive disorders
+150	ADRA2A	C0011570	Depressive disorders
+4287	ATXN3	C0011570	Depressive disorders
+4548	MTR	C0011570	Depressive disorders
+2917	GRM7	C0011570	Depressive disorders
+2944	GSTM1	C0011570	Depressive disorders
+5663	PSEN1	C0011570	Depressive disorders
+1395	CRHR2	C0011570	Depressive disorders
+1814	DRD3	C0011570	Depressive disorders
+8863	PER3	C0011570	Depressive disorders
+1408	CRY2	C0011570	Depressive disorders
+1103	CHAT	C0011570	Depressive disorders
+4306	NR3C2	C0011570	Depressive disorders
+8914	TIMELESS	C0011570	Depressive disorders
+4048	LTA4H	C0011570	Depressive disorders
+2892	GRIA3	C0011570	Depressive disorders
+438	ASMT	C0011570	Depressive disorders
+53919	SLCO1C1	C0011570	Depressive disorders
+1407	CRY1	C0011570	Depressive disorders
+4862	NPAS2	C0011570	Depressive disorders
+2952	GSTT1	C0011570	Depressive disorders
+6529	SLC6A1	C0011570	Depressive disorders
+15	AANAT	C0011570	Depressive disorders
+6648	SOD2	C0011570	Depressive disorders
+6281	S100A10	C0011570	Depressive disorders
+51083	GAL	C0011570	Depressive disorders
+27445	PCLO	C0011570	Depressive disorders
+2099	ESR1	C0011570	Depressive disorders
+79068	FTO	C0011570	Depressive disorders
+7422	VEGFA	C0011570	Depressive disorders
+5020	OXT	C0011570	Depressive disorders
+6571	SLC18A2	C0011570	Depressive disorders
+1269	CNR2	C0011570	Depressive disorders
+805	CALM2	C0011570	Depressive disorders
+672	BRCA1	C0011570	Depressive disorders
+5142	PDE4B	C0011570	Depressive disorders
+3458	IFNG	C0011570	Depressive disorders
+6863	TAC1	C0011570	Depressive disorders
+7200	TRH	C0011570	Depressive disorders
+6285	S100B	C0011570	Depressive disorders
+3552	IL1A	C0011570	Depressive disorders
+5972	REN	C0011570	Depressive disorders
+3620	IDO1	C0011570	Depressive disorders
+4846	NOS3	C0011570	Depressive disorders
+9048	ARTN	C0011570	Depressive disorders
+4513	COX2	C0011570	Depressive disorders
+3479	IGF1	C0011570	Depressive disorders
+4988	OPRM1	C0011570	Depressive disorders
+1137	CHRNA4	C0011570	Depressive disorders
+9607	CARTPT	C0011570	Depressive disorders
+351	APP	C0011570	Depressive disorders
+4986	OPRK1	C0011570	Depressive disorders
+4843	NOS2	C0011570	Depressive disorders
+5173	PDYN	C0011570	Depressive disorders
+2562	GABRB3	C0011570	Depressive disorders
+1621	DBH	C0011570	Depressive disorders
+5443	POMC	C0011570	Depressive disorders
+5141	PDE4A	C0011570	Depressive disorders
+2890	GRIA1	C0011570	Depressive disorders
+2847	MCHR1	C0011570	Depressive disorders
+3606	IL18	C0011570	Depressive disorders
+3576	CXCL8	C0011570	Depressive disorders
+207	AKT1	C0011570	Depressive disorders
+2	A2M	C0011570	Depressive disorders
+7349	UCN	C0011570	Depressive disorders
+4803	NGF	C0011570	Depressive disorders
+9456	HOMER1	C0011570	Depressive disorders
+353	APRT	C0011570	Depressive disorders
+7466	WFS1	C0011570	Depressive disorders
+9968	MED12	C0011570	Depressive disorders
+1393	CRHBP	C0011570	Depressive disorders
+3363	HTR7	C0011570	Depressive disorders
+7088	TLE1	C0011570	Depressive disorders
+6853	SYN1	C0011570	Depressive disorders
+6570	SLC18A1	C0011570	Depressive disorders
+9734	HDAC9	C0011570	Depressive disorders
+7132	TNFRSF1A	C0011570	Depressive disorders
+5367	PMCH	C0011570	Depressive disorders
+9378	NRXN1	C0011570	Depressive disorders
+9211	LGI1	C0011570	Depressive disorders
+8910	SGCE	C0011570	Depressive disorders
+63891	RNF123	C0011570	Depressive disorders
+7133	TNFRSF1B	C0011570	Depressive disorders
+5595	MAPK3	C0011570	Depressive disorders
+7425	VGF	C0011570	Depressive disorders
+55315	SLC29A3	C0011570	Depressive disorders
+54738	FEV	C0011570	Depressive disorders
+84152	PPP1R1B	C0011570	Depressive disorders
+815	CAMK2A	C0011570	Depressive disorders
+54487	DGCR8	C0011570	Depressive disorders
+7276	TTR	C0011570	Depressive disorders
+9177	HTR3B	C0011570	Depressive disorders
+5879	RAC1	C0011570	Depressive disorders
+4157	MC1R	C0011570	Depressive disorders
+2899	GRIK3	C0011570	Depressive disorders
+2876	GPX1	C0011570	Depressive disorders
+117	ADCYAP1R1	C0011570	Depressive disorders
+116	ADCYAP1	C0011570	Depressive disorders
+3240	HP	C0011570	Depressive disorders
+3290	HSD11B1	C0011570	Depressive disorders
+1843	DUSP1	C0011570	Depressive disorders
+3360	HTR4	C0011570	Depressive disorders
+2752	GLUL	C0011570	Depressive disorders
+153	ADRB1	C0011570	Depressive disorders
+156	GRK2	C0011570	Depressive disorders
+2903	GRIN2A	C0011570	Depressive disorders
+2904	GRIN2B	C0011570	Depressive disorders
+2973	GTS	C0011570	Depressive disorders
+2996	GYPE	C0011570	Depressive disorders
+3060	HCRT	C0011570	Depressive disorders
+114	ADCY8	C0011570	Depressive disorders
+1803	DPP4	C0011570	Depressive disorders
+2559	GABRA6	C0011570	Depressive disorders
+23286	WWC1	C0011570	Depressive disorders
+2346	FOLH1	C0011570	Depressive disorders
+4129	MAOB	C0011570	Depressive disorders
+4074	M6PR	C0011570	Depressive disorders
+2596	GAP43	C0011570	Depressive disorders
+255239	ANKK1	C0011570	Depressive disorders
+3925	STMN1	C0011570	Depressive disorders
+2911	GRM1	C0011570	Depressive disorders
+1029	CDKN2A	C0011570	Depressive disorders
+10522	DEAF1	C0011570	Depressive disorders
+10814	CPLX2	C0011570	Depressive disorders
+3763	KCNJ6	C0011570	Depressive disorders
+111	ADCY5	C0011570	Depressive disorders
+113	ADCY7	C0011570	Depressive disorders
+26523	AGO1	C0011570	Depressive disorders
+1848	DUSP6	C0011570	Depressive disorders
+6715	SRD5A1	C0011570	Depressive disorders
+2260	FGFR1	C0011570	Depressive disorders
+1960	EGR3	C0011570	Depressive disorders
+2263	FGFR2	C0011570	Depressive disorders
+2353	FOS	C0011570	Depressive disorders
+2065	ERBB3	C0011570	Depressive disorders
+6647	SOD1	C0011570	Depressive disorders
+238	ALK	C0011570	Depressive disorders
+7054	TH	C0011570	Depressive disorders
+6616	SNAP25	C0011570	Depressive disorders
+6869	TACR1	C0011570	Depressive disorders
+10013	HDAC6	C0011570	Depressive disorders
+1808	DPYSL2	C0011570	Depressive disorders
+1135	CHRNA2	C0011570	Depressive disorders
+8973	CHRNA6	C0011570	Depressive disorders
+9095	TBX19	C0011570	Depressive disorders
+10815	CPLX1	C0011570	Depressive disorders
+9639	ARHGEF10	C0011570	Depressive disorders
+10014	HDAC5	C0011570	Depressive disorders
+9759	HDAC4	C0011570	Depressive disorders
+1142	CHRNB3	C0011570	Depressive disorders
+114784	CSMD2	C0011570	Depressive disorders
+8822	FGF17	C0011570	Depressive disorders
+1846	DUSP4	C0011570	Depressive disorders
+1742	DLG4	C0011570	Depressive disorders
+1812	DRD1	C0011570	Depressive disorders
+1012	CDH13	C0011570	Depressive disorders
+1607	DGKB	C0011570	Depressive disorders
+125958	OR7D4	C0011570	Depressive disorders
+1240	CMKLR1	C0011570	Depressive disorders
+866	SERPINA6	C0011570	Depressive disorders
+573	BAG1	C0011570	Depressive disorders
+2556	GABRA3	C0011570	Depressive disorders
+409	ARRB2	C0011570	Depressive disorders
+3570	IL6R	C0011570	Depressive disorders
+488	ATP2A2	C0011570	Depressive disorders
+348980	HCN1	C0011570	Depressive disorders
+4922	NTS	C0011570	Depressive disorders
+4939	OAS2	C0011570	Depressive disorders
+3297	HSF1	C0011570	Depressive disorders
+3091	HIF1A	C0011570	Depressive disorders
+3084	NRG1	C0011570	Depressive disorders
+3066	HDAC2	C0011570	Depressive disorders
+3064	HTT	C0011570	Depressive disorders
+361	AQP4	C0011570	Depressive disorders
+3613	IMPA2	C0011570	Depressive disorders
+3976	LIF	C0011570	Depressive disorders
+3939	LDHA	C0011570	Depressive disorders
+467	ATF3	C0011570	Depressive disorders
+468	ATF4	C0011570	Depressive disorders
+4684	NCAM1	C0011570	Depressive disorders
+4741	NEFM	C0011570	Depressive disorders
+478	ATP1A3	C0011570	Depressive disorders
+387129	NPSR1	C0011570	Depressive disorders
+4804	NGFR	C0011570	Depressive disorders
+4160	MC4R	C0011570	Depressive disorders
+5144	PDE4D	C0011570	Depressive disorders
+5153	PDE1B	C0011570	Depressive disorders
+2894	GRID1	C0011570	Depressive disorders
+282706	DAOA-AS1	C0011570	Depressive disorders
+594857	NPS	C0011570	Depressive disorders
+2739	GLO1	C0011570	Depressive disorders
+27121	DKK4	C0011570	Depressive disorders
+2688	GH1	C0011570	Depressive disorders
+2670	GFAP	C0011570	Depressive disorders
+6422	SFRP1	C0011570	Depressive disorders
+6505	SLC1A1	C0011570	Depressive disorders
+6506	SLC1A2	C0011570	Depressive disorders
+5697	PYY	C0011570	Depressive disorders
+2896	GRN	C0011570	Depressive disorders
+51555	PEX5L	C0011570	Depressive disorders
+3061	HCRTR1	C0011570	Depressive disorders
+5179	PENK	C0011570	Depressive disorders
+5209	PFKFB3	C0011570	Depressive disorders
+5368	PNOC	C0011570	Depressive disorders
+2925	GRPR	C0011570	Depressive disorders
+5533	PPP3CC	C0011570	Depressive disorders
+5584	PRKCI	C0011570	Depressive disorders
+5599	MAPK8	C0011570	Depressive disorders
+5649	RELN	C0011570	Depressive disorders
+26281	FGF20	C0011570	Depressive disorders
+2260	FGFR1	C0011581	Depressive disorders
+6647	SOD1	C0011581	Depressive disorders
+627	BDNF	C0011581	Depressive disorders
+6532	SLC6A4	C0011581	Depressive disorders
+3569	IL6	C0011581	Depressive disorders
+4852	NPY	C0011581	Depressive disorders
+1813	DRD2	C0011581	Depressive disorders
+6281	S100A10	C0011581	Depressive disorders
+2932	GSK3B	C0011581	Depressive disorders
+2908	NR3C1	C0011581	Depressive disorders
+1392	CRH	C0011581	Depressive disorders
+4524	MTHFR	C0011581	Depressive disorders
+121278	TPH2	C0011581	Depressive disorders
+5743	PTGS2	C0011581	Depressive disorders
+3776	KCNK2	C0011581	Depressive disorders
+8864	PER2	C0011581	Depressive disorders
+5444	PON1	C0011581	Depressive disorders
+4513	COX2	C0011581	Depressive disorders
+1269	CNR2	C0011581	Depressive disorders
+5443	POMC	C0011581	Depressive disorders
+5663	PSEN1	C0011581	Depressive disorders
+7466	WFS1	C0011581	Depressive disorders
+3363	HTR7	C0011581	Depressive disorders
+8910	SGCE	C0011581	Depressive disorders
+3064	HTT	C0011581	Depressive disorders
+8822	FGF17	C0011581	Depressive disorders
+5649	RELN	C0011581	Depressive disorders
+2739	GLO1	C0011581	Depressive disorders
+1848	DUSP6	C0011581	Depressive disorders
+5621	PRNP	C0011581	Depressive disorders
+478	ATP1A3	C0011581	Depressive disorders
+6616	SNAP25	C0011581	Depressive disorders
+2896	GRN	C0011581	Depressive disorders
+1394	CRHR1	C0011581	Depressive disorders
+6530	SLC6A2	C0011581	Depressive disorders
+7166	TPH1	C0011581	Depressive disorders
+4915	NTRK2	C0011581	Depressive disorders
+1129	CHRM2	C0011581	Depressive disorders
+6622	SNCA	C0011581	Depressive disorders
+1395	CRHR2	C0011581	Depressive disorders
+7054	TH	C0011581	Depressive disorders
+1812	DRD1	C0011581	Depressive disorders
+5144	PDE4D	C0011581	Depressive disorders
+4886	NPY1R	C0011581	Depressive disorders
+3570	IL6R	C0011581	Depressive disorders
+10014	HDAC5	C0011581	Depressive disorders
+3350	HTR1A	C0011581	Depressive disorders
+1312	COMT	C0011581	Depressive disorders
+4128	MAOA	C0011581	Depressive disorders
+2289	FKBP5	C0011581	Depressive disorders
+3356	HTR2A	C0011581	Depressive disorders
+1636	ACE	C0011581	Depressive disorders
+7124	TNF	C0011581	Depressive disorders
+2784	GNB3	C0011581	Depressive disorders
+1565	CYP2D6	C0011581	Depressive disorders
+1385	CREB1	C0011581	Depressive disorders
+5243	ABCB1	C0011581	Depressive disorders
+3358	HTR2C	C0011581	Depressive disorders
+27185	DISC1	C0011581	Depressive disorders
+3553	IL1B	C0011581	Depressive disorders
+4306	NR3C2	C0011581	Depressive disorders
+1815	DRD4	C0011581	Depressive disorders
+367	AR	C0011581	Depressive disorders
+6531	SLC6A3	C0011581	Depressive disorders
+51083	GAL	C0011581	Depressive disorders
+5021	OXTR	C0011581	Depressive disorders
+7422	VEGFA	C0011581	Depressive disorders
+27445	PCLO	C0011581	Depressive disorders
+1268	CNR1	C0011581	Depressive disorders
+9575	CLOCK	C0011581	Depressive disorders
+775	CACNA1C	C0011581	Depressive disorders
+2099	ESR1	C0011581	Depressive disorders
+79068	FTO	C0011581	Depressive disorders
+5020	OXT	C0011581	Depressive disorders
+4842	NOS1	C0011581	Depressive disorders
+406	ARNTL	C0011581	Depressive disorders
+5972	REN	C0011581	Depressive disorders
+5142	PDE4B	C0011581	Depressive disorders
+5027	P2RX7	C0011581	Depressive disorders
+6285	S100B	C0011581	Depressive disorders
+3952	LEP	C0011581	Depressive disorders
+1557	CYP2C19	C0011581	Depressive disorders
+1621	DBH	C0011581	Depressive disorders
+80114	BICC1	C0011581	Depressive disorders
+3552	IL1A	C0011581	Depressive disorders
+6863	TAC1	C0011581	Depressive disorders
+3351	HTR1B	C0011581	Depressive disorders
+672	BRCA1	C0011581	Depressive disorders
+6571	SLC18A2	C0011581	Depressive disorders
+805	CALM2	C0011581	Depressive disorders
+4846	NOS3	C0011581	Depressive disorders
+150	ADRA2A	C0011581	Depressive disorders
+5173	PDYN	C0011581	Depressive disorders
+9607	CARTPT	C0011581	Depressive disorders
+3479	IGF1	C0011581	Depressive disorders
+5141	PDE4A	C0011581	Depressive disorders
+84062	DTNBP1	C0011581	Depressive disorders
+3620	IDO1	C0011581	Depressive disorders
+4988	OPRM1	C0011581	Depressive disorders
+9048	ARTN	C0011581	Depressive disorders
+4986	OPRK1	C0011581	Depressive disorders
+1137	CHRNA4	C0011581	Depressive disorders
+4843	NOS2	C0011581	Depressive disorders
+351	APP	C0011581	Depressive disorders
+2562	GABRB3	C0011581	Depressive disorders
+6303	SAT1	C0011581	Depressive disorders
+183	AGT	C0011581	Depressive disorders
+7200	TRH	C0011581	Depressive disorders
+3359	HTR3A	C0011581	Depressive disorders
+207	AKT1	C0011581	Depressive disorders
+1103	CHAT	C0011581	Depressive disorders
+113	ADCY7	C0011581	Depressive disorders
+2892	GRIA3	C0011581	Depressive disorders
+2890	GRIA1	C0011581	Depressive disorders
+8811	GALR2	C0011581	Depressive disorders
+2332	FMR1	C0011581	Depressive disorders
+3576	CXCL8	C0011581	Depressive disorders
+5320	PLA2G2A	C0011581	Depressive disorders
+438	ASMT	C0011581	Depressive disorders
+4548	MTR	C0011581	Depressive disorders
+2944	GSTM1	C0011581	Depressive disorders
+3606	IL18	C0011581	Depressive disorders
+9456	HOMER1	C0011581	Depressive disorders
+4803	NGF	C0011581	Depressive disorders
+2917	GRM7	C0011581	Depressive disorders
+23286	WWC1	C0011581	Depressive disorders
+2847	MCHR1	C0011581	Depressive disorders
+6095	RORA	C0011581	Depressive disorders
+3060	HCRT	C0011581	Depressive disorders
+4204	MECP2	C0011581	Depressive disorders
+267012	DAOA	C0011581	Depressive disorders
+2571	GAD1	C0011581	Depressive disorders
+4287	ATXN3	C0011581	Depressive disorders
+7349	UCN	C0011581	Depressive disorders
+1408	CRY2	C0011581	Depressive disorders
+8863	PER3	C0011581	Depressive disorders
+1393	CRHBP	C0011581	Depressive disorders
+353	APRT	C0011581	Depressive disorders
+9968	MED12	C0011581	Depressive disorders
+1814	DRD3	C0011581	Depressive disorders
+4129	MAOB	C0011581	Depressive disorders
+4804	NGFR	C0011581	Depressive disorders
+4048	LTA4H	C0011581	Depressive disorders
+3763	KCNJ6	C0011581	Depressive disorders
+4074	M6PR	C0011581	Depressive disorders
+389036	ACT	C0011581	Depressive disorders
+4157	MC1R	C0011581	Depressive disorders
+3925	STMN1	C0011581	Depressive disorders
+4137	MAPT	C0011581	Depressive disorders
+6683	SPAST	C0011581	Depressive disorders
+7088	TLE1	C0011581	Depressive disorders
+7132	TNFRSF1A	C0011581	Depressive disorders
+7133	TNFRSF1B	C0011581	Depressive disorders
+7276	TTR	C0011581	Depressive disorders
+7425	VGF	C0011581	Depressive disorders
+815	CAMK2A	C0011581	Depressive disorders
+8398	PLA2G6	C0011581	Depressive disorders
+84152	PPP1R1B	C0011581	Depressive disorders
+85458	DIXDC1	C0011581	Depressive disorders
+875	CBS	C0011581	Depressive disorders
+8914	TIMELESS	C0011581	Depressive disorders
+9177	HTR3B	C0011581	Depressive disorders
+9211	LGI1	C0011581	Depressive disorders
+9378	NRXN1	C0011581	Depressive disorders
+9572	NR1D1	C0011581	Depressive disorders
+7040	TGFB1	C0011581	Depressive disorders
+6870	TACR3	C0011581	Depressive disorders
+5367	PMCH	C0011581	Depressive disorders
+53919	SLCO1C1	C0011581	Depressive disorders
+54487	DGCR8	C0011581	Depressive disorders
+54738	FEV	C0011581	Depressive disorders
+5521	PPP2R2B	C0011581	Depressive disorders
+55315	SLC29A3	C0011581	Depressive disorders
+5595	MAPK3	C0011581	Depressive disorders
+5607	MAP2K5	C0011581	Depressive disorders
+5879	RAC1	C0011581	Depressive disorders
+5996	RGS1	C0011581	Depressive disorders
+63891	RNF123	C0011581	Depressive disorders
+6570	SLC18A1	C0011581	Depressive disorders
+6648	SOD2	C0011581	Depressive disorders
+6774	STAT3	C0011581	Depressive disorders
+6853	SYN1	C0011581	Depressive disorders
+9734	HDAC9	C0011581	Depressive disorders
+255239	ANKK1	C0011581	Depressive disorders
+2903	GRIN2A	C0011581	Depressive disorders
+2904	GRIN2B	C0011581	Depressive disorders
+2911	GRM1	C0011581	Depressive disorders
+153	ADRB1	C0011581	Depressive disorders
+140947	DCANP1	C0011581	Depressive disorders
+1407	CRY1	C0011581	Depressive disorders
+1270	CNTF	C0011581	Depressive disorders
+117	ADCYAP1R1	C0011581	Depressive disorders
+116	ADCYAP1	C0011581	Depressive disorders
+114	ADCY8	C0011581	Depressive disorders
+111	ADCY5	C0011581	Depressive disorders
+2899	GRIK3	C0011581	Depressive disorders
+156	GRK2	C0011581	Depressive disorders
+2346	FOLH1	C0011581	Depressive disorders
+26523	AGO1	C0011581	Depressive disorders
+2247	FGF2	C0011581	Depressive disorders
+2182	ACSL4	C0011581	Depressive disorders
+2	A2M	C0011581	Depressive disorders
+2752	GLUL	C0011581	Depressive disorders
+1843	DUSP1	C0011581	Depressive disorders
+1803	DPP4	C0011581	Depressive disorders
+2596	GAP43	C0011581	Depressive disorders
+1610	DAO	C0011581	Depressive disorders
+2876	GPX1	C0011581	Depressive disorders
+2973	GTS	C0011581	Depressive disorders
+3240	HP	C0011581	Depressive disorders
+319100	TAAR6	C0011581	Depressive disorders
+3360	HTR4	C0011581	Depressive disorders
+3352	HTR1D	C0011581	Depressive disorders
+2559	GABRA6	C0011581	Depressive disorders
+10522	DEAF1	C0011581	Depressive disorders
+348980	HCN1	C0011581	Depressive disorders
+10814	CPLX2	C0011581	Depressive disorders
+3290	HSD11B1	C0011581	Depressive disorders
+326625	MMAB	C0011581	Depressive disorders
+1029	CDKN2A	C0011581	Depressive disorders
+3440	IFNA2	C0011581	Depressive disorders
+10891	PPARGC1A	C0011581	Depressive disorders
+2996	GYPE	C0011581	Depressive disorders
+6311	ATXN2	C0011581	Depressive disorders
+9639	ARHGEF10	C0011581	Depressive disorders
+1846	DUSP4	C0011581	Depressive disorders
+2263	FGFR2	C0011581	Depressive disorders
+1861	TOR1A	C0011581	Depressive disorders
+1960	EGR3	C0011581	Depressive disorders
+2066	ERBB4	C0011581	Depressive disorders
+2253	FGF8	C0011581	Depressive disorders
+9782	MATR3	C0011581	Depressive disorders
+6575	SLC20A2	C0011581	Depressive disorders
+6715	SRD5A1	C0011581	Depressive disorders
+2006	ELN	C0011581	Depressive disorders
+2043	EPHA4	C0011581	Depressive disorders
+1012	CDH13	C0011581	Depressive disorders
+213	ALB	C0011581	Depressive disorders
+22909	FAN1	C0011581	Depressive disorders
+23025	UNC13A	C0011581	Depressive disorders
+238	ALK	C0011581	Depressive disorders
+5982	RFC2	C0011581	Depressive disorders
+2495	FTH1	C0011581	Depressive disorders
+596	BCL2	C0011581	Depressive disorders
+594857	NPS	C0011581	Depressive disorders
+2512	FTL	C0011581	Depressive disorders
+2521	FUS	C0011581	Depressive disorders
+2551	GABPA	C0011581	Depressive disorders
+5697	PYY	C0011581	Depressive disorders
+2556	GABRA3	C0011581	Depressive disorders
+23705	CADM1	C0011581	Depressive disorders
+617	BCS1L	C0011581	Depressive disorders
+6529	SLC6A1	C0011581	Depressive disorders
+6506	SLC1A2	C0011581	Depressive disorders
+6505	SLC1A1	C0011581	Depressive disorders
+6422	SFRP1	C0011581	Depressive disorders
+6403	SELP	C0011581	Depressive disorders
+2328	FMO3	C0011581	Depressive disorders
+23435	TARDBP	C0011581	Depressive disorders
+9896	FIG4	C0011581	Depressive disorders
+9394	HS6ST1	C0011581	Depressive disorders
+23600	AMACR	C0011581	Depressive disorders
+2353	FOS	C0011581	Depressive disorders
+6866	TAC3	C0011581	Depressive disorders
+9049	AIP	C0011581	Depressive disorders
+9213	XPR1	C0011581	Depressive disorders
+8722	CTSF	C0011581	Depressive disorders
+866	SERPINA6	C0011581	Depressive disorders
+1240	CMKLR1	C0011581	Depressive disorders
+846	CASR	C0011581	Depressive disorders
+125958	OR7D4	C0011581	Depressive disorders
+9217	VAPB	C0011581	Depressive disorders
+1356	CP	C0011581	Depressive disorders
+114784	CSMD2	C0011581	Depressive disorders
+1142	CHRNB3	C0011581	Depressive disorders
+10855	HPSE	C0011581	Depressive disorders
+10963	STIP1	C0011581	Depressive disorders
+9031	BAZ1B	C0011581	Depressive disorders
+573	BAG1	C0011581	Depressive disorders
+9096	TBX18	C0011581	Depressive disorders
+8988	HSPB3	C0011581	Depressive disorders
+8973	CHRNA6	C0011581	Depressive disorders
+1135	CHRNA2	C0011581	Depressive disorders
+8878	SQSTM1	C0011581	Depressive disorders
+1371	CPOX	C0011581	Depressive disorders
+9095	TBX19	C0011581	Depressive disorders
+10815	CPLX1	C0011581	Depressive disorders
+1742	DLG4	C0011581	Depressive disorders
+1786	DNMT1	C0011581	Depressive disorders
+10133	OPTN	C0011581	Depressive disorders
+1808	DPYSL2	C0011581	Depressive disorders
+7048	TGFBR2	C0011581	Depressive disorders
+1816	DRD5	C0011581	Depressive disorders
+6908	TBP	C0011581	Depressive disorders
+9627	SNCAIP	C0011581	Depressive disorders
+1639	DCTN1	C0011581	Depressive disorders
+7148	TNXB	C0011581	Depressive disorders
+1607	DGKB	C0011581	Depressive disorders
+1436	CSF1R	C0011581	Depressive disorders
+79053	ALG8	C0011581	Depressive disorders
+1440	CSF3	C0011581	Depressive disorders
+15	AANAT	C0011581	Depressive disorders
+7461	CLIP2	C0011581	Depressive disorders
+9569	GTF2IRD1	C0011581	Depressive disorders
+7415	VCP	C0011581	Depressive disorders
+1593	CYP27A1	C0011581	Depressive disorders
+6869	TACR1	C0011581	Depressive disorders
+5630	PRPH	C0011581	Depressive disorders
+4922	NTS	C0011581	Depressive disorders
+4575	TRNS2	C0011581	Depressive disorders
+4574	TRNS1	C0011581	Depressive disorders
+4572	TRNQ	C0011581	Depressive disorders
+4567	TRNL1	C0011581	Depressive disorders
+4564	TRNH	C0011581	Depressive disorders
+4558	TRNF	C0011581	Depressive disorders
+2952	GSTT1	C0011581	Depressive disorders
+4541	ND6	C0011581	Depressive disorders
+4540	ND5	C0011581	Depressive disorders
+4538	ND4	C0011581	Depressive disorders
+4535	ND1	C0011581	Depressive disorders
+4578	TRNW	C0011581	Depressive disorders
+467	ATF3	C0011581	Depressive disorders
+2894	GRID1	C0011581	Depressive disorders
+488	ATP2A2	C0011581	Depressive disorders
+4862	NPAS2	C0011581	Depressive disorders
+4854	NOTCH3	C0011581	Depressive disorders
+29110	TBK1	C0011581	Depressive disorders
+2925	GRPR	C0011581	Depressive disorders
+2931	GSK3A	C0011581	Depressive disorders
+4744	NEFH	C0011581	Depressive disorders
+4741	NEFM	C0011581	Depressive disorders
+4684	NCAM1	C0011581	Depressive disorders
+468	ATF4	C0011581	Depressive disorders
+2956	MSH6	C0011581	Depressive disorders
+4514	COX3	C0011581	Depressive disorders
+2969	GTF2I	C0011581	Depressive disorders
+4001	LMNB1	C0011581	Depressive disorders
+3984	LIMK1	C0011581	Depressive disorders
+3976	LIF	C0011581	Depressive disorders
+3297	HSF1	C0011581	Depressive disorders
+387129	NPSR1	C0011581	Depressive disorders
+3845	KRAS	C0011581	Depressive disorders
+3814	KISS1	C0011581	Depressive disorders
+3425	IDUA	C0011581	Depressive disorders
+3759	KCNJ2	C0011581	Depressive disorders
+3730	ANOS1	C0011581	Depressive disorders
+361	AQP4	C0011581	Depressive disorders
+4072	EPCAM	C0011581	Depressive disorders
+409	ARRB2	C0011581	Depressive disorders
+4512	COX1	C0011581	Depressive disorders
+4436	MSH2	C0011581	Depressive disorders
+4397	MS	C0011581	Depressive disorders
+4292	MLH1	C0011581	Depressive disorders
+29978	UBQLN2	C0011581	Depressive disorders
+4282	MIF	C0011581	Depressive disorders
+3043	HBB	C0011581	Depressive disorders
+4160	MC4R	C0011581	Depressive disorders
+3061	HCRTR1	C0011581	Depressive disorders
+3084	NRG1	C0011581	Depressive disorders
+3145	HMBS	C0011581	Depressive disorders
+3613	IMPA2	C0011581	Depressive disorders
+25814	ATXN10	C0011581	Depressive disorders
+26191	PTPN22	C0011581	Depressive disorders
+26281	FGF20	C0011581	Depressive disorders
+5446	PON3	C0011581	Depressive disorders
+5445	PON2	C0011581	Depressive disorders
+2629	GBA	C0011581	Depressive disorders
+5428	POLG	C0011581	Depressive disorders
+54209	TREM2	C0011581	Depressive disorders
+540	ATP7B	C0011581	Depressive disorders
+5395	PMS2	C0011581	Depressive disorders
+26608	TBL2	C0011581	Depressive disorders
+5378	PMS1	C0011581	Depressive disorders
+54902	TTC19	C0011581	Depressive disorders
+54982	CLN6	C0011581	Depressive disorders
+5599	MAPK8	C0011581	Depressive disorders
+10013	HDAC6	C0011581	Depressive disorders
+5584	PRKCI	C0011581	Depressive disorders
+5582	PRKCG	C0011581	Depressive disorders
+5573	PRKAR1A	C0011581	Depressive disorders
+5566	PRKACA	C0011581	Depressive disorders
+55636	CHD7	C0011581	Depressive disorders
+5538	PPT1	C0011581	Depressive disorders
+5533	PPP3CC	C0011581	Depressive disorders
+25978	CHMP2B	C0011581	Depressive disorders
+26012	NSMF	C0011581	Depressive disorders
+5368	PNOC	C0011581	Depressive disorders
+2670	GFAP	C0011581	Depressive disorders
+2688	GH1	C0011581	Depressive disorders
+2782	GNB1	C0011581	Depressive disorders
+50940	PDE11A	C0011581	Depressive disorders
+5053	PAH	C0011581	Depressive disorders
+50484	RRM2B	C0011581	Depressive disorders
+3178	HNRNPA1	C0011581	Depressive disorders
+2796	GNRH1	C0011581	Depressive disorders
+2798	GNRHR	C0011581	Depressive disorders
+282706	DAOA-AS1	C0011581	Depressive disorders
+283	ANG	C0011581	Depressive disorders
+4952	OCRL	C0011581	Depressive disorders
+4939	OAS2	C0011581	Depressive disorders
+2778	GNAS	C0011581	Depressive disorders
+2767	GNA11	C0011581	Depressive disorders
+5309	PITX3	C0011581	Depressive disorders
+5290	PIK3CA	C0011581	Depressive disorders
+27030	MLH3	C0011581	Depressive disorders
+5216	PFN1	C0011581	Depressive disorders
+5179	PENK	C0011581	Depressive disorders
+51738	GHRL	C0011581	Depressive disorders
+27121	DKK4	C0011581	Depressive disorders
+5159	PDGFRB	C0011581	Depressive disorders
+51555	PEX5L	C0011581	Depressive disorders
+5155	PDGFB	C0011581	Depressive disorders
+5153	PDE1B	C0011581	Depressive disorders
+4929	NR4A2	C0011581	Depressive disorders
+3439	IFNA1	C0086132	Depressive disorders
+1636	ACE	C0086132	Depressive disorders
+344148	NCKAP5	C0086132	Depressive disorders
+3454	IFNAR1	C0086132	Depressive disorders
+3586	IL10	C0086132	Depressive disorders
+3787	KCNS1	C0086132	Depressive disorders
+4318	MMP9	C0086132	Depressive disorders
+5054	SERPINE1	C0086132	Depressive disorders
+60482	SLC5A7	C0086132	Depressive disorders
+6817	SULT1A1	C0086132	Depressive disorders
+7040	TGFB1	C0086132	Depressive disorders
+7076	TIMP1	C0086132	Depressive disorders
+7421	VDR	C0086132	Depressive disorders
+79953	SYNDIG1	C0086132	Depressive disorders
+10060	ABCC9	C0086132	Depressive disorders
+2332	FMR1	C0086132	Depressive disorders
+10587	TXNRD2	C0086132	Depressive disorders
+120892	LRRK2	C0086132	Depressive disorders
+140902	R3HDML	C0086132	Depressive disorders
+1432	MAPK14	C0086132	Depressive disorders
+1543	CYP1A1	C0086132	Depressive disorders
+1545	CYP1B1	C0086132	Depressive disorders
+8871	SYNJ2	C0086132	Depressive disorders
+1576	CYP3A4	C0086132	Depressive disorders
+1588	CYP19A1	C0086132	Depressive disorders
+1610	DAO	C0086132	Depressive disorders
+163	AP2B1	C0086132	Depressive disorders
+2194	FASN	C0086132	Depressive disorders
+4397	MS	C0086132	Depressive disorders
+551	AVP	C0086132	Depressive disorders
+6532	SLC6A4	C0525045	Depressive disorders
+114	ADCY8	C0525045	Depressive disorders
+627	BDNF	C0525045	Depressive disorders
+3350	HTR1A	C0525045	Depressive disorders
+3356	HTR2A	C0525045	Depressive disorders
+4128	MAOA	C0525045	Depressive disorders
+7166	TPH1	C0525045	Depressive disorders
+1815	DRD4	C0525045	Depressive disorders
+1312	COMT	C0525045	Depressive disorders
+1813	DRD2	C0525045	Depressive disorders
+7466	WFS1	C0525045	Depressive disorders
+7054	TH	C0525045	Depressive disorders
+2908	NR3C1	C0525045	Depressive disorders
+27185	DISC1	C0525045	Depressive disorders
+9248	GPR50	C0525045	Depressive disorders
+1385	CREB1	C0525045	Depressive disorders
+2784	GNB3	C0525045	Depressive disorders
+4684	NCAM1	C0525045	Depressive disorders
+267012	DAOA	C0525045	Depressive disorders
+1728	NQO1	C0525045	Depressive disorders
+121278	TPH2	C0525045	Depressive disorders
+9575	CLOCK	C0525045	Depressive disorders
+5173	PDYN	C0525045	Depressive disorders
+2554	GABRA1	C0525045	Depressive disorders
+7124	TNF	C0525045	Depressive disorders
+2847	MCHR1	C0525045	Depressive disorders
+2932	GSK3B	C0525045	Depressive disorders
+1814	DRD3	C0525045	Depressive disorders
+2099	ESR1	C0525045	Depressive disorders
+3361	HTR5A	C0525045	Depressive disorders
+2571	GAD1	C0525045	Depressive disorders
+3351	HTR1B	C0525045	Depressive disorders
+5428	POLG	C0525045	Depressive disorders
+3360	HTR4	C0525045	Depressive disorders
+2913	GRM3	C0525045	Depressive disorders
+3362	HTR6	C0525045	Depressive disorders
+1392	CRH	C0525045	Depressive disorders
+5027	P2RX7	C0525045	Depressive disorders
+6285	S100B	C0525045	Depressive disorders
+3557	IL1RN	C0525045	Depressive disorders
+2912	GRM2	C0525045	Depressive disorders
+1848	DUSP6	C0525045	Depressive disorders
+4916	NTRK3	C0525045	Depressive disorders
+135	ADORA2A	C0525045	Depressive disorders
+55502	HES6	C0525045	Depressive disorders
+775	CACNA1C	C0525045	Depressive disorders
+2289	FKBP5	C0525045	Depressive disorders
+6863	TAC1	C0525045	Depressive disorders
+4852	NPY	C0525045	Depressive disorders
+3358	HTR2C	C0525045	Depressive disorders
+1621	DBH	C0525045	Depressive disorders
+4915	NTRK2	C0525045	Depressive disorders
+1394	CRHR1	C0525045	Depressive disorders
+28	ABO	C0525045	Depressive disorders
+553	AVPR1B	C0525045	Depressive disorders
+1742	DLG4	C0525045	Depressive disorders
+128674	PROKR2	C0525045	Depressive disorders
+3240	HP	C0525045	Depressive disorders
+4524	MTHFR	C0525045	Depressive disorders
+84062	DTNBP1	C0525045	Depressive disorders
+6531	SLC6A3	C0525045	Depressive disorders
+51083	GAL	C0525045	Depressive disorders
+5319	PLA2G1B	C0525045	Depressive disorders
+5265	SERPINA1	C0525045	Depressive disorders
+2903	GRIN2A	C0525045	Depressive disorders
+1393	CRHBP	C0525045	Depressive disorders
+1610	DAO	C0525045	Depressive disorders
+3613	IMPA2	C0525045	Depressive disorders
+3359	HTR3A	C0525045	Depressive disorders
+1395	CRHR2	C0525045	Depressive disorders
+1741	DLG3	C0525045	Depressive disorders
+6869	TACR1	C0525045	Depressive disorders
+60675	PROK2	C0525045	Depressive disorders
+2166	FAAH	C0525045	Depressive disorders
+2572	GAD2	C0525045	Depressive disorders
+4908	NTF3	C0525045	Depressive disorders
+4129	MAOB	C0525045	Depressive disorders
+488	ATP2A2	C0525045	Depressive disorders
+91752	ZNF804A	C0525045	Depressive disorders
+6530	SLC6A2	C0525045	Depressive disorders
+27184	DISC2	C0525045	Depressive disorders
+5617	PRL	C0525045	Depressive disorders
+2332	FMR1	C0525045	Depressive disorders
+207	AKT1	C0525045	Depressive disorders
+6899	TBX1	C0525045	Depressive disorders
+9619	ABCG1	C0525045	Depressive disorders
+7976	FZD3	C0525045	Depressive disorders
+4887	NPY2R	C0525045	Depressive disorders
+9030	ERDA1	C0525045	Depressive disorders
+4986	OPRK1	C0525045	Depressive disorders
+4923	NTSR1	C0525045	Depressive disorders
+79068	FTO	C0525045	Depressive disorders
+5020	OXT	C0525045	Depressive disorders
+5074	PAWR	C0525045	Depressive disorders
+7432	VIP	C0525045	Depressive disorders
+6303	SAT1	C0525045	Depressive disorders
+6750	SST	C0525045	Depressive disorders
+60482	SLC5A7	C0525045	Depressive disorders
+5914	RARA	C0525045	Depressive disorders
+57468	SLC12A5	C0525045	Depressive disorders
+5649	RELN	C0525045	Depressive disorders
+6611	SMS	C0525045	Depressive disorders
+55507	GPRC5D	C0525045	Depressive disorders
+7040	TGFB1	C0525045	Depressive disorders
+7103	TSPAN8	C0525045	Depressive disorders
+54738	FEV	C0525045	Depressive disorders
+54551	MAGEL2	C0525045	Depressive disorders
+7422	VEGFA	C0525045	Depressive disorders
+5211	PFKL	C0525045	Depressive disorders
+7425	VGF	C0525045	Depressive disorders
+6697	SPR	C0525045	Depressive disorders
+1906	EDN1	C0525045	Depressive disorders
+2643	GCH1	C0525045	Depressive disorders
+153	ADRB1	C0525045	Depressive disorders
+10921	RNPS1	C0525045	Depressive disorders
+27306	HPGDS	C0525045	Depressive disorders
+288	ANK3	C0525045	Depressive disorders
+2898	GRIK2	C0525045	Depressive disorders
+1429	CRYZ	C0525045	Depressive disorders
+3061	HCRTR1	C0525045	Depressive disorders
+2563	GABRD	C0525045	Depressive disorders
+2561	GABRB2	C0525045	Depressive disorders
+10021	HCN4	C0525045	Depressive disorders
+22933	SIRT2	C0525045	Depressive disorders
+23230	VPS13A	C0525045	Depressive disorders
+1789	DNMT3B	C0525045	Depressive disorders
+23411	SIRT1	C0525045	Depressive disorders
+2558	GABRA5	C0525045	Depressive disorders
+1565	CYP2D6	C0525045	Depressive disorders
+2559	GABRA6	C0525045	Depressive disorders
+1131	CHRM3	C0525045	Depressive disorders
+3581	IL9R	C0525045	Depressive disorders
+2247	FGF2	C0525045	Depressive disorders
+10618	TGOLN2	C0525045	Depressive disorders
+150	ADRA2A	C0525045	Depressive disorders
+1786	DNMT1	C0525045	Depressive disorders
+109	ADCY3	C0525045	Depressive disorders
+3308	HSPA4	C0525045	Depressive disorders
+367	AR	C0525045	Depressive disorders
+113	ADCY7	C0525045	Depressive disorders
+4645	MYO5B	C0525045	Depressive disorders
+1129	CHRM2	C0525045	Depressive disorders
+4133	MAP2	C0525045	Depressive disorders
+409	ARRB2	C0525045	Depressive disorders
+1639	DCTN1	C0525045	Depressive disorders
+10280	SIGMAR1	C0525045	Depressive disorders
+9759	HDAC4	C0525045	Depressive disorders
+100303453	TSNAX-DISC1	C0525045	Depressive disorders
+9628	RGS6	C0525045	Depressive disorders
+155	ADRB3	C0525045	Depressive disorders
+115207	KCTD12	C0525045	Depressive disorders
+7257	TSNAX	C0525045	Depressive disorders
+147	ADRA1B	C0525045	Depressive disorders
+8850	KAT2B	C0525045	Depressive disorders
+8914	TIMELESS	C0525045	Depressive disorders
+152	ADRA2C	C0525045	Depressive disorders
+1523	CUX1	C0525045	Depressive disorders
+10673	TNFSF13B	C0525045	Depressive disorders
+776	CACNA1D	C0525045	Depressive disorders
+6753	SSTR3	C0525045	Depressive disorders
+6281	S100A10	C0525045	Depressive disorders
+5367	PMCH	C0525045	Depressive disorders
+3065	HDAC1	C0525045	Depressive disorders
+3066	HDAC2	C0525045	Depressive disorders
+3091	HIF1A	C0525045	Depressive disorders
+5209	PFKFB3	C0525045	Depressive disorders
+51305	KCNK9	C0525045	Depressive disorders
+3320	HSP90AA1	C0525045	Depressive disorders
+3363	HTR7	C0525045	Depressive disorders
+4943	TBC1D25	C0525045	Depressive disorders
+3939	LDHA	C0525045	Depressive disorders
+4922	NTS	C0525045	Depressive disorders
+5368	PNOC	C0525045	Depressive disorders
+3064	HTT	C0525045	Depressive disorders
+54498	SMOX	C0525045	Depressive disorders
+23373	CRTC1	C0525045	Depressive disorders
+6506	SLC1A2	C0525045	Depressive disorders
+2354	FOSB	C0525045	Depressive disorders
+4790	NFKB1	C0525045	Depressive disorders
+2596	GAP43	C0525045	Depressive disorders
+5743	PTGS2	C0525045	Depressive disorders
+26580	BSCL2	C0525045	Depressive disorders
+5621	PRNP	C0525045	Depressive disorders
+2752	GLUL	C0525045	Depressive disorders
+29950	SERTAD1	C0525045	Depressive disorders
+5468	PPARG	C0525045	Depressive disorders
+406	ARNTL	C0525045	Depressive disorders
+6532	SLC6A4	C1269683	Depressive disorders
+121278	TPH2	C1269683	Depressive disorders
+3356	HTR2A	C1269683	Depressive disorders
+1394	CRHR1	C1269683	Depressive disorders
+2289	FKBP5	C1269683	Depressive disorders
+2571	GAD1	C1269683	Depressive disorders
+166752	FREM3	C1269683	Depressive disorders
+847	CAT	C1269683	Depressive disorders
+5649	RELN	C1269683	Depressive disorders
+27185	DISC1	C1269683	Depressive disorders
+627	BDNF	C1269683	Depressive disorders
+3350	HTR1A	C1269683	Depressive disorders
+7166	TPH1	C1269683	Depressive disorders
+4128	MAOA	C1269683	Depressive disorders
+1312	COMT	C1269683	Depressive disorders
+6530	SLC6A2	C1269683	Depressive disorders
+2784	GNB3	C1269683	Depressive disorders
+1385	CREB1	C1269683	Depressive disorders
+2908	NR3C1	C1269683	Depressive disorders
+3358	HTR2C	C1269683	Depressive disorders
+9575	CLOCK	C1269683	Depressive disorders
+1565	CYP2D6	C1269683	Depressive disorders
+1813	DRD2	C1269683	Depressive disorders
+5243	ABCB1	C1269683	Depressive disorders
+1815	DRD4	C1269683	Depressive disorders
+6281	S100A10	C1269683	Depressive disorders
+51291	GMIP	C1269683	Depressive disorders
+1393	CRHBP	C1269683	Depressive disorders
+9177	HTR3B	C1269683	Depressive disorders
+4524	MTHFR	C1269683	Depressive disorders
+2932	GSK3B	C1269683	Depressive disorders
+3359	HTR3A	C1269683	Depressive disorders
+27445	PCLO	C1269683	Depressive disorders
+1392	CRH	C1269683	Depressive disorders
+84062	DTNBP1	C1269683	Depressive disorders
+1814	DRD3	C1269683	Depressive disorders
+7422	VEGFA	C1269683	Depressive disorders
+3351	HTR1B	C1269683	Depressive disorders
+3586	IL10	C1269683	Depressive disorders
+1559	CYP2C9	C1269683	Depressive disorders
+3304	HSPA1B	C1269683	Depressive disorders
+1636	ACE	C1269683	Depressive disorders
+775	CACNA1C	C1269683	Depressive disorders
+3952	LEP	C1269683	Depressive disorders
+6285	S100B	C1269683	Depressive disorders
+2100	ESR2	C1269683	Depressive disorders
+5116	PCNT	C1269683	Depressive disorders
+3303	HSPA1A	C1269683	Depressive disorders
+2670	GFAP	C1269683	Depressive disorders
+613	BCR	C1269683	Depressive disorders
+9968	MED12	C1269683	Depressive disorders
+50940	PDE11A	C1269683	Depressive disorders
+6347	CCL2	C1269683	Depressive disorders
+148	ADRA1A	C1269683	Depressive disorders
+3305	HSPA1L	C1269683	Depressive disorders
+50604	IL20	C1269683	Depressive disorders
+29949	IL19	C1269683	Depressive disorders
+655	BMP7	C1269683	Depressive disorders
+11009	IL24	C1269683	Depressive disorders
+4074	M6PR	C1269683	Depressive disorders
+886	CCKAR	C1269683	Depressive disorders
+3569	IL6	C1269683	Depressive disorders
+7124	TNF	C1269683	Depressive disorders
+2917	GRM7	C1269683	Depressive disorders
+4915	NTRK2	C1269683	Depressive disorders
+3553	IL1B	C1269683	Depressive disorders
+4852	NPY	C1269683	Depressive disorders
+1557	CYP2C19	C1269683	Depressive disorders
+1268	CNR1	C1269683	Depressive disorders
+6750	SST	C1269683	Depressive disorders
+4908	NTF3	C1269683	Depressive disorders
+1523	CUX1	C1269683	Depressive disorders
+9048	ARTN	C1269683	Depressive disorders
+2288	FKBP4	C1269683	Depressive disorders
+2332	FMR1	C1269683	Depressive disorders
+3240	HP	C1269683	Depressive disorders
+6648	SOD2	C1269683	Depressive disorders
+10611	PDLIM5	C1269683	Depressive disorders
+140947	DCANP1	C1269683	Depressive disorders
+1401	CRP	C1269683	Depressive disorders
+30845	EHD3	C1269683	Depressive disorders
+4306	NR3C2	C1269683	Depressive disorders
+3458	IFNG	C1269683	Depressive disorders
+1621	DBH	C1269683	Depressive disorders
+1742	DLG4	C1269683	Depressive disorders
+5021	OXTR	C1269683	Depressive disorders
+551	AVP	C1269683	Depressive disorders
+267012	DAOA	C1269683	Depressive disorders
+60675	PROK2	C1269683	Depressive disorders
+6446	SGK1	C1269683	Depressive disorders
+64077	LHPP	C1269683	Depressive disorders
+8564	KMO	C1269683	Depressive disorders
+5173	PDYN	C1269683	Depressive disorders
+9456	HOMER1	C1269683	Depressive disorders
+9641	IKBKE	C1269683	Depressive disorders
+7015	TERT	C1269683	Depressive disorders
+55117	SLC6A15	C1269683	Depressive disorders
+5579	PRKCB	C1269683	Depressive disorders
+6999	TDO2	C1269683	Depressive disorders
+5020	OXT	C1269683	Depressive disorders
+5074	PAWR	C1269683	Depressive disorders
+6303	SAT1	C1269683	Depressive disorders
+431708	MDD1	C1269683	Depressive disorders
+4129	MAOB	C1269683	Depressive disorders
+317	APAF1	C1269683	Depressive disorders
+7008	TEF	C1269683	Depressive disorders
+1741	DLG3	C1269683	Depressive disorders
+2475	MTOR	C1269683	Depressive disorders
+2353	FOS	C1269683	Depressive disorders
+2891	GRIA2	C1269683	Depressive disorders
+100302259	MIR1202	C1269683	Depressive disorders
+1956	EGFR	C1269683	Depressive disorders
+23040	MYT1L	C1269683	Depressive disorders
+2893	GRIA4	C1269683	Depressive disorders
+2643	GCH1	C1269683	Depressive disorders
+2260	FGFR1	C1269683	Depressive disorders
+3308	HSPA4	C1269683	Depressive disorders
+1950	EGF	C1269683	Depressive disorders
+113	ADCY7	C1269683	Depressive disorders
+2572	GAD2	C1269683	Depressive disorders
+2915	GRM5	C1269683	Depressive disorders
+595	CCND1	C1269683	Depressive disorders
+607	BCL9	C1269683	Depressive disorders
+5806	PTX3	C1269683	Depressive disorders
+8942	KYNU	C1269683	Depressive disorders
+1975	EIF4B	C1269683	Depressive disorders
+5824	PEX19	C1269683	Depressive disorders
+1453	CSNK1D	C1269683	Depressive disorders
+1029	CDKN2A	C1269683	Depressive disorders
+5978	REST	C1269683	Depressive disorders
+8997	KALRN	C1269683	Depressive disorders
+5801	PTPRR	C1269683	Depressive disorders
+2028	ENPEP	C1269683	Depressive disorders
+93986	FOXP2	C1269683	Depressive disorders
+55784	MCTP2	C1269683	Depressive disorders
+202333	CMYA5	C1269683	Depressive disorders
+55830	GLT8D1	C1269683	Depressive disorders
+5604	MAP2K1	C1269683	Depressive disorders
+10270	AKAP8	C1269683	Depressive disorders
+7432	VIP	C1269683	Depressive disorders
+2012	EMP1	C1269683	Depressive disorders
+5692	PSMB4	C1269683	Depressive disorders
+57084	SLC17A6	C1269683	Depressive disorders
+5743	PTGS2	C1269683	Depressive disorders
+2065	ERBB3	C1269683	Depressive disorders
+10452	TOMM40	C1269683	Depressive disorders
+6863	TAC1	C1269683	Depressive disorders
+1267	CNP	C1269683	Depressive disorders
+116285	ACSM1	C1269683	Depressive disorders
+7024	TFCP2	C1269683	Depressive disorders
+7054	TH	C1269683	Depressive disorders
+114131	UCN3	C1269683	Depressive disorders
+10014	HDAC5	C1269683	Depressive disorders
+7297	TYK2	C1269683	Depressive disorders
+1131	CHRM3	C1269683	Depressive disorders
+10855	HPSE	C1269683	Depressive disorders
+7704	ZBTB16	C1269683	Depressive disorders
+7804	LRP8	C1269683	Depressive disorders
+7905	REEP5	C1269683	Depressive disorders
+6844	VAMP2	C1269683	Depressive disorders
+10522	DEAF1	C1269683	Depressive disorders
+1439	CSF2RB	C1269683	Depressive disorders
+8842	PROM1	C1269683	Depressive disorders
+6369	CCL24	C1269683	Depressive disorders
+64067	NPAS3	C1269683	Depressive disorders
+155	ADRB3	C1269683	Depressive disorders
+1501	CTNND2	C1269683	Depressive disorders
+64854	USP46	C1269683	Depressive disorders
+65018	PINK1	C1269683	Depressive disorders
+65059	RAPH1	C1269683	Depressive disorders
+6511	SLC1A6	C1269683	Depressive disorders
+1493	CTLA4	C1269683	Depressive disorders
+883	KYAT1	C1269683	Depressive disorders
+145270	PRIMA1	C1269683	Depressive disorders
+6586	SLIT3	C1269683	Depressive disorders
+111	ADCY5	C1269683	Depressive disorders
+54862	CC2D1A	C1269683	Depressive disorders
+3320	HSP90AA1	C1269683	Depressive disorders
+8682	PEA15	C1269683	Depressive disorders
+4035	LRP1	C1269683	Depressive disorders
+4045	LSAMP	C1269683	Depressive disorders
+4049	LTA	C1269683	Depressive disorders
+407034	MIR30E	C1269683	Depressive disorders
+2869	GRK5	C1269683	Depressive disorders
+408	ARRB1	C1269683	Depressive disorders
+410	ARSA	C1269683	Depressive disorders
+282617	IFNL3	C1269683	Depressive disorders
+27136	MORC1	C1269683	Depressive disorders
+4133	MAP2	C1269683	Depressive disorders
+4194	MDM4	C1269683	Depressive disorders
+3839	KPNA3	C1269683	Depressive disorders
+3791	KDR	C1269683	Depressive disorders
+3697	ITIH1	C1269683	Depressive disorders
+3131	HLF	C1269683	Depressive disorders
+1390	CREM	C1269683	Depressive disorders
+30009	TBX21	C1269683	Depressive disorders
+3439	IFNA1	C1269683	Depressive disorders
+353	APRT	C1269683	Depressive disorders
+2900	GRIK4	C1269683	Depressive disorders
+3558	IL2	C1269683	Depressive disorders
+3559	IL2RA	C1269683	Depressive disorders
+290	ANPEP	C1269683	Depressive disorders
+3589	IL11	C1269683	Depressive disorders
+3627	CXCL10	C1269683	Depressive disorders
+3665	IRF7	C1269683	Depressive disorders
+27022	FOXD3	C1269683	Depressive disorders
+9695	EDEM1	C1269683	Depressive disorders
+54584	GNB1L	C1269683	Depressive disorders
+10193	RNF41	C1269683	Depressive disorders
+5054	SERPINE1	C1269683	Depressive disorders
+50863	NTM	C1269683	Depressive disorders
+23236	PLCB1	C1269683	Depressive disorders
+51284	TLR7	C1269683	Depressive disorders
+51573	GDE1	C1269683	Depressive disorders
+51593	SRRT	C1269683	Depressive disorders
+52	ACP1	C1269683	Depressive disorders
+9444	QKI	C1269683	Depressive disorders
+2166	FAAH	C1269683	Depressive disorders
+5340	PLG	C1269683	Depressive disorders
+540	ATP7B	C1269683	Depressive disorders
+5453	POU3F1	C1269683	Depressive disorders
+54541	DDIT4	C1269683	Depressive disorders
+259217	HSPA12A	C1269683	Depressive disorders
+4745	NELL1	C1269683	Depressive disorders
+4729	NDUFV2	C1269683	Depressive disorders
+2668	GDNF	C1269683	Depressive disorders
+9568	GABBR2	C1269683	Depressive disorders
+266727	MDGA1	C1269683	Depressive disorders
+26047	CNTNAP2	C1269683	Depressive disorders
+4353	MPO	C1269683	Depressive disorders
+100303453	TSNAX-DISC1	C1269683	Depressive disorders
+4916	NTRK3	C1269683	Depressive disorders
+4929	NR4A2	C1269683	Depressive disorders
+1005	CDH7	C1269683	Depressive disorders
+9632	SEC24C	C1269683	Depressive disorders
+947	CD34	C1269683	Depressive disorders
+8811	GALR2	C1269683	Depressive disorders
+3939	LDHA	C1269683	Depressive disorders
+9771	RAPGEF5	C1269683	Depressive disorders
+815	CAMK2A	C1269683	Depressive disorders
+5209	PFKFB3	C1269683	Depressive disorders
+25890	ABI3BP	C1269683	Depressive disorders
+4939	OAS2	C1269683	Depressive disorders
+4747	NEFL	C1269683	Depressive disorders
+4723	NDUFV1	C1269683	Depressive disorders
+4684	NCAM1	C1269683	Depressive disorders
+431709	MDD2	C1269683	Depressive disorders
+2697	GJA1	C1269683	Depressive disorders
+4317	MMP8	C1269683	Depressive disorders
+55507	GPRC5D	C1269683	Depressive disorders
+56267	KYAT3	C1269683	Depressive disorders
+60482	SLC5A7	C1269683	Depressive disorders
+7498	XDH	C1269683	Depressive disorders
+6755	SSTR5	C1269683	Depressive disorders
+1429	CRYZ	C1269683	Depressive disorders
+6662	SOX9	C1269683	Depressive disorders
+6540	SLC6A13	C1269683	Depressive disorders
+1644	DDC	C1269683	Depressive disorders
+1740	DLG2	C1269683	Depressive disorders
+1906	EDN1	C1269683	Depressive disorders
+624	BDKRB2	C1269683	Depressive disorders
+3091	HIF1A	C1269683	Depressive disorders
+9968	MED12	C0033975	Schizophrenia spectrum and other psychotic disorders
+5053	PAH	C0033975	Schizophrenia spectrum and other psychotic disorders
+3356	HTR2A	C0033975	Schizophrenia spectrum and other psychotic disorders
+627	BDNF	C0033975	Schizophrenia spectrum and other psychotic disorders
+4128	MAOA	C0033975	Schizophrenia spectrum and other psychotic disorders
+203228	C9orf72	C0033975	Schizophrenia spectrum and other psychotic disorders
+2950	GSTP1	C0033975	Schizophrenia spectrum and other psychotic disorders
+775	CACNA1C	C0033975	Schizophrenia spectrum and other psychotic disorders
+2908	NR3C1	C0033975	Schizophrenia spectrum and other psychotic disorders
+2289	FKBP5	C0033975	Schizophrenia spectrum and other psychotic disorders
+288	ANK3	C0033975	Schizophrenia spectrum and other psychotic disorders
+811	CALR	C0033975	Schizophrenia spectrum and other psychotic disorders
+121278	TPH2	C0033975	Schizophrenia spectrum and other psychotic disorders
+64067	NPAS3	C0033975	Schizophrenia spectrum and other psychotic disorders
+6899	TBX1	C0033975	Schizophrenia spectrum and other psychotic disorders
+4988	OPRM1	C0033975	Schizophrenia spectrum and other psychotic disorders
+7299	TYR	C0033975	Schizophrenia spectrum and other psychotic disorders
+2902	GRIN1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6925	TCF4	C0033975	Schizophrenia spectrum and other psychotic disorders
+1745	DLX1	C0033975	Schizophrenia spectrum and other psychotic disorders
+1394	CRHR1	C0033975	Schizophrenia spectrum and other psychotic disorders
+3757	KCNH2	C0033975	Schizophrenia spectrum and other psychotic disorders
+54584	GNB1L	C0033975	Schizophrenia spectrum and other psychotic disorders
+1555	CYP2B6	C0033975	Schizophrenia spectrum and other psychotic disorders
+3952	LEP	C0033975	Schizophrenia spectrum and other psychotic disorders
+125	ADH1B	C0033975	Schizophrenia spectrum and other psychotic disorders
+4835	NQO2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4735	SEPT2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4886	NPY1R	C0033975	Schizophrenia spectrum and other psychotic disorders
+7040	TGFB1	C0033975	Schizophrenia spectrum and other psychotic disorders
+3361	HTR5A	C0033975	Schizophrenia spectrum and other psychotic disorders
+6999	TDO2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4616	GADD45B	C0033975	Schizophrenia spectrum and other psychotic disorders
+7226	TRPM2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4204	MECP2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4200	ME2	C0033975	Schizophrenia spectrum and other psychotic disorders
+5063	PAK3	C0033975	Schizophrenia spectrum and other psychotic disorders
+947	CD34	C0033975	Schizophrenia spectrum and other psychotic disorders
+54820	NDE1	C0033975	Schizophrenia spectrum and other psychotic disorders
+5788	PTPRC	C0033975	Schizophrenia spectrum and other psychotic disorders
+6303	SAT1	C0033975	Schizophrenia spectrum and other psychotic disorders
+55084	SOBP	C0033975	Schizophrenia spectrum and other psychotic disorders
+55193	PBRM1	C0033975	Schizophrenia spectrum and other psychotic disorders
+55808	ST6GALNAC1	C0033975	Schizophrenia spectrum and other psychotic disorders
+5621	PRNP	C0033975	Schizophrenia spectrum and other psychotic disorders
+64288	ZSCAN31	C0033975	Schizophrenia spectrum and other psychotic disorders
+6474	SHOX2	C0033975	Schizophrenia spectrum and other psychotic disorders
+6482	ST3GAL1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6670	SP3	C0033975	Schizophrenia spectrum and other psychotic disorders
+4985	OPRD1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6285	S100B	C0033975	Schizophrenia spectrum and other psychotic disorders
+6616	SNAP25	C0033975	Schizophrenia spectrum and other psychotic disorders
+50944	SHANK1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6536	SLC6A9	C0033975	Schizophrenia spectrum and other psychotic disorders
+5159	PDGFRB	C0033975	Schizophrenia spectrum and other psychotic disorders
+5243	ABCB1	C0033975	Schizophrenia spectrum and other psychotic disorders
+57144	PAK5	C0033975	Schizophrenia spectrum and other psychotic disorders
+1594	CYP27B1	C0033975	Schizophrenia spectrum and other psychotic disorders
+9990	SLC12A6	C0033975	Schizophrenia spectrum and other psychotic disorders
+1622	DBI	C0033975	Schizophrenia spectrum and other psychotic disorders
+1644	DDC	C0033975	Schizophrenia spectrum and other psychotic disorders
+1816	DRD5	C0033975	Schizophrenia spectrum and other psychotic disorders
+200315	APOBEC3A	C0033975	Schizophrenia spectrum and other psychotic disorders
+8991	SELENBP1	C0033975	Schizophrenia spectrum and other psychotic disorders
+2166	FAAH	C0033975	Schizophrenia spectrum and other psychotic disorders
+221833	SP8	C0033975	Schizophrenia spectrum and other psychotic disorders
+1454	CSNK1E	C0033975	Schizophrenia spectrum and other psychotic disorders
+9463	PICK1	C0033975	Schizophrenia spectrum and other psychotic disorders
+10215	OLIG2	C0033975	Schizophrenia spectrum and other psychotic disorders
+10452	TOMM40	C0033975	Schizophrenia spectrum and other psychotic disorders
+9771	RAPGEF5	C0033975	Schizophrenia spectrum and other psychotic disorders
+9638	FEZ1	C0033975	Schizophrenia spectrum and other psychotic disorders
+10846	PDE10A	C0033975	Schizophrenia spectrum and other psychotic disorders
+12	SERPINA3	C0033975	Schizophrenia spectrum and other psychotic disorders
+9607	CARTPT	C0033975	Schizophrenia spectrum and other psychotic disorders
+1267	CNP	C0033975	Schizophrenia spectrum and other psychotic disorders
+8398	PLA2G6	C0033975	Schizophrenia spectrum and other psychotic disorders
+80312	TET1	C0033975	Schizophrenia spectrum and other psychotic disorders
+2643	GCH1	C0033975	Schizophrenia spectrum and other psychotic disorders
+27350	APOBEC3C	C0033975	Schizophrenia spectrum and other psychotic disorders
+7976	FZD3	C0033975	Schizophrenia spectrum and other psychotic disorders
+2899	GRIK3	C0033975	Schizophrenia spectrum and other psychotic disorders
+2900	GRIK4	C0033975	Schizophrenia spectrum and other psychotic disorders
+26011	TENM4	C0033975	Schizophrenia spectrum and other psychotic disorders
+29985	SLC39A3	C0033975	Schizophrenia spectrum and other psychotic disorders
+3066	HDAC2	C0033975	Schizophrenia spectrum and other psychotic disorders
+2512	FTL	C0033975	Schizophrenia spectrum and other psychotic disorders
+81033	KCNH6	C0033975	Schizophrenia spectrum and other psychotic disorders
+83259	PCDH11Y	C0033975	Schizophrenia spectrum and other psychotic disorders
+23286	WWC1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6558	SLC12A2	C0033975	Schizophrenia spectrum and other psychotic disorders
+886	CCKAR	C0033975	Schizophrenia spectrum and other psychotic disorders
+7957	EPM2A	C0033975	Schizophrenia spectrum and other psychotic disorders
+773	CACNA1A	C0033975	Schizophrenia spectrum and other psychotic disorders
+5816	PVALB	C0033975	Schizophrenia spectrum and other psychotic disorders
+607	BCL9	C0033975	Schizophrenia spectrum and other psychotic disorders
+9445	ITM2B	C0033975	Schizophrenia spectrum and other psychotic disorders
+7257	TSNAX	C0033975	Schizophrenia spectrum and other psychotic disorders
+7466	WFS1	C0033975	Schizophrenia spectrum and other psychotic disorders
+81565	NDEL1	C0033975	Schizophrenia spectrum and other psychotic disorders
+6575	SLC20A2	C0033975	Schizophrenia spectrum and other psychotic disorders
+7915	ALDH5A1	C0033975	Schizophrenia spectrum and other psychotic disorders
+1015	CDH17	C0033975	Schizophrenia spectrum and other psychotic disorders
+9293	GPR52	C0033975	Schizophrenia spectrum and other psychotic disorders
+6667	SP1	C0033975	Schizophrenia spectrum and other psychotic disorders
+104	ADARB1	C0033975	Schizophrenia spectrum and other psychotic disorders
+23230	VPS13A	C0033975	Schizophrenia spectrum and other psychotic disorders
+23305	ACSL6	C0033975	Schizophrenia spectrum and other psychotic disorders
+23408	SIRT5	C0033975	Schizophrenia spectrum and other psychotic disorders
+23503	ZFYVE26	C0033975	Schizophrenia spectrum and other psychotic disorders
+27306	HPGDS	C0033975	Schizophrenia spectrum and other psychotic disorders
+2752	GLUL	C0033975	Schizophrenia spectrum and other psychotic disorders
+2768	GNA12	C0033975	Schizophrenia spectrum and other psychotic disorders
+2778	GNAS	C0033975	Schizophrenia spectrum and other psychotic disorders
+2938	GSTA1	C0033975	Schizophrenia spectrum and other psychotic disorders
+23092	ARHGAP26	C0033975	Schizophrenia spectrum and other psychotic disorders
+2263	FGFR2	C0033975	Schizophrenia spectrum and other psychotic disorders
+10577	NPC2	C0033975	Schizophrenia spectrum and other psychotic disorders
+10814	CPLX2	C0033975	Schizophrenia spectrum and other psychotic disorders
+10815	CPLX1	C0033975	Schizophrenia spectrum and other psychotic disorders
+1201	CLN3	C0033975	Schizophrenia spectrum and other psychotic disorders
+1269	CNR2	C0033975	Schizophrenia spectrum and other psychotic disorders
+1439	CSF2RB	C0033975	Schizophrenia spectrum and other psychotic disorders
+2055	CLN8	C0033975	Schizophrenia spectrum and other psychotic disorders
+210	ALAD	C0033975	Schizophrenia spectrum and other psychotic disorders
+215	ABCD1	C0033975	Schizophrenia spectrum and other psychotic disorders
+3028	HSD17B10	C0033975	Schizophrenia spectrum and other psychotic disorders
+3106	HLA-B	C0033975	Schizophrenia spectrum and other psychotic disorders
+3351	HTR1B	C0033975	Schizophrenia spectrum and other psychotic disorders
+5155	PDGFB	C0033975	Schizophrenia spectrum and other psychotic disorders
+5297	PI4KA	C0033975	Schizophrenia spectrum and other psychotic disorders
+5327	PLAT	C0033975	Schizophrenia spectrum and other psychotic disorders
+54487	DGCR8	C0033975	Schizophrenia spectrum and other psychotic disorders
+54902	TTC19	C0033975	Schizophrenia spectrum and other psychotic disorders
+5498	PPOX	C0033975	Schizophrenia spectrum and other psychotic disorders
+551	AVP	C0033975	Schizophrenia spectrum and other psychotic disorders
+5533	PPP3CC	C0033975	Schizophrenia spectrum and other psychotic disorders
+5573	PRKAR1A	C0033975	Schizophrenia spectrum and other psychotic disorders
+5116	PCNT	C0033975	Schizophrenia spectrum and other psychotic disorders
+50940	PDE11A	C0033975	Schizophrenia spectrum and other psychotic disorders
+35	ACADS	C0033975	Schizophrenia spectrum and other psychotic disorders
+4205	MEF2A	C0033975	Schizophrenia spectrum and other psychotic disorders
+442721	LMOD2	C0033975	Schizophrenia spectrum and other psychotic disorders
+4693	NDP	C0033975	Schizophrenia spectrum and other psychotic disorders
+4861	NPAS1	C0033975	Schizophrenia spectrum and other psychotic disorders
+4864	NPC1	C0033975	Schizophrenia spectrum and other psychotic disorders
+3133	HLA-E	C0033975	Schizophrenia spectrum and other psychotic disorders
+4914	NTRK1	C0033975	Schizophrenia spectrum and other psychotic disorders
+5074	PAWR	C0033975	Schizophrenia spectrum and other psychotic disorders
+5578	PRKCA	C0033975	Schizophrenia spectrum and other psychotic disorders
+9863	MAGI2	C0036341	Schizophrenia spectrum and other psychotic disorders
+27185	DISC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+84062	DTNBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1312	COMT	C0036341	Schizophrenia spectrum and other psychotic disorders
+3356	HTR2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3084	NRG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2703	GJA8	C0036341	Schizophrenia spectrum and other psychotic disorders
+27184	DISC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+488	ATP2A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2702	GJA5	C0036341	Schizophrenia spectrum and other psychotic disorders
+627	BDNF	C0036341	Schizophrenia spectrum and other psychotic disorders
+1813	DRD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6531	SLC6A3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1814	DRD3	C0036341	Schizophrenia spectrum and other psychotic disorders
+207	AKT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5649	RELN	C0036341	Schizophrenia spectrum and other psychotic disorders
+1268	CNR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+267012	DAOA	C0036341	Schizophrenia spectrum and other psychotic disorders
+6532	SLC6A4	C0036341	Schizophrenia spectrum and other psychotic disorders
+9378	NRXN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1815	DRD4	C0036341	Schizophrenia spectrum and other psychotic disorders
+4929	NR4A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4524	MTHFR	C0036341	Schizophrenia spectrum and other psychotic disorders
+5999	RGS4	C0036341	Schizophrenia spectrum and other psychotic disorders
+63826	SRR	C0036341	Schizophrenia spectrum and other psychotic disorders
+6925	TCF4	C0036341	Schizophrenia spectrum and other psychotic disorders
+4155	MBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+10814	CPLX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4135	MAP6	C0036341	Schizophrenia spectrum and other psychotic disorders
+2778	GNAS	C0036341	Schizophrenia spectrum and other psychotic disorders
+347730	LRRTM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5534	PPP3R1	C0036341	Schizophrenia spectrum and other psychotic disorders
+64478	CSMD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23236	PLCB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6529	SLC6A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23621	BACE1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6671	SP4	C0036341	Schizophrenia spectrum and other psychotic disorders
+134864	TAAR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4192	MDK	C0036341	Schizophrenia spectrum and other psychotic disorders
+552	AVPR1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+5609	MAP2K7	C0036341	Schizophrenia spectrum and other psychotic disorders
+7546	ZIC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8678	BECN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2475	MTOR	C0036341	Schizophrenia spectrum and other psychotic disorders
+8831	SYNGAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9901	SRGAP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+4855	NOTCH4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2913	GRM3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1610	DAO	C0036341	Schizophrenia spectrum and other psychotic disorders
+7124	TNF	C0036341	Schizophrenia spectrum and other psychotic disorders
+1139	CHRNA7	C0036341	Schizophrenia spectrum and other psychotic disorders
+1565	CYP2D6	C0036341	Schizophrenia spectrum and other psychotic disorders
+348	APOE	C0036341	Schizophrenia spectrum and other psychotic disorders
+2571	GAD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2904	GRIN2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+3358	HTR2C	C0036341	Schizophrenia spectrum and other psychotic disorders
+7166	TPH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2066	ERBB4	C0036341	Schizophrenia spectrum and other psychotic disorders
+9722	NOS1AP	C0036341	Schizophrenia spectrum and other psychotic disorders
+4128	MAOA	C0036341	Schizophrenia spectrum and other psychotic disorders
+3782	KCNN3	C0036341	Schizophrenia spectrum and other psychotic disorders
+4842	NOS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5625	PRODH	C0036341	Schizophrenia spectrum and other psychotic disorders
+1812	DRD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2561	GABRB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7157	TP53	C0036341	Schizophrenia spectrum and other psychotic disorders
+5305	PIP4K2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+1544	CYP1A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3586	IL10	C0036341	Schizophrenia spectrum and other psychotic disorders
+5533	PPP3CC	C0036341	Schizophrenia spectrum and other psychotic disorders
+3553	IL1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+91752	ZNF804A	C0036341	Schizophrenia spectrum and other psychotic disorders
+5321	PLA2G4A	C0036341	Schizophrenia spectrum and other psychotic disorders
+5142	PDE4B	C0036341	Schizophrenia spectrum and other psychotic disorders
+2932	GSK3B	C0036341	Schizophrenia spectrum and other psychotic disorders
+886	CCKAR	C0036341	Schizophrenia spectrum and other psychotic disorders
+1636	ACE	C0036341	Schizophrenia spectrum and other psychotic disorders
+282706	DAOA-AS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1267	CNP	C0036341	Schizophrenia spectrum and other psychotic disorders
+2903	GRIN2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+84152	PPP1R1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+3350	HTR1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+319100	TAAR6	C0036341	Schizophrenia spectrum and other psychotic disorders
+8224	SYN3	C0036341	Schizophrenia spectrum and other psychotic disorders
+7976	FZD3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3362	HTR6	C0036341	Schizophrenia spectrum and other psychotic disorders
+2784	GNB3	C0036341	Schizophrenia spectrum and other psychotic disorders
+57142	RTN4	C0036341	Schizophrenia spectrum and other psychotic disorders
+9638	FEZ1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9968	MED12	C0036341	Schizophrenia spectrum and other psychotic disorders
+5362	PLXNA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2899	GRIK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3119	HLA-DQB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4908	NTF3	C0036341	Schizophrenia spectrum and other psychotic disorders
+6648	SOD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+54806	AHI1	C0036341	Schizophrenia spectrum and other psychotic disorders
+29801	ZDHHC8	C0036341	Schizophrenia spectrum and other psychotic disorders
+2099	ESR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2893	GRIA4	C0036341	Schizophrenia spectrum and other psychotic disorders
+53826	FXYD6	C0036341	Schizophrenia spectrum and other psychotic disorders
+2917	GRM7	C0036341	Schizophrenia spectrum and other psychotic disorders
+6854	SYN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1960	EGR3	C0036341	Schizophrenia spectrum and other psychotic disorders
+89832	CHRFAM7A	C0036341	Schizophrenia spectrum and other psychotic disorders
+65078	RTN4R	C0036341	Schizophrenia spectrum and other psychotic disorders
+10611	PDLIM5	C0036341	Schizophrenia spectrum and other psychotic disorders
+5108	PCM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5243	ABCB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1116	CHI3L1	C0036341	Schizophrenia spectrum and other psychotic disorders
+775	CACNA1C	C0036341	Schizophrenia spectrum and other psychotic disorders
+2572	GAD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9575	CLOCK	C0036341	Schizophrenia spectrum and other psychotic disorders
+9145	SYNGR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7494	XBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1114	CHGB	C0036341	Schizophrenia spectrum and other psychotic disorders
+23305	ACSL6	C0036341	Schizophrenia spectrum and other psychotic disorders
+3363	HTR7	C0036341	Schizophrenia spectrum and other psychotic disorders
+4099	MAG	C0036341	Schizophrenia spectrum and other psychotic disorders
+7122	CLDN5	C0036341	Schizophrenia spectrum and other psychotic disorders
+4852	NPY	C0036341	Schizophrenia spectrum and other psychotic disorders
+81565	NDEL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10215	OLIG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2065	ERBB3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1270	CNTF	C0036341	Schizophrenia spectrum and other psychotic disorders
+6571	SLC18A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+22854	NTNG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1137	CHRNA4	C0036341	Schizophrenia spectrum and other psychotic disorders
+93986	FOXP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2944	GSTM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9463	PICK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1742	DLG4	C0036341	Schizophrenia spectrum and other psychotic disorders
+4915	NTRK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+127933	UHMK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2668	GDNF	C0036341	Schizophrenia spectrum and other psychotic disorders
+6536	SLC6A9	C0036341	Schizophrenia spectrum and other psychotic disorders
+3105	HLA-A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3843	IPO5	C0036341	Schizophrenia spectrum and other psychotic disorders
+4049	LTA	C0036341	Schizophrenia spectrum and other psychotic disorders
+4129	MAOB	C0036341	Schizophrenia spectrum and other psychotic disorders
+2894	GRID1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2912	GRM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3563	IL3RA	C0036341	Schizophrenia spectrum and other psychotic disorders
+7018	TF	C0036341	Schizophrenia spectrum and other psychotic disorders
+3123	HLA-DRB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2900	GRIK4	C0036341	Schizophrenia spectrum and other psychotic disorders
+10280	SIGMAR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+51735	RAPGEF6	C0036341	Schizophrenia spectrum and other psychotic disorders
+2730	GCLM	C0036341	Schizophrenia spectrum and other psychotic disorders
+7533	YWHAH	C0036341	Schizophrenia spectrum and other psychotic disorders
+5816	PVALB	C0036341	Schizophrenia spectrum and other psychotic disorders
+6285	S100B	C0036341	Schizophrenia spectrum and other psychotic disorders
+1141	CHRNB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+57030	SLC17A7	C0036341	Schizophrenia spectrum and other psychotic disorders
+4900	NRGN	C0036341	Schizophrenia spectrum and other psychotic disorders
+10752	CHL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+116	ADCYAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6663	SOX10	C0036341	Schizophrenia spectrum and other psychotic disorders
+10718	NRG3	C0036341	Schizophrenia spectrum and other psychotic disorders
+2952	GSTT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3359	HTR3A	C0036341	Schizophrenia spectrum and other psychotic disorders
+406928	MIR137	C0036341	Schizophrenia spectrum and other psychotic disorders
+4729	NDUFV2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9685	CLINT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+255239	ANKK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3558	IL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8128	ST8SIA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3360	HTR4	C0036341	Schizophrenia spectrum and other psychotic disorders
+3952	LEP	C0036341	Schizophrenia spectrum and other psychotic disorders
+6507	SLC1A3	C0036341	Schizophrenia spectrum and other psychotic disorders
+2670	GFAP	C0036341	Schizophrenia spectrum and other psychotic disorders
+5743	PTGS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1728	NQO1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2891	GRIA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3303	HSPA1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3565	IL4	C0036341	Schizophrenia spectrum and other psychotic disorders
+6347	CCL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+54820	NDE1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1786	DNMT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6899	TBX1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2562	GABRB3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3839	KPNA3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1438	CSF2RA	C0036341	Schizophrenia spectrum and other psychotic disorders
+6007	RHD	C0036341	Schizophrenia spectrum and other psychotic disorders
+5289	PIK3C3	C0036341	Schizophrenia spectrum and other psychotic disorders
+8542	APOL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+133	ADM	C0036341	Schizophrenia spectrum and other psychotic disorders
+3106	HLA-B	C0036341	Schizophrenia spectrum and other psychotic disorders
+7148	TNXB	C0036341	Schizophrenia spectrum and other psychotic disorders
+7353	UFD1L	C0036341	Schizophrenia spectrum and other psychotic disorders
+3304	HSPA1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+5116	PCNT	C0036341	Schizophrenia spectrum and other psychotic disorders
+9177	HTR3B	C0036341	Schizophrenia spectrum and other psychotic disorders
+2908	NR3C1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1113	CHGA	C0036341	Schizophrenia spectrum and other psychotic disorders
+2915	GRM5	C0036341	Schizophrenia spectrum and other psychotic disorders
+3552	IL1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+1577	CYP3A5	C0036341	Schizophrenia spectrum and other psychotic disorders
+2892	GRIA3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3720	JARID2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4762	NEUROG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+51586	MED15	C0036341	Schizophrenia spectrum and other psychotic disorders
+56990	CDC42SE2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9993	DGCR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1439	CSF2RB	C0036341	Schizophrenia spectrum and other psychotic disorders
+3305	HSPA1L	C0036341	Schizophrenia spectrum and other psychotic disorders
+4684	NCAM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+26047	CNTNAP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+64067	NPAS3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3569	IL6	C0036341	Schizophrenia spectrum and other psychotic disorders
+159	ADSS	C0036341	Schizophrenia spectrum and other psychotic disorders
+321	APBA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+468	ATF4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2914	GRM4	C0036341	Schizophrenia spectrum and other psychotic disorders
+23209	MLC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2890	GRIA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+885	CCK	C0036341	Schizophrenia spectrum and other psychotic disorders
+3269	HRH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7941	PLA2G7	C0036341	Schizophrenia spectrum and other psychotic disorders
+9444	QKI	C0036341	Schizophrenia spectrum and other psychotic disorders
+1128	CHRM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+148	ADRA1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+1950	EGF	C0036341	Schizophrenia spectrum and other psychotic disorders
+9456	HOMER1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3107	HLA-C	C0036341	Schizophrenia spectrum and other psychotic disorders
+8564	KMO	C0036341	Schizophrenia spectrum and other psychotic disorders
+3562	IL3	C0036341	Schizophrenia spectrum and other psychotic disorders
+7257	TSNAX	C0036341	Schizophrenia spectrum and other psychotic disorders
+4340	MOG	C0036341	Schizophrenia spectrum and other psychotic disorders
+6570	SLC18A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1739	DLG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2550	GABBR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2950	GSTP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+54584	GNB1L	C0036341	Schizophrenia spectrum and other psychotic disorders
+8398	PLA2G6	C0036341	Schizophrenia spectrum and other psychotic disorders
+4747	NEFL	C0036341	Schizophrenia spectrum and other psychotic disorders
+347	APOD	C0036341	Schizophrenia spectrum and other psychotic disorders
+1644	DDC	C0036341	Schizophrenia spectrum and other psychotic disorders
+23774	BRD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10326	SIRPB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4133	MAP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8214	DGCR6	C0036341	Schizophrenia spectrum and other psychotic disorders
+84687	PPP1R9B	C0036341	Schizophrenia spectrum and other psychotic disorders
+6506	SLC1A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2876	GPX1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4650	MYO9B	C0036341	Schizophrenia spectrum and other psychotic disorders
+472	ATM	C0036341	Schizophrenia spectrum and other psychotic disorders
+4988	OPRM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6509	SLC1A4	C0036341	Schizophrenia spectrum and other psychotic disorders
+6511	SLC1A6	C0036341	Schizophrenia spectrum and other psychotic disorders
+1493	CTLA4	C0036341	Schizophrenia spectrum and other psychotic disorders
+1959	EGR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2173	FABP7	C0036341	Schizophrenia spectrum and other psychotic disorders
+2534	FYN	C0036341	Schizophrenia spectrum and other psychotic disorders
+2554	GABRA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2566	GABRG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3757	KCNH2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3098	HK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10400	PEMT	C0036341	Schizophrenia spectrum and other psychotic disorders
+1234	CCR5	C0036341	Schizophrenia spectrum and other psychotic disorders
+3061	HCRTR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3587	IL10RA	C0036341	Schizophrenia spectrum and other psychotic disorders
+4835	NQO2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5074	PAWR	C0036341	Schizophrenia spectrum and other psychotic disorders
+5997	RGS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6510	SLC1A5	C0036341	Schizophrenia spectrum and other psychotic disorders
+7351	UCP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7447	VSNL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+780	DDR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9152	SLC6A5	C0036341	Schizophrenia spectrum and other psychotic disorders
+9481	SLC25A27	C0036341	Schizophrenia spectrum and other psychotic disorders
+1576	CYP3A4	C0036341	Schizophrenia spectrum and other psychotic disorders
+3240	HP	C0036341	Schizophrenia spectrum and other psychotic disorders
+5048	PAFAH1B1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5173	PDYN	C0036341	Schizophrenia spectrum and other psychotic disorders
+5297	PI4KA	C0036341	Schizophrenia spectrum and other psychotic disorders
+5803	PTPRZ1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6530	SLC6A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+816	CAMK2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+1133	CHRM5	C0036341	Schizophrenia spectrum and other psychotic disorders
+1501	CTNND2	C0036341	Schizophrenia spectrum and other psychotic disorders
+27020	NPTN	C0036341	Schizophrenia spectrum and other psychotic disorders
+27121	DKK4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2823	GPM6A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3383	ICAM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4277	MICB	C0036341	Schizophrenia spectrum and other psychotic disorders
+55163	PNPO	C0036341	Schizophrenia spectrum and other psychotic disorders
+688	KLF5	C0036341	Schizophrenia spectrum and other psychotic disorders
+7048	TGFBR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8490	RGS5	C0036341	Schizophrenia spectrum and other psychotic disorders
+9019	MPZL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1432	MAPK14	C0036341	Schizophrenia spectrum and other psychotic disorders
+2170	FABP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+2171	FABP5	C0036341	Schizophrenia spectrum and other psychotic disorders
+2906	GRIN2D	C0036341	Schizophrenia spectrum and other psychotic disorders
+2931	GSK3A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3274	HRH2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4627	MYH9	C0036341	Schizophrenia spectrum and other psychotic disorders
+4923	NTSR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5444	PON1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5578	PRKCA	C0036341	Schizophrenia spectrum and other psychotic disorders
+7133	TNFRSF1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+774	CACNA1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+9607	CARTPT	C0036341	Schizophrenia spectrum and other psychotic disorders
+801	CALM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5319	PLA2G1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+1789	DNMT3B	C0036341	Schizophrenia spectrum and other psychotic disorders
+221	ALDH3B1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23780	APOL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2558	GABRA5	C0036341	Schizophrenia spectrum and other psychotic disorders
+283748	PLA2G4D	C0036341	Schizophrenia spectrum and other psychotic disorders
+2901	GRIK5	C0036341	Schizophrenia spectrum and other psychotic disorders
+2953	GSTT2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3714	JAG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+51473	DCDC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5468	PPARG	C0036341	Schizophrenia spectrum and other psychotic disorders
+6470	SHMT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+81567	TXNDC5	C0036341	Schizophrenia spectrum and other psychotic disorders
+84466	MEGF10	C0036341	Schizophrenia spectrum and other psychotic disorders
+8863	PER3	C0036341	Schizophrenia spectrum and other psychotic disorders
+288	ANK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+121278	TPH2	C0036341	Schizophrenia spectrum and other psychotic disorders
+80832	APOL4	C0036341	Schizophrenia spectrum and other psychotic disorders
+84628	NTNG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2752	GLUL	C0036341	Schizophrenia spectrum and other psychotic disorders
+4318	MMP9	C0036341	Schizophrenia spectrum and other psychotic disorders
+2897	GRIK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5354	PLP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6855	SYP	C0036341	Schizophrenia spectrum and other psychotic disorders
+135	ADORA2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+19	ABCA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4922	NTS	C0036341	Schizophrenia spectrum and other psychotic disorders
+5053	PAH	C0036341	Schizophrenia spectrum and other psychotic disorders
+6558	SLC12A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2898	GRIK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+65018	PINK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7531	YWHAE	C0036341	Schizophrenia spectrum and other psychotic disorders
+150	ADRA2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+25830	SULT4A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2918	GRM8	C0036341	Schizophrenia spectrum and other psychotic disorders
+3361	HTR5A	C0036341	Schizophrenia spectrum and other psychotic disorders
+407034	MIR30E	C0036341	Schizophrenia spectrum and other psychotic disorders
+421	ARVCF	C0036341	Schizophrenia spectrum and other psychotic disorders
+1132	CHRM4	C0036341	Schizophrenia spectrum and other psychotic disorders
+27087	B3GAT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2847	MCHR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3065	HDAC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3606	IL18	C0036341	Schizophrenia spectrum and other psychotic disorders
+6667	SP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10369	CACNG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1740	DLG2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23040	MYT1L	C0036341	Schizophrenia spectrum and other psychotic disorders
+27115	PDE7B	C0036341	Schizophrenia spectrum and other psychotic disorders
+4916	NTRK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+5290	PIK3CA	C0036341	Schizophrenia spectrum and other psychotic disorders
+8841	HDAC3	C0036341	Schizophrenia spectrum and other psychotic disorders
+8991	SELENBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10371	SEMA3A	C0036341	Schizophrenia spectrum and other psychotic disorders
+140679	SLC32A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1759	DNM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2774	GNAL	C0036341	Schizophrenia spectrum and other psychotic disorders
+3570	IL6R	C0036341	Schizophrenia spectrum and other psychotic disorders
+4297	KMT2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+4522	MTHFD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4804	NGFR	C0036341	Schizophrenia spectrum and other psychotic disorders
+4976	OPA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6804	STX1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+7436	VLDLR	C0036341	Schizophrenia spectrum and other psychotic disorders
+9699	RIMS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9826	ARHGEF11	C0036341	Schizophrenia spectrum and other psychotic disorders
+1103	CHAT	C0036341	Schizophrenia spectrum and other psychotic disorders
+1269	CNR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1948	EFNB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1961	EGR4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2100	ESR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23245	ASTN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3094	HINT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+367	AR	C0036341	Schizophrenia spectrum and other psychotic disorders
+51299	NRN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5291	PIK3CB	C0036341	Schizophrenia spectrum and other psychotic disorders
+57084	SLC17A6	C0036341	Schizophrenia spectrum and other psychotic disorders
+6870	TACR3	C0036341	Schizophrenia spectrum and other psychotic disorders
+6908	TBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+6934	TCF7L2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7052	TGM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7515	XRCC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+84547	PGBD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8787	RGS9	C0036341	Schizophrenia spectrum and other psychotic disorders
+1152	CKB	C0036341	Schizophrenia spectrum and other psychotic disorders
+2019	EN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23208	SYT11	C0036341	Schizophrenia spectrum and other psychotic disorders
+23395	LARS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+259217	HSPA12A	C0036341	Schizophrenia spectrum and other psychotic disorders
+27037	TRMT2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+2911	GRM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+324	APC	C0036341	Schizophrenia spectrum and other psychotic disorders
+338442	HCAR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4090	SMAD5	C0036341	Schizophrenia spectrum and other psychotic disorders
+4190	MDH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5100	PCDH8	C0036341	Schizophrenia spectrum and other psychotic disorders
+51734	MSRB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5730	PTGDS	C0036341	Schizophrenia spectrum and other psychotic disorders
+6586	SLIT3	C0036341	Schizophrenia spectrum and other psychotic disorders
+6647	SOD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6869	TACR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9248	GPR50	C0036341	Schizophrenia spectrum and other psychotic disorders
+9588	PRDX6	C0036341	Schizophrenia spectrum and other psychotic disorders
+9783	RIMS3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1138	CHRNA5	C0036341	Schizophrenia spectrum and other psychotic disorders
+1454	CSNK1E	C0036341	Schizophrenia spectrum and other psychotic disorders
+155	ADRB3	C0036341	Schizophrenia spectrum and other psychotic disorders
+1571	CYP2E1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1958	EGR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+216	ALDH1A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2263	FGFR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+22871	NLGN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23551	RASD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2559	GABRA6	C0036341	Schizophrenia spectrum and other psychotic disorders
+26223	FBXL21	C0036341	Schizophrenia spectrum and other psychotic disorders
+266727	MDGA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2675	GFRA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2729	GCLC	C0036341	Schizophrenia spectrum and other psychotic disorders
+2744	GLS	C0036341	Schizophrenia spectrum and other psychotic disorders
+285242	HTR3E	C0036341	Schizophrenia spectrum and other psychotic disorders
+3352	HTR1D	C0036341	Schizophrenia spectrum and other psychotic disorders
+361	AQP4	C0036341	Schizophrenia spectrum and other psychotic disorders
+3613	IMPA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3697	ITIH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4009	LMX1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+4023	LPL	C0036341	Schizophrenia spectrum and other psychotic disorders
+4233	MET	C0036341	Schizophrenia spectrum and other psychotic disorders
+4482	MSRA	C0036341	Schizophrenia spectrum and other psychotic disorders
+4862	NPAS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5062	PAK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5080	PAX6	C0036341	Schizophrenia spectrum and other psychotic disorders
+6303	SAT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6720	SREBF1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6721	SREBF2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6891	TAP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7101	NR2E1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7276	TTR	C0036341	Schizophrenia spectrum and other psychotic disorders
+7625	ZNF74	C0036341	Schizophrenia spectrum and other psychotic disorders
+8220	DGCR14	C0036341	Schizophrenia spectrum and other psychotic disorders
+8605	PLA2G4C	C0036341	Schizophrenia spectrum and other psychotic disorders
+8843	HCAR3	C0036341	Schizophrenia spectrum and other psychotic disorders
+9369	NRXN3	C0036341	Schizophrenia spectrum and other psychotic disorders
+9759	HDAC4	C0036341	Schizophrenia spectrum and other psychotic disorders
+30816	ERVW-1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6750	SST	C0036341	Schizophrenia spectrum and other psychotic disorders
+5245	PHB	C0036341	Schizophrenia spectrum and other psychotic disorders
+8443	GNPAT	C0036341	Schizophrenia spectrum and other psychotic disorders
+10634	GAS2L1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10675	CSPG5	C0036341	Schizophrenia spectrum and other psychotic disorders
+11167	FSTL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+11240	PADI2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1129	CHRM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1136	CHRNA3	C0036341	Schizophrenia spectrum and other psychotic disorders
+134	ADORA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1392	CRH	C0036341	Schizophrenia spectrum and other psychotic disorders
+1453	CSNK1D	C0036341	Schizophrenia spectrum and other psychotic disorders
+154664	ABCA13	C0036341	Schizophrenia spectrum and other psychotic disorders
+1630	DCC	C0036341	Schizophrenia spectrum and other psychotic disorders
+1745	DLX1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2026	ENO2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2166	FAAH	C0036341	Schizophrenia spectrum and other psychotic disorders
+218	ALDH3A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2182	ACSL4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2203	FBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+223117	SEMA3D	C0036341	Schizophrenia spectrum and other psychotic disorders
+2260	FGFR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2317	FLNB	C0036341	Schizophrenia spectrum and other psychotic disorders
+23426	GRIP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23523	CABIN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23569	PADI4	C0036341	Schizophrenia spectrum and other psychotic disorders
+238	ALK	C0036341	Schizophrenia spectrum and other psychotic disorders
+266553	OFCC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+26985	AP3M1	C0036341	Schizophrenia spectrum and other psychotic disorders
+340665	CYP26C1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3593	IL12B	C0036341	Schizophrenia spectrum and other psychotic disorders
+3756	KCNH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3766	KCNJ10	C0036341	Schizophrenia spectrum and other psychotic disorders
+3796	KIF2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+4010	LMX1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+406989	MIR206	C0036341	Schizophrenia spectrum and other psychotic disorders
+4314	MMP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+4508	ATP6	C0036341	Schizophrenia spectrum and other psychotic disorders
+4905	NSF	C0036341	Schizophrenia spectrum and other psychotic disorders
+5105	PCK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5144	PDE4D	C0036341	Schizophrenia spectrum and other psychotic disorders
+51738	GHRL	C0036341	Schizophrenia spectrum and other psychotic disorders
+5309	PITX3	C0036341	Schizophrenia spectrum and other psychotic disorders
+54808	DYM	C0036341	Schizophrenia spectrum and other psychotic disorders
+55784	MCTP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+56603	CYP26B1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5742	PTGS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+64854	USP46	C0036341	Schizophrenia spectrum and other psychotic disorders
+6890	TAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6892	TAPBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+6950	TCP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7020	TFAP2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+7103	TSPAN8	C0036341	Schizophrenia spectrum and other psychotic disorders
+7132	TNFRSF1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+7518	XRCC4	C0036341	Schizophrenia spectrum and other psychotic disorders
+875	CBS	C0036341	Schizophrenia spectrum and other psychotic disorders
+8854	ALDH1A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9228	DLGAP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9253	NUMBL	C0036341	Schizophrenia spectrum and other psychotic disorders
+9342	SNAP29	C0036341	Schizophrenia spectrum and other psychotic disorders
+93663	ARHGAP18	C0036341	Schizophrenia spectrum and other psychotic disorders
+9455	HOMER2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9583	ENTPD4	C0036341	Schizophrenia spectrum and other psychotic disorders
+962	CD48	C0036341	Schizophrenia spectrum and other psychotic disorders
+1401	CRP	C0036341	Schizophrenia spectrum and other psychotic disorders
+2332	FMR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+200909	HTR3D	C0036341	Schizophrenia spectrum and other psychotic disorders
+2557	GABRA4	C0036341	Schizophrenia spectrum and other psychotic disorders
+6863	TAC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8633	UNC5C	C0036341	Schizophrenia spectrum and other psychotic disorders
+8682	PEA15	C0036341	Schizophrenia spectrum and other psychotic disorders
+27306	HPGDS	C0036341	Schizophrenia spectrum and other psychotic disorders
+2775	GNAO1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5617	PRL	C0036341	Schizophrenia spectrum and other psychotic disorders
+1437	CSF2	C0036341	Schizophrenia spectrum and other psychotic disorders
+203228	C9orf72	C0036341	Schizophrenia spectrum and other psychotic disorders
+3355	HTR1F	C0036341	Schizophrenia spectrum and other psychotic disorders
+5020	OXT	C0036341	Schizophrenia spectrum and other psychotic disorders
+7434	VIPR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1741	DLG3	C0036341	Schizophrenia spectrum and other psychotic disorders
+5662	PSD	C0036341	Schizophrenia spectrum and other psychotic disorders
+573	BAG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+79837	PIP4K2C	C0036341	Schizophrenia spectrum and other psychotic disorders
+1385	CREB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1463	NCAN	C0036341	Schizophrenia spectrum and other psychotic disorders
+2596	GAP43	C0036341	Schizophrenia spectrum and other psychotic disorders
+7299	TYR	C0036341	Schizophrenia spectrum and other psychotic disorders
+10815	CPLX1	C0036341	Schizophrenia spectrum and other psychotic disorders
+116443	GRIN3A	C0036341	Schizophrenia spectrum and other psychotic disorders
+2011	MARK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23191	CYFIP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2905	GRIN2C	C0036341	Schizophrenia spectrum and other psychotic disorders
+2946	GSTM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3458	IFNG	C0036341	Schizophrenia spectrum and other psychotic disorders
+3699	ITIH3	C0036341	Schizophrenia spectrum and other psychotic disorders
+400765	MIR137HG	C0036341	Schizophrenia spectrum and other psychotic disorders
+442911	MIR346	C0036341	Schizophrenia spectrum and other psychotic disorders
+4914	NTRK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5141	PDE4A	C0036341	Schizophrenia spectrum and other psychotic disorders
+5664	PSEN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6595	SMARCA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+998	CDC42	C0036341	Schizophrenia spectrum and other psychotic disorders
+100131814	LINC00271	C0036341	Schizophrenia spectrum and other psychotic disorders
+100329170	SCZD13	C0036341	Schizophrenia spectrum and other psychotic disorders
+100775105	ERVK-18	C0036341	Schizophrenia spectrum and other psychotic disorders
+10645	CAMKK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+117	ADCYAP1R1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1429	CRYZ	C0036341	Schizophrenia spectrum and other psychotic disorders
+1499	CTNNB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1993	ELAVL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+202333	CMYA5	C0036341	Schizophrenia spectrum and other psychotic disorders
+222698	NKAPL	C0036341	Schizophrenia spectrum and other psychotic disorders
+23413	NCS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+26468	LHX6	C0036341	Schizophrenia spectrum and other psychotic disorders
+3066	HDAC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3725	JUN	C0036341	Schizophrenia spectrum and other psychotic disorders
+387129	NPSR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4544	MTNR1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+5021	OXTR	C0036341	Schizophrenia spectrum and other psychotic disorders
+5465	PPARA	C0036341	Schizophrenia spectrum and other psychotic disorders
+54805	CNNM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+551	AVP	C0036341	Schizophrenia spectrum and other psychotic disorders
+57468	SLC12A5	C0036341	Schizophrenia spectrum and other psychotic disorders
+57532	NUFIP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+57576	KIF17	C0036341	Schizophrenia spectrum and other psychotic disorders
+607	BCL9	C0036341	Schizophrenia spectrum and other psychotic disorders
+6539	SLC6A12	C0036341	Schizophrenia spectrum and other psychotic disorders
+7305	TYROBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+7421	VDR	C0036341	Schizophrenia spectrum and other psychotic disorders
+7444	VRK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+84867	PTPN5	C0036341	Schizophrenia spectrum and other psychotic disorders
+8929	PHOX2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+90139	TSPAN18	C0036341	Schizophrenia spectrum and other psychotic disorders
+9030	ERDA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9229	DLGAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9348	NDST3	C0036341	Schizophrenia spectrum and other psychotic disorders
+9739	SETD1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+100616496	ERVW-4	C0036341	Schizophrenia spectrum and other psychotic disorders
+10279	PRSS16	C0036341	Schizophrenia spectrum and other psychotic disorders
+104	ADARB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1068	CETN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10743	RAI1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10859	LILRB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10891	PPARGC1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+116285	ACSM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1191	CLU	C0036341	Schizophrenia spectrum and other psychotic disorders
+1622	DBI	C0036341	Schizophrenia spectrum and other psychotic disorders
+1627	DBN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+203062	TSNARE1	C0036341	Schizophrenia spectrum and other psychotic disorders
+22850	ADNP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23237	ARC	C0036341	Schizophrenia spectrum and other psychotic disorders
+23394	ADNP	C0036341	Schizophrenia spectrum and other psychotic disorders
+23405	DICER1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23411	SIRT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2346	FOLH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+239	ALOX12	C0036341	Schizophrenia spectrum and other psychotic disorders
+246744	STH	C0036341	Schizophrenia spectrum and other psychotic disorders
+2560	GABRB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+25874	MPC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+27189	IL17C	C0036341	Schizophrenia spectrum and other psychotic disorders
+2739	GLO1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2896	GRN	C0036341	Schizophrenia spectrum and other psychotic disorders
+2934	GSN	C0036341	Schizophrenia spectrum and other psychotic disorders
+2938	GSTA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3115	HLA-DPB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3313	HSPA9	C0036341	Schizophrenia spectrum and other psychotic disorders
+3342	HTC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3481	IGF2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3785	KCNQ2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3790	KCNS3	C0036341	Schizophrenia spectrum and other psychotic disorders
+387032	ZKSCAN4	C0036341	Schizophrenia spectrum and other psychotic disorders
+388552	BLOC1S3	C0036341	Schizophrenia spectrum and other psychotic disorders
+406901	MIR107	C0036341	Schizophrenia spectrum and other psychotic disorders
+406920	MIR130B	C0036341	Schizophrenia spectrum and other psychotic disorders
+406952	MIR17	C0036341	Schizophrenia spectrum and other psychotic disorders
+409	ARRB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4543	MTNR1A	C0036341	Schizophrenia spectrum and other psychotic disorders
+4719	NDUFS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4837	NNMT	C0036341	Schizophrenia spectrum and other psychotic disorders
+4886	NPY1R	C0036341	Schizophrenia spectrum and other psychotic disorders
+50632	CALY	C0036341	Schizophrenia spectrum and other psychotic disorders
+51150	SDF4	C0036341	Schizophrenia spectrum and other psychotic disorders
+5159	PDGFRB	C0036341	Schizophrenia spectrum and other psychotic disorders
+52	ACP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5368	PNOC	C0036341	Schizophrenia spectrum and other psychotic disorders
+54210	TREM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+55193	PBRM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5521	PPP2R2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+5595	MAPK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+56301	SLC7A10	C0036341	Schizophrenia spectrum and other psychotic disorders
+56666	PANX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+57128	LYRM4	C0036341	Schizophrenia spectrum and other psychotic disorders
+574451	MIR432	C0036341	Schizophrenia spectrum and other psychotic disorders
+5914	RARA	C0036341	Schizophrenia spectrum and other psychotic disorders
+594857	NPS	C0036341	Schizophrenia spectrum and other psychotic disorders
+595	CCND1	C0036341	Schizophrenia spectrum and other psychotic disorders
+596	BCL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+613212	CTXN3	C0036341	Schizophrenia spectrum and other psychotic disorders
+6426	SRSF1	C0036341	Schizophrenia spectrum and other psychotic disorders
+64850	ETNPPL	C0036341	Schizophrenia spectrum and other psychotic disorders
+6540	SLC6A13	C0036341	Schizophrenia spectrum and other psychotic disorders
+6576	SLC25A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6853	SYN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6999	TDO2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7040	TGFB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7356	SCGB1A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7422	VEGFA	C0036341	Schizophrenia spectrum and other psychotic disorders
+7432	VIP	C0036341	Schizophrenia spectrum and other psychotic disorders
+7804	LRP8	C0036341	Schizophrenia spectrum and other psychotic disorders
+7903	ST8SIA4	C0036341	Schizophrenia spectrum and other psychotic disorders
+793	CALB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+80312	TET1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8379	MAD1L1	C0036341	Schizophrenia spectrum and other psychotic disorders
+85439	STON2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8809	IL18R1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8932	MBD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+89781	HPS4	C0036341	Schizophrenia spectrum and other psychotic disorders
+9732	DOCK4	C0036341	Schizophrenia spectrum and other psychotic disorders
+9734	HDAC9	C0036341	Schizophrenia spectrum and other psychotic disorders
+989	SEPT7	C0036341	Schizophrenia spectrum and other psychotic disorders
+100137049	PLA2G4B	C0036341	Schizophrenia spectrum and other psychotic disorders
+100302690	DLG2-AS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+100303453	TSNAX-DISC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10048	RANBP9	C0036341	Schizophrenia spectrum and other psychotic disorders
+100616452	MIR2682	C0036341	Schizophrenia spectrum and other psychotic disorders
+10097	ACTR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+10151	HNRNPA3P1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1020	CDK5	C0036341	Schizophrenia spectrum and other psychotic disorders
+1028	CDKN1C	C0036341	Schizophrenia spectrum and other psychotic disorders
+10327	AKR1A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+10518	CIB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+10602	CDC42EP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+10644	IGF2BP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+10664	CTCF	C0036341	Schizophrenia spectrum and other psychotic disorders
+10678	B3GNT2	C0036341	Schizophrenia spectrum and other psychotic disorders
+10772	SRSF10	C0036341	Schizophrenia spectrum and other psychotic disorders
+10806	SDCCAG8	C0036341	Schizophrenia spectrum and other psychotic disorders
+11099	PTPN21	C0036341	Schizophrenia spectrum and other psychotic disorders
+11202	KLK8	C0036341	Schizophrenia spectrum and other psychotic disorders
+11337	GABARAP	C0036341	Schizophrenia spectrum and other psychotic disorders
+114781	BTBD9	C0036341	Schizophrenia spectrum and other psychotic disorders
+114784	CSMD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+114899	C1QTNF3	C0036341	Schizophrenia spectrum and other psychotic disorders
+118490	MSS51	C0036341	Schizophrenia spectrum and other psychotic disorders
+120892	LRRK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+134829	CLVS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+135152	B3GAT2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1387	CREBBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+1390	CREM	C0036341	Schizophrenia spectrum and other psychotic disorders
+1400	CRMP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+140902	R3HDML	C0036341	Schizophrenia spectrum and other psychotic disorders
+145864	HAPLN3	C0036341	Schizophrenia spectrum and other psychotic disorders
+149111	CNIH3	C0036341	Schizophrenia spectrum and other psychotic disorders
+149420	PDIK1L	C0036341	Schizophrenia spectrum and other psychotic disorders
+1496	CTNNA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1513	CTSK	C0036341	Schizophrenia spectrum and other psychotic disorders
+157	GRK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+160851	DGKH	C0036341	Schizophrenia spectrum and other psychotic disorders
+161436	EML5	C0036341	Schizophrenia spectrum and other psychotic disorders
+169026	SLC30A8	C0036341	Schizophrenia spectrum and other psychotic disorders
+169166	SNX31	C0036341	Schizophrenia spectrum and other psychotic disorders
+1735	DIO3	C0036341	Schizophrenia spectrum and other psychotic disorders
+175	AGA	C0036341	Schizophrenia spectrum and other psychotic disorders
+177	AGER	C0036341	Schizophrenia spectrum and other psychotic disorders
+1806	DPYD	C0036341	Schizophrenia spectrum and other psychotic disorders
+182	JAG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1848	DUSP6	C0036341	Schizophrenia spectrum and other psychotic disorders
+1965	EIF2S1	C0036341	Schizophrenia spectrum and other psychotic disorders
+200933	FBXO45	C0036341	Schizophrenia spectrum and other psychotic disorders
+2018	EMX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2020	EN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+219790	RTKN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+220988	HNRNPA3	C0036341	Schizophrenia spectrum and other psychotic disorders
+2212	FCGR2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+22874	PLEKHA6	C0036341	Schizophrenia spectrum and other psychotic disorders
+22904	SBNO2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23026	MYO16	C0036341	Schizophrenia spectrum and other psychotic disorders
+23043	TNIK	C0036341	Schizophrenia spectrum and other psychotic disorders
+23114	NFASC	C0036341	Schizophrenia spectrum and other psychotic disorders
+2335	FN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23362	PSD3	C0036341	Schizophrenia spectrum and other psychotic disorders
+23408	SIRT5	C0036341	Schizophrenia spectrum and other psychotic disorders
+23500	DAAM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23600	AMACR	C0036341	Schizophrenia spectrum and other psychotic disorders
+23731	TMEM245	C0036341	Schizophrenia spectrum and other psychotic disorders
+2414	FRA7G	C0036341	Schizophrenia spectrum and other psychotic disorders
+2530	FUT8	C0036341	Schizophrenia spectrum and other psychotic disorders
+2569	GABRR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+259232	NALCN	C0036341	Schizophrenia spectrum and other psychotic disorders
+26011	TENM4	C0036341	Schizophrenia spectrum and other psychotic disorders
+26053	AUTS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2643	GCH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2674	GFRA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2676	GFRA3	C0036341	Schizophrenia spectrum and other psychotic disorders
+27013	CNPPD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+27091	CACNG5	C0036341	Schizophrenia spectrum and other psychotic disorders
+27122	DKK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+27165	GLS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+27201	GPR78	C0036341	Schizophrenia spectrum and other psychotic disorders
+27253	PCDH17	C0036341	Schizophrenia spectrum and other psychotic disorders
+2742	GLRA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+282617	IFNL3	C0036341	Schizophrenia spectrum and other psychotic disorders
+2870	GRK6	C0036341	Schizophrenia spectrum and other psychotic disorders
+2873	GPS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+2885	GRB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2887	GRB10	C0036341	Schizophrenia spectrum and other psychotic disorders
+29102	DROSHA	C0036341	Schizophrenia spectrum and other psychotic disorders
+2937	GSS	C0036341	Schizophrenia spectrum and other psychotic disorders
+29947	DNMT3L	C0036341	Schizophrenia spectrum and other psychotic disorders
+29949	IL19	C0036341	Schizophrenia spectrum and other psychotic disorders
+29968	PSAT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3008	HIST1H1E	C0036341	Schizophrenia spectrum and other psychotic disorders
+3009	HIST1H1B	C0036341	Schizophrenia spectrum and other psychotic disorders
+3014	H2AFX	C0036341	Schizophrenia spectrum and other psychotic disorders
+3029	HAGH	C0036341	Schizophrenia spectrum and other psychotic disorders
+3077	HFE	C0036341	Schizophrenia spectrum and other psychotic disorders
+3137	HLA-J	C0036341	Schizophrenia spectrum and other psychotic disorders
+3159	HMGA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3162	HMOX1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3416	IDE	C0036341	Schizophrenia spectrum and other psychotic disorders
+355	FAS	C0036341	Schizophrenia spectrum and other psychotic disorders
+3561	IL2RG	C0036341	Schizophrenia spectrum and other psychotic disorders
+3684	ITGAM	C0036341	Schizophrenia spectrum and other psychotic disorders
+3690	ITGB3	C0036341	Schizophrenia spectrum and other psychotic disorders
+374291	NDUFS7	C0036341	Schizophrenia spectrum and other psychotic disorders
+3760	KCNJ3	C0036341	Schizophrenia spectrum and other psychotic disorders
+3786	KCNQ3	C0036341	Schizophrenia spectrum and other psychotic disorders
+392	ARHGAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3927	LASP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+3977	LIFR	C0036341	Schizophrenia spectrum and other psychotic disorders
+3992	FADS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+400359	C15orf53	C0036341	Schizophrenia spectrum and other psychotic disorders
+4036	LRP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4045	LSAMP	C0036341	Schizophrenia spectrum and other psychotic disorders
+406961	MIR185	C0036341	Schizophrenia spectrum and other psychotic disorders
+4154	MBNL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4161	MC5R	C0036341	Schizophrenia spectrum and other psychotic disorders
+4200	ME2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4267	CD99	C0036341	Schizophrenia spectrum and other psychotic disorders
+427	ASAH1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4282	MIF	C0036341	Schizophrenia spectrum and other psychotic disorders
+4308	TRPM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+4336	MOBP	C0036341	Schizophrenia spectrum and other psychotic disorders
+442900	MIR326	C0036341	Schizophrenia spectrum and other psychotic disorders
+449489	DFNB47	C0036341	Schizophrenia spectrum and other psychotic disorders
+4548	MTR	C0036341	Schizophrenia spectrum and other psychotic disorders
+4550	RNR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4645	MYO5B	C0036341	Schizophrenia spectrum and other psychotic disorders
+4693	NDP	C0036341	Schizophrenia spectrum and other psychotic disorders
+4723	NDUFV1	C0036341	Schizophrenia spectrum and other psychotic disorders
+494331	MIR382	C0036341	Schizophrenia spectrum and other psychotic disorders
+4978	OPCML	C0036341	Schizophrenia spectrum and other psychotic disorders
+4986	OPRK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5010	CLDN11	C0036341	Schizophrenia spectrum and other psychotic disorders
+5015	OTX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+50628	GEMIN4	C0036341	Schizophrenia spectrum and other psychotic disorders
+50944	SHANK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5127	CDK16	C0036341	Schizophrenia spectrum and other psychotic disorders
+5174	PDZK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5274	SERPINI1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5327	PLAT	C0036341	Schizophrenia spectrum and other psychotic disorders
+53335	BCL11A	C0036341	Schizophrenia spectrum and other psychotic disorders
+5340	PLG	C0036341	Schizophrenia spectrum and other psychotic disorders
+5348	FXYD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5375	PMP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+54407	SLC38A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+54487	DGCR8	C0036341	Schizophrenia spectrum and other psychotic disorders
+54551	MAGEL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+54567	DLL4	C0036341	Schizophrenia spectrum and other psychotic disorders
+5478	PPIA	C0036341	Schizophrenia spectrum and other psychotic disorders
+54986	ULK4	C0036341	Schizophrenia spectrum and other psychotic disorders
+55213	RCBTB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+55300	PI4K2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+55486	PARL	C0036341	Schizophrenia spectrum and other psychotic disorders
+55553	SOX6	C0036341	Schizophrenia spectrum and other psychotic disorders
+55626	AMBRA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+55733	HHAT	C0036341	Schizophrenia spectrum and other psychotic disorders
+55752	SEPT11	C0036341	Schizophrenia spectrum and other psychotic disorders
+55808	ST6GALNAC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+55824	PAG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5594	MAPK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5599	MAPK8	C0036341	Schizophrenia spectrum and other psychotic disorders
+567	B2M	C0036341	Schizophrenia spectrum and other psychotic disorders
+57088	PLSCR4	C0036341	Schizophrenia spectrum and other psychotic disorders
+57188	ADAMTSL3	C0036341	Schizophrenia spectrum and other psychotic disorders
+5733	PTGER3	C0036341	Schizophrenia spectrum and other psychotic disorders
+57369	GJD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+574456	MIR497	C0036341	Schizophrenia spectrum and other psychotic disorders
+57555	NLGN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5770	PTPN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5777	PTPN6	C0036341	Schizophrenia spectrum and other psychotic disorders
+5786	PTPRA	C0036341	Schizophrenia spectrum and other psychotic disorders
+5824	PEX19	C0036341	Schizophrenia spectrum and other psychotic disorders
+58510	PRODH2	C0036341	Schizophrenia spectrum and other psychotic disorders
+5902	RANBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+59283	CACNG8	C0036341	Schizophrenia spectrum and other psychotic disorders
+5947	RBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+5970	RELA	C0036341	Schizophrenia spectrum and other psychotic disorders
+5978	REST	C0036341	Schizophrenia spectrum and other psychotic disorders
+60	ACTB	C0036341	Schizophrenia spectrum and other psychotic disorders
+6001	RGS10	C0036341	Schizophrenia spectrum and other psychotic disorders
+60481	ELOVL5	C0036341	Schizophrenia spectrum and other psychotic disorders
+619465	ERVK-8	C0036341	Schizophrenia spectrum and other psychotic disorders
+6311	ATXN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+637	BID	C0036341	Schizophrenia spectrum and other psychotic disorders
+6377	SCZD1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6378	SCZD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+638	BIK	C0036341	Schizophrenia spectrum and other psychotic disorders
+63876	PKNOX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6389	SDHA	C0036341	Schizophrenia spectrum and other psychotic disorders
+63944	SCZD10	C0036341	Schizophrenia spectrum and other psychotic disorders
+64288	ZSCAN31	C0036341	Schizophrenia spectrum and other psychotic disorders
+6474	SHOX2	C0036341	Schizophrenia spectrum and other psychotic disorders
+64902	AGXT2	C0036341	Schizophrenia spectrum and other psychotic disorders
+65266	WNK4	C0036341	Schizophrenia spectrum and other psychotic disorders
+65267	WNK3	C0036341	Schizophrenia spectrum and other psychotic disorders
+6538	SLC6A11	C0036341	Schizophrenia spectrum and other psychotic disorders
+6620	SNCB	C0036341	Schizophrenia spectrum and other psychotic disorders
+6660	SOX5	C0036341	Schizophrenia spectrum and other psychotic disorders
+6712	SPTBN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6716	SRD5A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+675	BRCA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6812	STXBP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+682	BSG	C0036341	Schizophrenia spectrum and other psychotic disorders
+6843	VAMP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6844	VAMP2	C0036341	Schizophrenia spectrum and other psychotic disorders
+6845	VAMP7	C0036341	Schizophrenia spectrum and other psychotic disorders
+685	BTC	C0036341	Schizophrenia spectrum and other psychotic disorders
+692200	SNORD103C	C0036341	Schizophrenia spectrum and other psychotic disorders
+694	BTG1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7057	THBS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7079	TIMP4	C0036341	Schizophrenia spectrum and other psychotic disorders
+7097	TLR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+7098	TLR3	C0036341	Schizophrenia spectrum and other psychotic disorders
+7099	TLR4	C0036341	Schizophrenia spectrum and other psychotic disorders
+712	C1QA	C0036341	Schizophrenia spectrum and other psychotic disorders
+713	C1QB	C0036341	Schizophrenia spectrum and other psychotic disorders
+7167	TPI1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7178	TPT1	C0036341	Schizophrenia spectrum and other psychotic disorders
+722	C4BPA	C0036341	Schizophrenia spectrum and other psychotic disorders
+725	C4BPB	C0036341	Schizophrenia spectrum and other psychotic disorders
+7425	VGF	C0036341	Schizophrenia spectrum and other psychotic disorders
+7472	WNT2	C0036341	Schizophrenia spectrum and other psychotic disorders
+778	CACNA1F	C0036341	Schizophrenia spectrum and other psychotic disorders
+7781	SLC30A3	C0036341	Schizophrenia spectrum and other psychotic disorders
+783	CACNB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+79080	CCDC86	C0036341	Schizophrenia spectrum and other psychotic disorders
+79137	FAM134A	C0036341	Schizophrenia spectrum and other psychotic disorders
+79728	PALB2	C0036341	Schizophrenia spectrum and other psychotic disorders
+80025	PANK2	C0036341	Schizophrenia spectrum and other psychotic disorders
+80323	CCDC68	C0036341	Schizophrenia spectrum and other psychotic disorders
+8038	ADAM12	C0036341	Schizophrenia spectrum and other psychotic disorders
+81562	LMAN2L	C0036341	Schizophrenia spectrum and other psychotic disorders
+81792	ADAMTS12	C0036341	Schizophrenia spectrum and other psychotic disorders
+8315	BRAP	C0036341	Schizophrenia spectrum and other psychotic disorders
+836	CASP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+83999	KREMEN1	C0036341	Schizophrenia spectrum and other psychotic disorders
+84148	KAT8	C0036341	Schizophrenia spectrum and other psychotic disorders
+84539	MCHR2	C0036341	Schizophrenia spectrum and other psychotic disorders
+84952	CGNL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8516	ITGA8	C0036341	Schizophrenia spectrum and other psychotic disorders
+8528	DDO	C0036341	Schizophrenia spectrum and other psychotic disorders
+85458	DIXDC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8604	SLC25A12	C0036341	Schizophrenia spectrum and other psychotic disorders
+86123	YWHAZP5	C0036341	Schizophrenia spectrum and other psychotic disorders
+8741	TNFSF13	C0036341	Schizophrenia spectrum and other psychotic disorders
+8851	CDK5R1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8924	HERC2	C0036341	Schizophrenia spectrum and other psychotic disorders
+894	CCND2	C0036341	Schizophrenia spectrum and other psychotic disorders
+8940	TOP3B	C0036341	Schizophrenia spectrum and other psychotic disorders
+8970	HIST1H2BJ	C0036341	Schizophrenia spectrum and other psychotic disorders
+89796	NAV1	C0036341	Schizophrenia spectrum and other psychotic disorders
+89797	NAV2	C0036341	Schizophrenia spectrum and other psychotic disorders
+90141	EFCAB11	C0036341	Schizophrenia spectrum and other psychotic disorders
+90273	CEACAM21	C0036341	Schizophrenia spectrum and other psychotic disorders
+9168	TMSB10	C0036341	Schizophrenia spectrum and other psychotic disorders
+9201	DCLK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9223	MAGI1	C0036341	Schizophrenia spectrum and other psychotic disorders
+929	CD14	C0036341	Schizophrenia spectrum and other psychotic disorders
+9332	CD163	C0036341	Schizophrenia spectrum and other psychotic disorders
+93664	CADPS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9373	PLAA	C0036341	Schizophrenia spectrum and other psychotic disorders
+9379	NRXN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9415	FADS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+9495	AKAP5	C0036341	Schizophrenia spectrum and other psychotic disorders
+9620	CELSR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9644	SH3PXD2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+9743	ARHGAP32	C0036341	Schizophrenia spectrum and other psychotic disorders
+9771	RAPGEF5	C0036341	Schizophrenia spectrum and other psychotic disorders
+9821	RB1CC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9900	SV2A	C0036341	Schizophrenia spectrum and other psychotic disorders
+9943	OXSR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+995	CDC25C	C0036341	Schizophrenia spectrum and other psychotic disorders
+100188856	DEL22Q11.2	C0036341	Schizophrenia spectrum and other psychotic disorders
+100196913	SCZD14	C0036341	Schizophrenia spectrum and other psychotic disorders
+10083	USH1C	C0036341	Schizophrenia spectrum and other psychotic disorders
+10641	NPRL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+10659	CELF2	C0036341	Schizophrenia spectrum and other psychotic disorders
+1108	CHD4	C0036341	Schizophrenia spectrum and other psychotic disorders
+1111	CHEK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+11278	KLF12	C0036341	Schizophrenia spectrum and other psychotic disorders
+113	ADCY7	C0036341	Schizophrenia spectrum and other psychotic disorders
+115111	SLC26A7	C0036341	Schizophrenia spectrum and other psychotic disorders
+115207	KCTD12	C0036341	Schizophrenia spectrum and other psychotic disorders
+116369	SLC26A8	C0036341	Schizophrenia spectrum and other psychotic disorders
+119749	OR4C46	C0036341	Schizophrenia spectrum and other psychotic disorders
+1281	COL3A1	C0036341	Schizophrenia spectrum and other psychotic disorders
+131177	FAM3D	C0036341	Schizophrenia spectrum and other psychotic disorders
+132	ADK	C0036341	Schizophrenia spectrum and other psychotic disorders
+1356	CP	C0036341	Schizophrenia spectrum and other psychotic disorders
+146279	TEKT5	C0036341	Schizophrenia spectrum and other psychotic disorders
+147657	ZNF480	C0036341	Schizophrenia spectrum and other psychotic disorders
+147929	ZNF565	C0036341	Schizophrenia spectrum and other psychotic disorders
+1506	CTRL	C0036341	Schizophrenia spectrum and other psychotic disorders
+151295	SLC23A3	C0036341	Schizophrenia spectrum and other psychotic disorders
+166378	SPATA5	C0036341	Schizophrenia spectrum and other psychotic disorders
+1902	LPAR1	C0036341	Schizophrenia spectrum and other psychotic disorders
+1983	EIF5	C0036341	Schizophrenia spectrum and other psychotic disorders
+2023	ENO1	C0036341	Schizophrenia spectrum and other psychotic disorders
+221393	ADGRF4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2247	FGF2	C0036341	Schizophrenia spectrum and other psychotic disorders
+2272	FHIT	C0036341	Schizophrenia spectrum and other psychotic disorders
+22906	TRAK1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23228	PLCL2	C0036341	Schizophrenia spectrum and other psychotic disorders
+23339	VPS39	C0036341	Schizophrenia spectrum and other psychotic disorders
+255101	CFAP65	C0036341	Schizophrenia spectrum and other psychotic disorders
+2563	GABRD	C0036341	Schizophrenia spectrum and other psychotic disorders
+259173	ALS2CL	C0036341	Schizophrenia spectrum and other psychotic disorders
+2647	BLOC1S1	C0036341	Schizophrenia spectrum and other psychotic disorders
+26528	DAZAP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+266743	NPAS4	C0036341	Schizophrenia spectrum and other psychotic disorders
+2694	GIF	C0036341	Schizophrenia spectrum and other psychotic disorders
+27349	MCAT	C0036341	Schizophrenia spectrum and other psychotic disorders
+284217	LAMA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+29097	CNIH4	C0036341	Schizophrenia spectrum and other psychotic disorders
+29115	SAP30BP	C0036341	Schizophrenia spectrum and other psychotic disorders
+3126	HLA-DRB4	C0036341	Schizophrenia spectrum and other psychotic disorders
+3133	HLA-E	C0036341	Schizophrenia spectrum and other psychotic disorders
+339230	CCDC137	C0036341	Schizophrenia spectrum and other psychotic disorders
+348327	ZNF530	C0036341	Schizophrenia spectrum and other psychotic disorders
+350	APOH	C0036341	Schizophrenia spectrum and other psychotic disorders
+3559	IL2RA	C0036341	Schizophrenia spectrum and other psychotic disorders
+3632	INPP5A	C0036341	Schizophrenia spectrum and other psychotic disorders
+3791	KDR	C0036341	Schizophrenia spectrum and other psychotic disorders
+3836	KPNA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+387509	GPR153	C0036341	Schizophrenia spectrum and other psychotic disorders
+3908	LAMA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+3934	LCN2	C0036341	Schizophrenia spectrum and other psychotic disorders
+4035	LRP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+404686	SCZD11	C0036341	Schizophrenia spectrum and other psychotic disorders
+407003	MIR219A2	C0036341	Schizophrenia spectrum and other psychotic disorders
+43	ACHE	C0036341	Schizophrenia spectrum and other psychotic disorders
+442721	LMOD2	C0036341	Schizophrenia spectrum and other psychotic disorders
+442901	MIR328	C0036341	Schizophrenia spectrum and other psychotic disorders
+4538	ND4	C0036341	Schizophrenia spectrum and other psychotic disorders
+4647	MYO7A	C0036341	Schizophrenia spectrum and other psychotic disorders
+4861	NPAS1	C0036341	Schizophrenia spectrum and other psychotic disorders
+51090	PLLP	C0036341	Schizophrenia spectrum and other psychotic disorders
+5371	PML	C0036341	Schizophrenia spectrum and other psychotic disorders
+54659	UGT1A3	C0036341	Schizophrenia spectrum and other psychotic disorders
+54719	RNANC	C0036341	Schizophrenia spectrum and other psychotic disorders
+55206	SBNO1	C0036341	Schizophrenia spectrum and other psychotic disorders
+55366	LGR4	C0036341	Schizophrenia spectrum and other psychotic disorders
+55717	WDR11	C0036341	Schizophrenia spectrum and other psychotic disorders
+55737	VPS35	C0036341	Schizophrenia spectrum and other psychotic disorders
+55741	EDEM2	C0036341	Schizophrenia spectrum and other psychotic disorders
+57103	TIGAR	C0036341	Schizophrenia spectrum and other psychotic disorders
+6002	RGS12	C0036341	Schizophrenia spectrum and other psychotic disorders
+60493	FASTKD5	C0036341	Schizophrenia spectrum and other psychotic disorders
+619488	SCZD12	C0036341	Schizophrenia spectrum and other psychotic disorders
+6280	S100A9	C0036341	Schizophrenia spectrum and other psychotic disorders
+6365	SCZD3	C0036341	Schizophrenia spectrum and other psychotic disorders
+641372	ACOT6	C0036341	Schizophrenia spectrum and other psychotic disorders
+6482	ST3GAL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+6670	SP3	C0036341	Schizophrenia spectrum and other psychotic disorders
+672	BRCA1	C0036341	Schizophrenia spectrum and other psychotic disorders
+7092	TLL1	C0036341	Schizophrenia spectrum and other psychotic disorders
+81033	KCNH6	C0036341	Schizophrenia spectrum and other psychotic disorders
+8204	NRIP1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8295	TRRAP	C0036341	Schizophrenia spectrum and other psychotic disorders
+837	CASP4	C0036341	Schizophrenia spectrum and other psychotic disorders
+8400	SCZD6	C0036341	Schizophrenia spectrum and other psychotic disorders
+8401	SCZD7	C0036341	Schizophrenia spectrum and other psychotic disorders
+84678	KDM2B	C0036341	Schizophrenia spectrum and other psychotic disorders
+8553	BHLHE40	C0036341	Schizophrenia spectrum and other psychotic disorders
+857	CAV1	C0036341	Schizophrenia spectrum and other psychotic disorders
+8806	SCZD8	C0036341	Schizophrenia spectrum and other psychotic disorders
+8835	SOCS2	C0036341	Schizophrenia spectrum and other psychotic disorders
+890	CCNA2	C0036341	Schizophrenia spectrum and other psychotic disorders
+90952	ESAM	C0036341	Schizophrenia spectrum and other psychotic disorders
+9508	ADAMTS3	C0036341	Schizophrenia spectrum and other psychotic disorders
+9600	PITPNM1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9869	SETDB1	C0036341	Schizophrenia spectrum and other psychotic disorders
+9947	MAGEC1	C0036341	Schizophrenia spectrum and other psychotic disorders
+23209	MLC1	C0036344	Schizophrenia spectrum and other psychotic disorders
+57369	GJD2	C0036344	Schizophrenia spectrum and other psychotic disorders
+7782	SLC30A4	C0036344	Schizophrenia spectrum and other psychotic disorders
+9620	CELSR1	C0036344	Schizophrenia spectrum and other psychotic disorders
+63944	SCZD10	C0036344	Schizophrenia spectrum and other psychotic disorders
+23040	MYT1L	C0036346	Schizophrenia spectrum and other psychotic disorders
+1644	DDC	C0036349	Schizophrenia spectrum and other psychotic disorders
+7534	YWHAZ	C0036349	Schizophrenia spectrum and other psychotic disorders
+121278	TPH2	C0036349	Schizophrenia spectrum and other psychotic disorders
+3105	HLA-A	C0036349	Schizophrenia spectrum and other psychotic disorders
+1808	DPYSL2	C0036349	Schizophrenia spectrum and other psychotic disorders
+811	CALR	C0036349	Schizophrenia spectrum and other psychotic disorders
+7133	TNFRSF1B	C0036349	Schizophrenia spectrum and other psychotic disorders
+4915	NTRK2	C0036349	Schizophrenia spectrum and other psychotic disorders
+3565	IL4	C0036349	Schizophrenia spectrum and other psychotic disorders
+3558	IL2	C0036349	Schizophrenia spectrum and other psychotic disorders
+3458	IFNG	C0036349	Schizophrenia spectrum and other psychotic disorders
+3305	HSPA1L	C0036349	Schizophrenia spectrum and other psychotic disorders
+3303	HSPA1A	C0036349	Schizophrenia spectrum and other psychotic disorders
+221	ALDH3B1	C0036349	Schizophrenia spectrum and other psychotic disorders
+1555	CYP2B6	C0036349	Schizophrenia spectrum and other psychotic disorders
+886	CCKAR	C0036349	Schizophrenia spectrum and other psychotic disorders
+3126	HLA-DRB4	C0036349	Schizophrenia spectrum and other psychotic disorders
+1621	DBH	C1456784	Schizophrenia spectrum and other psychotic disorders
+1109	AKR1C4	C1456784	Schizophrenia spectrum and other psychotic disorders
+6925	TCF4	C1456784	Schizophrenia spectrum and other psychotic disorders
+6622	SNCA	C1456784	Schizophrenia spectrum and other psychotic disorders
+6531	SLC6A3	C1456784	Schizophrenia spectrum and other psychotic disorders
+3105	HLA-A	C1456784	Schizophrenia spectrum and other psychotic disorders
+8220	DGCR14	C1456784	Schizophrenia spectrum and other psychotic disorders
+8214	DGCR6	C1456784	Schizophrenia spectrum and other psychotic disorders
+79694	MANEA	C1456784	Schizophrenia spectrum and other psychotic disorders
+79664	ICE2	C1456784	Schizophrenia spectrum and other psychotic disorders
+7297	TYK2	C1456784	Schizophrenia spectrum and other psychotic disorders
+1371	CPOX	C1456784	Schizophrenia spectrum and other psychotic disorders
+6908	TBP	C1456784	Schizophrenia spectrum and other psychotic disorders
+6899	TBX1	C1456784	Schizophrenia spectrum and other psychotic disorders
+1769	DNAH8	C1456784	Schizophrenia spectrum and other psychotic disorders
+1893	ECM1	C1456784	Schizophrenia spectrum and other psychotic disorders
+54487	DGCR8	C1456784	Schizophrenia spectrum and other psychotic disorders
+3284	HSD3B2	C1456784	Schizophrenia spectrum and other psychotic disorders
+3126	HLA-DRB4	C1456784	Schizophrenia spectrum and other psychotic disorders
+9993	DGCR2	C1456784	Schizophrenia spectrum and other psychotic disorders
+1394	CRHR1	C0236736	Cocaine use disorders
+4204	MECP2	C0236736	Cocaine use disorders
+1958	EGR1	C0236736	Cocaine use disorders
+1392	CRH	C0236736	Cocaine use disorders
+6531	SLC6A3	C0236736	Cocaine use disorders
+79694	MANEA	C0236736	Cocaine use disorders
+1814	DRD3	C0236736	Cocaine use disorders
+1813	DRD2	C0236736	Cocaine use disorders
+1268	CNR1	C0236736	Cocaine use disorders
+9607	CARTPT	C0236736	Cocaine use disorders
+6870	TACR3	C0236736	Cocaine use disorders
+5173	PDYN	C0236736	Cocaine use disorders
+4986	OPRK1	C0236736	Cocaine use disorders
+4887	NPY2R	C0236736	Cocaine use disorders
+4852	NPY	C0236736	Cocaine use disorders
+1312	COMT	C0236736	Cocaine use disorders
+5594	MAPK1	C0236736	Cocaine use disorders
+5595	MAPK3	C0236736	Cocaine use disorders
+5443	POMC	C0236736	Cocaine use disorders
+51088	KLHL5	C0236736	Cocaine use disorders
+51738	GHRL	C0236736	Cocaine use disorders
+5617	PRL	C0236736	Cocaine use disorders
+55714	TENM3	C0236736	Cocaine use disorders
+4988	OPRM1	C0236736	Cocaine use disorders
+442892	MIR148B	C0236736	Cocaine use disorders
+442914	MIR369	C0236736	Cocaine use disorders
+4803	NGF	C0236736	Cocaine use disorders
+887	CCKBR	C0236736	Cocaine use disorders
+4915	NTRK2	C0236736	Cocaine use disorders
+494329	MIR380	C0236736	Cocaine use disorders
+442913	MIR376C	C0236736	Cocaine use disorders
+442905	MIR337	C0236736	Cocaine use disorders
+442898	MIR324	C0236736	Cocaine use disorders
+494333	MIR384	C0236736	Cocaine use disorders
+574441	MIR488	C0236736	Cocaine use disorders
+57554	LRRC7	C0236736	Cocaine use disorders
+814	CAMK4	C0236736	Cocaine use disorders
+815	CAMK2A	C0236736	Cocaine use disorders
+81578	COL21A1	C0236736	Cocaine use disorders
+816	CAMK2B	C0236736	Cocaine use disorders
+8824	CES2	C0236736	Cocaine use disorders
+9252	RPS6KA5	C0236736	Cocaine use disorders
+9455	HOMER2	C0236736	Cocaine use disorders
+9456	HOMER1	C0236736	Cocaine use disorders
+949	SCARB1	C0236736	Cocaine use disorders
+805	CALM2	C0236736	Cocaine use disorders
+801	CALM1	C0236736	Cocaine use disorders
+79664	ICE2	C0236736	Cocaine use disorders
+57586	SYT13	C0236736	Cocaine use disorders
+590	BCHE	C0236736	Cocaine use disorders
+594857	NPS	C0236736	Cocaine use disorders
+627	BDNF	C0236736	Cocaine use disorders
+6506	SLC1A2	C0236736	Cocaine use disorders
+6532	SLC6A4	C0236736	Cocaine use disorders
+6622	SNCA	C0236736	Cocaine use disorders
+7297	TYK2	C0236736	Cocaine use disorders
+79571	GCC1	C0236736	Cocaine use disorders
+9759	HDAC4	C0236736	Cocaine use disorders
+100126318	MIR301B	C0236736	Cocaine use disorders
+2222	FDFT1	C0236736	Cocaine use disorders
+2247	FGF2	C0236736	Cocaine use disorders
+23237	ARC	C0236736	Cocaine use disorders
+2353	FOS	C0236736	Cocaine use disorders
+2354	FOSB	C0236736	Cocaine use disorders
+23780	APOL2	C0236736	Cocaine use disorders
+2550	GABBR1	C0236736	Cocaine use disorders
+2555	GABRA2	C0236736	Cocaine use disorders
+2566	GABRG2	C0236736	Cocaine use disorders
+2571	GAD1	C0236736	Cocaine use disorders
+2100	ESR2	C0236736	Cocaine use disorders
+1812	DRD1	C0236736	Cocaine use disorders
+1769	DNAH8	C0236736	Cocaine use disorders
+10014	HDAC5	C0236736	Cocaine use disorders
+10243	GPHN	C0236736	Cocaine use disorders
+10280	SIGMAR1	C0236736	Cocaine use disorders
+1066	CES1	C0236736	Cocaine use disorders
+10919	EHMT2	C0236736	Cocaine use disorders
+1133	CHRM5	C0236736	Cocaine use disorders
+1385	CREB1	C0236736	Cocaine use disorders
+1393	CRHBP	C0236736	Cocaine use disorders
+100126315	MIR665	C0236736	Cocaine use disorders
+1395	CRHR2	C0236736	Cocaine use disorders
+2572	GAD2	C0236736	Cocaine use disorders
+26086	GPSM1	C0236736	Cocaine use disorders
+3727	JUND	C0236736	Cocaine use disorders
+374868	ATP9B	C0236736	Cocaine use disorders
+401145	CCSER1	C0236736	Cocaine use disorders
+406919	MIR130A	C0236736	Cocaine use disorders
+406927	MIR136	C0236736	Cocaine use disorders
+406928	MIR137	C0236736	Cocaine use disorders
+406929	MIR138-1	C0236736	Cocaine use disorders
+406946	MIR154	C0236736	Cocaine use disorders
+406962	MIR186	C0236736	Cocaine use disorders
+406994	MIR212	C0236736	Cocaine use disorders
+3611	ILK	C0236736	Cocaine use disorders
+3356	HTR2A	C0236736	Cocaine use disorders
+3351	HTR1B	C0236736	Cocaine use disorders
+2668	GDNF	C0236736	Cocaine use disorders
+27161	AGO2	C0236736	Cocaine use disorders
+2890	GRIA1	C0236736	Cocaine use disorders
+2891	GRIA2	C0236736	Cocaine use disorders
+2902	GRIN1	C0236736	Cocaine use disorders
+2908	NR3C1	C0236736	Cocaine use disorders
+2915	GRM5	C0236736	Cocaine use disorders
+3060	HCRT	C0236736	Cocaine use disorders
+3061	HCRTR1	C0236736	Cocaine use disorders
+3350	HTR1A	C0236736	Cocaine use disorders
+406995	MIR181A1	C0236736	Cocaine use disorders
+6532	SLC6A4	C0600427	Cocaine use disorders
+1813	DRD2	C0600427	Cocaine use disorders
+5173	PDYN	C0600427	Cocaine use disorders
+1268	CNR1	C0600427	Cocaine use disorders
+121278	TPH2	C0600427	Cocaine use disorders
+2950	GSTP1	C0600427	Cocaine use disorders
+1621	DBH	C0600427	Cocaine use disorders
+6531	SLC6A3	C0600427	Cocaine use disorders
+4986	OPRK1	C0600427	Cocaine use disorders
+2555	GABRA2	C0600427	Cocaine use disorders
+1814	DRD3	C0600427	Cocaine use disorders
+1138	CHRNA5	C0600427	Cocaine use disorders
+4988	OPRM1	C0600427	Cocaine use disorders
+8864	PER2	C0600427	Cocaine use disorders
+1142	CHRNB3	C0600427	Cocaine use disorders
+1312	COMT	C0600427	Cocaine use disorders
+4985	OPRD1	C0600427	Cocaine use disorders
+50632	CALY	C0600427	Cocaine use disorders
+4128	MAOA	C0600427	Cocaine use disorders
+5074	PAWR	C0600427	Cocaine use disorders
+5187	PER1	C0600427	Cocaine use disorders
+9679	FAM53B	C0600427	Cocaine use disorders
+814	CAMK4	C0600427	Cocaine use disorders
+9575	CLOCK	C0600427	Cocaine use disorders
+4905	NSF	C0600427	Cocaine use disorders
+4852	NPY	C0600427	Cocaine use disorders
+441549	CDNF	C0600427	Cocaine use disorders
+1136	CHRNA3	C0600427	Cocaine use disorders
+1385	CREB1	C0600427	Cocaine use disorders
+157	GRK3	C0600427	Cocaine use disorders
+148	ADRA1A	C0600427	Cocaine use disorders
+23413	NCS1	C0600427	Cocaine use disorders
+255239	ANKK1	C0600427	Cocaine use disorders
+2587	GALR1	C0600427	Cocaine use disorders
+409	ARRB2	C0600427	Cocaine use disorders
+6571	SLC18A2	C0600427	Cocaine use disorders
+11126	CD160	C0600427	Cocaine use disorders
+4160	MC4R	C0600427	Cocaine use disorders
+6863	TAC1	C0600427	Cocaine use disorders
+1143	CHRNB4	C0600427	Cocaine use disorders
+1020	CDK5	C0600427	Cocaine use disorders
+3351	HTR1B	C0600427	Cocaine use disorders
+551	AVP	C0600427	Cocaine use disorders
+6079	SNORD15A	C0600427	Cocaine use disorders
+7086	TKT	C0349464	Drug-induced psychosis
+125	ADH1B	C0349464	Drug-induced psychosis
+1743	DLST	C0349464	Drug-induced psychosis
+217	ALDH2	C0349464	Drug-induced psychosis

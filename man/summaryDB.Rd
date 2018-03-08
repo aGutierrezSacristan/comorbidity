@@ -49,4 +49,3 @@ summaryDB( input      = comor_obj,
            femaleCode = "Female"
            )
 }
-

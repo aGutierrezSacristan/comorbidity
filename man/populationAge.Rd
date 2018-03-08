@@ -50,4 +50,3 @@ popAge <- populationAge( input       = comor_obj,
                          type        = "separate"
               )
 }
-

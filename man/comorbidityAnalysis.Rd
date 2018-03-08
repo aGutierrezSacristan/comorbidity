@@ -5,8 +5,8 @@
 \title{Comorbidity Analysis \code{cAnalysis}}
 \usage{
 comorbidityAnalysis(input, codesPth, databasePth, ageRange = c(0, 100),
-  gender = "ALL", score, fdr, oddsRatio, rr, phi, cores = 1,
-  verbose = FALSE, warnings = TRUE)
+  gender = "ALL", score, correctedPval = 1, correctionMethod = "fdr",
+  oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE)
 }
 \arguments{
 \item{input}{A comorbidity object, obtained with the query function.}
@@ -28,9 +28,14 @@ gender of interest for your comorbidity analysis.}
 \item{score}{The comorbidity score is a measure based on  the observed comorbidities
 and the expected ones, based on the occurrence of each disease.}
 
-\item{fdr}{A Fisher exact test for each pair of diseases is performed to assess 
+\item{correctedPval}{By default 1.}
+
+\item{correctionMethod}{A Fisher exact test for each pair of diseases is performed to assess 
 the null hypothesis of independence between the two diseases. The Benjamini-Hochberg 
-false discovery rate method (FDR) is applied to correct for multiple testing.}
+false discovery rate method ("fdr") is applied to correct for multiple testing by default. 
+However user can select the best correction method for the analysis. The adjustment methods 
+include the Bonferroni correction ("bonferroni"),  Holm correction ("holm"), Hochberg correction
+ ("hochberg"), Hommel ("hommel") and Benjamini & Yekutieli ("BY").}
 
 \item{oddsRatio}{The odds ratio represents the increased chance that someone 
 suffering disease X will have the comorbid disorder Y.}
@@ -67,8 +72,8 @@ ex1 <- comorbidityAnalysis(
               codesPth         = system.file("extdata", package="comoRbidity"),
               ageRange         = c(0,50),
               gender           = "Female", 
-              score            = 1, 
-              fdr              = 1
+              score            = 1,
+              correctionMethod = "fdr", 
+              correctedPval  = 1
               )
 }
-

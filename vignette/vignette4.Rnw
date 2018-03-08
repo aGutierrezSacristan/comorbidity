@@ -622,23 +622,24 @@ comorbidity score =log_2 \left( \cfrac{observed + 1}{expected + 1} \right)
 \noindent Moreover, the \texttt{comorbidityAnalysis} function allows to restrict the results according to the comorbidity measurements values:
 \begin{itemize}
 \item score
-\item fdr
+\item correctedPval
 \item oddsRatio
 \item rr
 \item phi
 \end{itemize}
 
-\noindent The user can filter the results by applying all the comorbidity measurements that are considered necesary. The cut-off value for these measurements must be numeric. The example below shows a query in which two of the five comorbidity measurements are applied, the \texttt{score} and the \texttt{fdr}.\\
+\noindent The user can filter the results by applying all the comorbidity measurements that are considered necesary. The cut-off value for these measurements must be numeric. The example below shows a query in which two of the five comorbidity measurements are applied, the \texttt{score} and the \texttt{correctedPval}.\\
 
 <<comorbidityAnalysisFemales, eval=FALSE >>=
-comorFemale <- comorbidityAnalysis( input = ff, 
-                              codesPth    = diagnosticCodes, 
-                              databasePth = databasePth, 
-                              score       = 0, 
-                              fdr         = 1, 
-                              ageRange    = c( 0, 100 ), 
-                              gender      = "Female", 
-                              verbose     = FALSE 
+comorFemale <- comorbidityAnalysis( input      = ff, 
+                              codesPth         = diagnosticCodes, 
+                              databasePth      = databasePth, 
+                              score            = 0, 
+                              correctionMethod = "fdr",
+                              correctedPval    = 1, 
+                              ageRange         = c( 0, 100 ), 
+                              gender           = "Female", 
+                              verbose          = FALSE 
                               )
 save(comorFemale, file=paste0(databasePth, "comorFemale.RData"))
 @
@@ -676,7 +677,7 @@ head( comorbidityDataFem )
 \item \textbf{\texttt{input}}: a \texttt{cAnalysis} object obtained after applying the \texttt{comorbidityAnalysis} function. 
 \item \textbf{\texttt{databasePth}}: determines the path where the three required input files (\texttt{patientData, diagnosisData, admissionData}) are located.
 \item \textbf{\texttt{layout}}: by deafult \texttt{"layout.fruchterman.reingold"}. It can be set to other of the possible igraph layouts. 
-\item \textbf{\texttt{selectValue}}: By default \texttt{"score"} variable will be selected. It can be set to any of the other possible variables ('fdr', 'odds ratio', 'phi', 'rr').
+\item \textbf{\texttt{selectValue}}: By default \texttt{"score"} variable will be selected. It can be set to any of the other possible variables ('correctedPval', 'odds ratio', 'phi', 'rr').
 \item \textbf{\texttt{cutOff}}: By default \code{'0.05'}. The value of the argument can be changed to any other numeric variable, according to the range of the selected value.
 \item \textbf{\texttt{npairs}}: By default \code{'0'}. The value of the argument can be changed to  any other numeric variable to show in the network only those comorbidities suffered by at least \texttt{npairs} of patients.
 \item \textbf{\texttt{prop}}: Determines the node size proportionality. By default it is set to \texttt{1}. The value of the argument can be changed to any other numeric variable.

@@ -42,4 +42,3 @@ srEstimation <- sexRatio( female       = comorFemale,
                           fisherTest    = 0
               )
 }
-

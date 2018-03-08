@@ -22,7 +22,7 @@ have been created. It is the same path where the three required input files
 to any other of the possible igraph layouts.}
 
 \item{selectValue}{By default \code{"score"} variable will be selected. Change
-it to any of the other possible variables (\code{'fdr'},\code{'odds ratio'}, 
+it to any of the other possible variables (\code{'correctedPvalue'},\code{'odds ratio'}, 
 \code{'phi'}, \code{'rr'}).}
 
 \item{title}{Determines the title of the network figure. By default 
@@ -73,4 +73,3 @@ comorbidityNetwork <- network(
               title            = "Example comorbidity network"
               )
 }
-

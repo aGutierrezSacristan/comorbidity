@@ -61,4 +61,3 @@ summaryDiseases( input    = mc,
                  database = "CURATED" 
            )
 }
-

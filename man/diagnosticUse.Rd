@@ -39,4 +39,3 @@ diagnosticUse( codesPth    = system.file("extdata", package="comoRbidity"),
                barColor    = "darkcyan"
            )
 }
-

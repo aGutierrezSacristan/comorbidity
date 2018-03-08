@@ -3,6 +3,7 @@
 \docType{methods}
 \name{extract}
 \alias{extract}
+\alias{extract}
 \title{Obtain the raw query from a \code{cAnalysis} object.}
 \usage{
 \S4method{extract}{cAnalysis}(object)
@@ -38,4 +39,3 @@ qr <- extract(x)
 qr <- extract(x) 
 }
 }
-

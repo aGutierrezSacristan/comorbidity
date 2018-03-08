@@ -33,4 +33,3 @@ heatmap representing the sex ratio results is obtained.
 load(system.file("extdata", "srEstimation.RData", package="comoRbidity"))
 heatmapSexRatio( input = srEstimation )
 }
-

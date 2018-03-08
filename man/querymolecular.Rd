@@ -56,4 +56,3 @@ ex1 <- querymolecular(
               verbose  = FALSE
               )
 }
-

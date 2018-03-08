@@ -7,7 +7,7 @@
 #' by applying the \code{comorbidityAnalysis} or \code{comorbidityAnalysisMolecular} 
 #' function
 #' @param selectValue By default \code{"score"} variable will be selected. Change
-#' it to any of the other possible variables (\code{'fdr'},\code{'odds ratio'}, 
+#' it to any of the other possible variables (\code{'correctedPvalue'},\code{'odds ratio'}, 
 #' \code{'phi'}, \code{'rr'}).  
 #' @param cutOff By default \code{'0.05'}. The value of the argument can be changed 
 #' to any other numeric variable, according to the range of the selected value.
@@ -56,7 +56,7 @@ heatmapPlot <- function( input , selectValue = "score", cutOff = 0.05, npairs = 
         column <- which(colnames(obj )==selectValue)
         obj$value <- obj[,column]
         
-        if( selectValue == "fdr"  | selectValue == "fisher"){
+        if( selectValue == "correctedPvalue"  | selectValue == "fisher"){
             obj  <- obj [obj$value <= cutOff,]
         }else{
             obj  <- obj [obj$value >= cutOff,]

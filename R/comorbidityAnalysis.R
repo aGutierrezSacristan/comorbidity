@@ -17,9 +17,13 @@
 #' gender of interest for your comorbidity analysis.
 #' @param score The comorbidity score is a measure based on  the observed comorbidities
 #' and the expected ones, based on the occurrence of each disease.
-#' @param fdr A Fisher exact test for each pair of diseases is performed to assess 
+#' @param correctionMethod A Fisher exact test for each pair of diseases is performed to assess 
 #' the null hypothesis of independence between the two diseases. The Benjamini-Hochberg 
-#' false discovery rate method (FDR) is applied to correct for multiple testing.
+#' false discovery rate method ("fdr") is applied to correct for multiple testing by default. 
+#' However user can select the best correction method for the analysis. The adjustment methods 
+#' include the Bonferroni correction ("bonferroni"),  Holm correction ("holm"), Hochberg correction
+#'  ("hochberg"), Hommel ("hommel") and Benjamini & Yekutieli ("BY"). 
+#' @param correctedPval By default 1. 
 #' @param oddsRatio The odds ratio represents the increased chance that someone 
 #' suffering disease X will have the comorbid disorder Y.
 #' @param rr The relative risk refers to the fraction between the number of 
@@ -42,12 +46,13 @@
 #'               codesPth         = system.file("extdata", package="comoRbidity"),
 #'               ageRange         = c(0,50),
 #'               gender           = "Female", 
-#'               score            = 1, 
-#'               fdr              = 1
+#'               score            = 1,
+#'               correctionMethod = "fdr", 
+#'               correctedPval  = 1
 #'               )
 #' @export comorbidityAnalysis
 
-comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100), gender="ALL", score, fdr, oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE ){
+comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100), gender="ALL", score, correctedPval = 1, correctionMethod = "fdr", oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE ){
     
     message("Checking the input object")
     checkClass <- class(input)[1]
@@ -141,10 +146,10 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     colnames(resultad2) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "relativeRisk", "phi" )
     
     
-    resultad2$expect <-  as.numeric( resultad2$disA ) * as.numeric( resultad2$disB ) / totPatients
-    resultad2$score  <- log2( ( as.numeric( resultad2$AB ) + 1 ) / ( resultad2$expect + 1) )
-    resultad2        <- resultad2[ with( resultad2, order( resultad2$fisher ) ), ]
-    resultad2$fdr    <- p.adjust( as.numeric( resultad2$fisher ), method = "fdr", n = nrow( resultad2 ) )
+    resultad2$expect          <-  as.numeric( resultad2$disA ) * as.numeric( resultad2$disB ) / totPatients
+    resultad2$score           <- log2( ( as.numeric( resultad2$AB ) + 1 ) / ( resultad2$expect + 1) )
+    resultad2                 <- resultad2[ with( resultad2, order( resultad2$fisher ) ), ]
+    resultad2$correctedPvalue <- p.adjust( as.numeric( resultad2$fisher ), method = correctionMethod, n = nrow( resultad2 ) )
     # 
     # resultad2$pair   <- NA
     # for(cont in 1:nrow(resultad2)){
@@ -158,8 +163,8 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     if ( !missing( score ) ) {
         resultad2 <- resultad2[ resultad2$score > score, ]
     }
-    if ( !missing( fdr ) ) {
-        resultad2 <- resultad2[ resultad2$fdr < fdr, ]
+    if ( !missing( correctedPval ) ) {
+        resultad2 <- resultad2[ resultad2$correctedPvalue < correctedPval, ]
     }
     if ( !missing( oddsRatio ) ) {
         resultad2 <- resultad2[ resultad2$oddsRatio > oddsRatio, ]
@@ -177,12 +182,12 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     resultad2$phi <- round(as.numeric(resultad2$phi), 3)
     resultad2$expect <- round(as.numeric(resultad2$expect), 3)
     resultad2$score <- round(as.numeric(resultad2$score), 3)
-    resultad2$fdr <- round(as.numeric(resultad2$fdr), 3)
+    resultad2$correctedPvalue <- round(as.numeric(resultad2$correctedPvalue), 3)
     
     comb_table_rank <- resultad2
     comb_table_rank$scoreRank <- rank(-comb_table_rank$score)
     comb_table_rank$fisherRank <- rank(comb_table_rank$fisher)
-    comb_table_rank$fdrRank <- rank(comb_table_rank$fdr)
+    comb_table_rank$correctedPvalueRank <- rank(comb_table_rank$correctedPvalue)
     comb_table_rank$oddsRatioRank <- rank(-comb_table_rank$oddsRatio)
     comb_table_rank$rrRank <- rank(-comb_table_rank$relativeRisk)
     comb_table_rank$phiRank <- rank(-comb_table_rank$phi)        

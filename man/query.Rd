@@ -51,4 +51,3 @@ ex1 <- query( databasePth      = system.file("extdata", package="comoRbidity"),
               admissionDataSep = "-",
               python           = FALSE)
 }
-

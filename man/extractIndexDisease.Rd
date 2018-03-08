@@ -19,4 +19,3 @@ present in the data.
 \examples{
 indexDis <- extractIndexDisease( obj )
 }
-

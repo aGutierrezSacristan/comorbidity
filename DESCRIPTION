@@ -33,4 +33,4 @@ NeedsCompilation: no
 Author: Alba Gutierrez-Sacristan [aut],
 Maintainer: Alba Gutierrez-Sacristan <alba.gutierrez@upf.edu>
 biocViews: Software, BiomedicalInformatics, Genetics, DataRepresentation
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

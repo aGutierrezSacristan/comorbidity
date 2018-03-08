@@ -46,4 +46,3 @@ htmpDirection <- heatmapDirection( input            = directionalityEx,
                                    noDirectionColor = "grey")
 htmpDirection
 }
-

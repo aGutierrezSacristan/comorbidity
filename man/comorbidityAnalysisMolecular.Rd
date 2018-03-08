@@ -44,4 +44,3 @@ ex1 <- comorbidityAnalysisMolecular(
               verbose    = FALSE
               )
 }
-

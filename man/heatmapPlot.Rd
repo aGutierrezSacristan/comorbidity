@@ -14,7 +14,7 @@ by applying the \code{comorbidityAnalysis} or \code{comorbidityAnalysisMolecular
 function}
 
 \item{selectValue}{By default \code{"score"} variable will be selected. Change
-it to any of the other possible variables (\code{'fdr'},\code{'odds ratio'}, 
+it to any of the other possible variables (\code{'correctedPvalue'},\code{'odds ratio'}, 
 \code{'phi'}, \code{'rr'}).}
 
 \item{cutOff}{By default \code{'0.05'}. The value of the argument can be changed 
@@ -57,4 +57,3 @@ htmp <- heatmapPlot( input = comorMale,
               )
 htmp
 }
-

@@ -57,4 +57,3 @@ directionEx <- directionality( input       = comorMale,
                                dataSep          = "-"
               )
 }
-

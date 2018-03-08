@@ -12,7 +12,7 @@
 #' @param layout By default \code{'layout.fruchterman.reingold'}. It can be set 
 #' to any other of the possible igraph layouts. 
 #' @param selectValue By default \code{"score"} variable will be selected. Change
-#' it to any of the other possible variables (\code{'fdr'},\code{'odds ratio'}, 
+#' it to any of the other possible variables (\code{'correctedPvalue'},\code{'odds ratio'}, 
 #' \code{'phi'}, \code{'rr'}).  
 #' @param cutOff By default \code{'0.05'}. The value of the argument can be changed 
 #' to any other numeric variable, according to the range of the selected value.
@@ -69,7 +69,7 @@ network <- function( input, databasePth, layout = "layout.fruchterman.reingold",
         input  <- input@result
         input  <- input[as.numeric(input$AB) >= npairs, ]
         
-        if( selectValue == "fdr" |  selectValue == "fisher"){
+        if( selectValue == "correctedPvalue" |  selectValue == "fisher"){
             input  <- input[input[[selectValue]] <= cutOff,]
         }else{
             input  <- input[input[[selectValue]] >= cutOff,]

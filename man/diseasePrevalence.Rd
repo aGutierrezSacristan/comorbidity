@@ -47,4 +47,3 @@ diseasePrevalence( input      = comor_obj,
            barColor    = "darkcyan"
            )
 }
-
