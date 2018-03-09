@@ -61,7 +61,8 @@ setClass( "molecularComorbidity",
                               nfDisease    = "numeric",    # number of the initial diseases present in our database
                               nGenes       = "numeric",    # number of patients suffering them
                               indexDisList = "character",
-                              qresult      = "data.frame"  # result
+                              qresult      = "data.frame", # result
+                              userInput    = "logical"     # indicates if the gene disease association is extracted from disgenet or given by the user
               ),
           prototype = 
               prototype( search    = "",
@@ -70,7 +71,8 @@ setClass( "molecularComorbidity",
                          nfDisease = numeric(),
                          nGenes    = numeric(),
                          indexDisList =  "",
-                         qresult   = data.frame()
+                         qresult   = data.frame(), 
+                         userInput = logical() 
               )
 )
 

@@ -21,6 +21,12 @@
 #' two diseases as comorbid.  
 #' @param dataSep Determines the separator symbol used in the admission date.
 #' By default \code{"-"}. 
+#' @param correctionMethod A binomial test for each pair of diseases is performed to assess 
+#' the null hypothesis of independence between the two diseases. The Bonferroni correction 
+#' ("bonferroni") is applied to correct for multiple testing by default. 
+#' However user can select the best correction method for the analysis. The adjustment methods 
+#' include the Benjamini-Hochberg false discovery rate method ("fdr"),  Holm correction ("holm"), 
+#' Hochberg correction ("hochberg"), Hommel ("hommel") and Benjamini & Yekutieli ("BY"). 
 #' @param verbose By default \code{FALSE}. Change it to \code{TRUE} to get a
 #' on-time log from the function.
 #' @param warnings By default \code{TRUE}. Change it to \code{FALSE} to don't see
@@ -34,11 +40,12 @@
 #'                                gender           = "Male",
 #'                                ageRange         = c(0,80),
 #'                                days             = "0",
-#'                                dataSep          = "-"
+#'                                dataSep          = "-", 
+#'                                correctionMethod = "bonferroni"
 #'               )
 #' @export directionality
 
-directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c(0,100), days, dataSep="-", verbose ){
+directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c(0,100), days, dataSep="-", correctedPval = 1, correctionMethod = "bonferroni", verbose ){
     
     #check if the input object is of class molecularComorbidity
     message("Checking the input objects")
@@ -117,6 +124,7 @@ directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c
 
     }
     pairs <- pairs[pairs$test != "NA",]
+    pairs$correctedPvalue <- p.adjust( as.numeric( pairs$test ), method = correctionMethod, n = nrow( pairs ) )
     
     pairs$result <- NA
     
@@ -134,6 +142,8 @@ directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c
         }
         
     }
+    
+    
     return(pairs)
 }
 

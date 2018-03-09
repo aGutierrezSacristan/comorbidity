@@ -52,6 +52,14 @@ summaryDiseases <- function( input, database = "CURATED", type = "dis_barplot", 
                     function to your input file. The input object class must
                     be:\"molecularComorbidity\"")
         stop()
+    }else{
+        if( input@userInput == TRUE){
+            message("Sorry, this function is only available for object 
+                    obtained after applying the queryMolecular
+                    function.")
+            stop()  
+        }
+        
     }
     
     input <- input@qresult

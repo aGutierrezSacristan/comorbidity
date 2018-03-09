@@ -127,7 +127,8 @@ querymolecular <- function ( filePth,  unify = FALSE, database = "CURATED", scor
                  nfDisease    = length(unique(comorb$diseaseName)), 
                  nGenes       = length( unique ( comorb$geneId ) ), 
                  indexDisList = unique( codesUnderStudy ),
-                 qresult      = comorb  
+                 qresult      = comorb, 
+                 userInput    = FALSE  
   )
   
   return(result)

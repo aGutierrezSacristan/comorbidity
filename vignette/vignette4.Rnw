@@ -818,7 +818,7 @@ heatmapSexRatio(srAnalysis,
 
 \noindent Additionally, the \texttt{comoRbidity} package allows to analyze the temporal directionality of the co-occurring diseases (Figure \ref{fig:directionHeatmap}).\\
 
-\noindent  The temporal direction of disease association (d\textsubscript{A} $\rightarrow${d}\textsubscript{B}\ and \  d\textsubscript{B} $\rightarrow${d}\textsubscript{A}) is assessed for the diagnosis pairs with a significant Bonferroni-corrected p-value. Specifically, the number of patients for whom diagnosis dB follows diagnosis dA or vice versa, is calculated and an exact binomial test is, subsequently, used with a probability of success equal to 0.5. A preferred (significant) direction is determined for those diagnosis pairs that result in binomial tests with p-values < 0.05 and according to the pair that appears more often.\\
+\noindent  The temporal direction of disease association (d\textsubscript{A} $\rightarrow${d}\textsubscript{B}\ and \  d\textsubscript{B} $\rightarrow${d}\textsubscript{A}) is assessed for the diagnosis pairs with a significant corrected p-value. Specifically, the number of patients for whom diagnosis dB follows diagnosis dA or vice versa, is calculated and an exact binomial test is, subsequently, used with a probability of success equal to 0.5. A preferred (significant) direction is determined for those diagnosis pairs that result in binomial tests with p-values < 0.05 and according to the pair that appears more often.\\
 
 \noindent The \texttt{directionality} function allows the user to perform the directionality analysis. As input the function requires:
 \begin{itemize}
@@ -829,20 +829,22 @@ heatmapSexRatio(srAnalysis,
 \item \textbf{\texttt{ageRange}}: determines what is the age range of interest for performing the directionality analysis. By default it is set from 0 to 100 years old. 
 \item \textbf{\texttt{days}}: determines the number of days of difference needed for considering two diseases as comorbid for the directionality analysis.
 \item \textbf{\texttt{dataSep}}: determines the separator symbol used in the admission date. 
+\item \textbf{\texttt{correctionMethod}}: determines the correction method applied by the user. The Bonferroni correction ("bonferroni") is applied to correct for multiple testing by default. However user can select the best correction method for the analysis. The adjustment methods include the Benjamini-Hochberg false discovery rate method ("fdr"), Holm correction ("holm"), Hochberg correction ("hochberg"), Hommel ("hommel") and Benjamini & Yekutieli ("BY").
 \end{itemize}
 
 <<directionality>>=
-comorbidityDirection <- directionality( input       = comorFemale, 
-                                        databasePth = databasePth, 
-                                        gender      = "Female",
-                                        ageRange    = c(0,100),
-                                        days        = 0,
-                                        minPairs    = 1,
-                                        dataSep     = "-")
+comorbidityDirection <- directionality( input            = comorFemale, 
+                                        databasePth      = databasePth, 
+                                        gender           = "Female",
+                                        ageRange         = c(0,100),
+                                        days             = 0,
+                                        minPairs         = 1,
+                                        dataSep          = "-", 
+                                        correctionMethod = "bonferroni")
 summary(as.factor(comorbidityDirection$result))
 @
 
-\noindent As a result a \texttt{data.frame} is obtained. This \texttt{data.frame} contains 6 columns, with the comorbidity disorders and the directionality results in numeric and character format.\\
+\noindent As a result a \texttt{data.frame} is obtained. This \texttt{data.frame} contains 7 columns, with the comorbidity disorders and the directionality results in numeric and character format.\\
 
 <<directionalityDataFrame, echo=FALSE>>=
 head(comorbidityDirection)
@@ -933,6 +935,18 @@ head(cuiDiseaseList)
 \item diseaseName
 \end{itemize}
 
+<<exampleData2_codesMolecular>>=
+filePth <- system.file("extdata", package="comoRbidity")
+genediseaseData <- read.delim( file   = paste0(filePth, "/genediseaseTable.txt"), 
+                               header = TRUE, 
+                               sep    = "\t" )
+head(genediseaseData)
+@
+
+\colorbox{beaublue}{\begin{minipage}{14cm}
+\noindent \textbf{Note that if you use this format data for the molecular comorbidity analysis, the overview of the gene-disease data performed applying the \texttt{summaryDiseases} will not be possible}\\
+\end{minipage}}
+\\
 
 \subsection{molecular comoRbidity objects}
 
@@ -999,6 +1013,8 @@ head(extract(mcAnalysis))
 @
 
 \subsection{Data extraction}
+
+\subsubsection{Using as input a list of diseases}
 \noindent The first step to perform the molecular comorbidity analysis is to extract the gene-disease association data for the index diseases. This information is extracted from DisGeNET database (http://disgenet.org).\\
 
 \noindent \texttt{querymolecular} function allows the user to extract the genes associated to the index diseases, based on DisGeNET data, and store it in a \texttt{molecularComorbidity} class object. As input the function requires:
@@ -1053,7 +1069,25 @@ mc <- querymolecular ( filePth = diseaseCodes,
 mc
 @
 
+\subsubsection{Using as input a list of gene-disease associations}
+
+\noindent Alternatively the user can provide her/his own gene-disease association file. In order to transform that input file in a \texttt{molecularComorbidity} class object the \texttt{dataframe2molecularcomorbidity} function.\\
+
+\noindent As input the function only requires one argument, \textbf{\texttt{filePth}}, that determines the file name with the complete path where the file with gene and diseases of interest is located. There is not restriction about the gene and/or disease identifier class. However, the user should take into account that the \texttt{summaryDiseases} function cannot be applied. Nevertheless, the molecular comorbidity analysis can be applied. 
+
+<<mcUserManual, message=FALSE, warning=FALSE>>=
+genediseaseFile <- paste0(filePth, "/genediseaseTable.txt")
+manualmc <- dataframe2molecularcomorbidity( filePth = genediseaseFile)
+manualmc
+@
+\\
+
 \subsection{Overview of the gene-disease data}
+
+\colorbox{beaublue}{\begin{minipage}{14cm}
+\noindent \textbf{Note that if you apply this function to a \texttt{molecularComorbidity} object obtained applying the \texttt{dataframe2molecularcomorbidity} function, the next error message will appear: \texttt{Sorry, this function is only available for object obtained after applying the \texttt{queryMolecular} function.}\\
+\end{minipage}}
+\\
 
 \subsubsection{Genes summary}
 \noindent The \texttt{comoRbidity} R package allows the user to analyze and characterize the genes associated to the index diseases. In order to have a general overview about the genes, the \texttt{summaryDiseases} function can be applied, by setting the \texttt{type} argument to \texttt{gene\_barplot}.\\
@@ -1092,6 +1126,9 @@ summaryDiseases( input     = mc,
 \item \textbf{\texttt{assocGeneColor}}: By default \texttt{"#E69F00"}. It defines the bar color that represents the number of associated genes
 \item \textbf{\texttt{assocDiseaseColor}}: By default \texttt{"136593"}. It defines the bar color that represents the number of associated diseases.
 \end{itemize}
+\\
+
+
 
 \subsection{Molecular comorbidity analysis}
 

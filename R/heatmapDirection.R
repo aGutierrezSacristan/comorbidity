@@ -47,7 +47,8 @@ heatmapDirection <- function( input , interactive = FALSE, fromAtoBColor = "dark
 
     if(checkColnames[1] != "disAcode" | checkColnames[2] != "disBcode"|
        checkColnames[3] != "AtoB" | checkColnames[4] != "BtoA" |
-       checkColnames[5] != "test" | checkColnames[6] != "result" ){
+       checkColnames[5] != "test" | checkColnames[6] != "correctedPvalue" |
+       checkColnames[7] != "result" ){
         message("Check the input object. Remember that this
                     object must be obtained after applying the directionality
                     function. The input data.frame must contain the next 6 columns:

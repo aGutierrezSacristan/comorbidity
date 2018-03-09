@@ -49,7 +49,8 @@ dataframe2molecularcomorbidity <- function ( filePth, verbose = FALSE, warnings 
                    nfDisease    = length(unique( genedisease$diseaseName )), 
                    nGenes       = length( unique ( genedisease$gene) ), 
                    indexDisList = unique( genedisease$diseaseName ),
-                   qresult      = genedisease  
+                   qresult      = genedisease, 
+                   userInput    = TRUE
     )
     
     return(result)

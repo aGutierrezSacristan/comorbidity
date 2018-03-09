@@ -5,7 +5,8 @@
 \title{Query your data and generates a \code{datafame}}
 \usage{
 directionality(input, databasePth, minPairs = 1, gender, ageRange = c(0,
-  100), days, dataSep = "-", verbose)
+  100), days, dataSep = "-", correctedPval = 1,
+  correctionMethod = "bonferroni", verbose)
 }
 \arguments{
 \item{input}{A \code{cAnalysis} object, containing the comorbidity data for
@@ -32,6 +33,13 @@ two diseases as comorbid.}
 \item{dataSep}{Determines the separator symbol used in the admission date.
 By default \code{"-"}.}
 
+\item{correctionMethod}{A binomial test for each pair of diseases is performed to assess 
+the null hypothesis of independence between the two diseases. The Bonferroni correction 
+("bonferroni") is applied to correct for multiple testing by default. 
+However user can select the best correction method for the analysis. The adjustment methods 
+include the Benjamini-Hochberg false discovery rate method ("fdr"),  Holm correction ("holm"), 
+Hochberg correction ("hochberg"), Hommel ("hommel") and Benjamini & Yekutieli ("BY").}
+
 \item{verbose}{By default \code{FALSE}. Change it to \code{TRUE} to get a
 on-time log from the function.}
 
@@ -54,6 +62,7 @@ directionEx <- directionality( input       = comorMale,
                                gender           = "Male",
                                ageRange         = c(0,80),
                                days             = "0",
-                               dataSep          = "-"
+                               dataSep          = "-", 
+                               correctionMethod = "bonferroni"
               )
 }
