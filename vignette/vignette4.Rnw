@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 
 \usepackage{fixltx2e}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage[T1]{fontenc}  
 \usepackage[none]{hyphenat}
 \usepackage[T1]{fontenc}
@@ -14,7 +14,7 @@
 \usepackage{titlesec}
 \usepackage{graphicx}
 \definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
-\graphicspath{{/Users/alba/Desktop/Rpackages/comorbidity/Data/} }
+\graphicspath{{G:/comoRbidity/Data/} }
 \hypersetup{
     colorlinks,
     citecolor=blue,
@@ -1085,7 +1085,7 @@ manualmc
 \subsection{Overview of the gene-disease data}
 
 \colorbox{beaublue}{\begin{minipage}{14cm}
-\noindent \textbf{Note that if you apply this function to a \texttt{molecularComorbidity} object obtained applying the \texttt{dataframe2molecularcomorbidity} function, the next error message will appear: \texttt{Sorry, this function is only available for object obtained after applying the \texttt{queryMolecular} function.}\\
+\noindent \textbf{Note that if you apply this function to a \texttt{molecularComorbidity} object obtained applying the \texttt{dataframe2molecularcomorbidity} function, the next error message will appear: \texttt{Sorry, this function is only available for object obtained after applying the \texttt{queryMolecular} function.}}\\
 \end{minipage}}
 \\
 
