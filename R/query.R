@@ -72,13 +72,13 @@ query <- function( databasePth, codesPth, birthDataSep, admissionDataSep, intraC
         }
         
         colnames(final) <- c("patient_id", "admissionStartDate", "diagnosis_code",
-                             "patient_gender", "patient_dateBirth", "age")
+                             "patient_sex", "patient_dateBirth", "age")
         
         colnames(all) <- c("patient_id", "admissionStartDate", "diagnosis_code",
-                           "patient_gender", "patient_dateBirth", "age")
+                           "patient_sex", "patient_dateBirth", "age")
         
         colnames(direct) <- c("patient_id", "admissionStartDate", "diagnosis_code",
-                              "patient_gender", "patient_dateBirth", "age")
+                              "patient_sex", "patient_dateBirth", "age")
         
     }
     else{
@@ -101,12 +101,12 @@ query <- function( databasePth, codesPth, birthDataSep, admissionDataSep, intraC
                               colClasses="character" ) 
         
         message("Checking the patientData file structure")
-        colnamesPatients   <- c("patient_id","patient_gender", "patient_dateBirth")   
+        colnamesPatients   <- c("patient_id","patient_sex", "patient_dateBirth")   
         check <- colnamesPatients[colnamesPatients %in% colnames(patients)]
         if(length(check) != length(colnamesPatients)){
             message("Check the patientData file structure. Remember that this
                     file must contain at least three columns with the column 
-                    names as follows:\n -> patient_id \n -> patient_gender \n -> patient_dateBirth")
+                    names as follows:\n -> patient_id \n -> patient_sex \n -> patient_dateBirth")
             stop()
         }
         

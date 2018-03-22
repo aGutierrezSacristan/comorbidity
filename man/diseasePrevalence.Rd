@@ -31,12 +31,12 @@ the warnings.}
 }
 \value{
 A barplot with disease prevalence in all the population and according to 
-the gender.
+the sex.
 }
 \description{
 Given an object of class \code{comorbidity}, and the characters used to 
-specify the gender, a barplot showing the disease prevalence in general 
-and according to gender is obtained.
+specify the sex, a barplot showing the disease prevalence in general 
+and according to sex is obtained.
 }
 \examples{
 load(system.file("extdata", "comorbidity.RData", package="comoRbidity"))

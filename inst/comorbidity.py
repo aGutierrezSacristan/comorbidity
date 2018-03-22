@@ -81,7 +81,7 @@ def run(admis_data_path, codes_path, diag_data_path, patient_data_path, sep_admi
     print "pat_adm_dict_dates"
     pat_adm_dict_dates= get_dictionary_info(admis_data_path, ["patient_id", "admission_id"], ["admissionStartDate"], False)
     print 2
-    pat_gender_dict_birth = get_dictionary_info(patient_data_path, ["patient_id"], ["patient_gender", "patient_dateBirth"], False)
+    pat_gender_dict_birth = get_dictionary_info(patient_data_path, ["patient_id"], ["patient_sex", "patient_dateBirth"], False)
     print 3
     pat_adm_dict_codes = get_dictionary_info(diag_data_path, ["patient_id", "admission_id"], ["diagnoses_code"], True)
     print 4

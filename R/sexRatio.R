@@ -1,6 +1,6 @@
 #' Sex Ratio Analysis. 
 #'
-#' Given two objects of class \code{comoRbidity}, one for each gender, the sex 
+#' Given two objects of class \code{comoRbidity}, one for each sex, the sex 
 #' ratio estimation is performed.    
 #'
 #' @param female A \code{comoRbidity} object, containing the comorbidity data for

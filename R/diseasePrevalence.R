@@ -1,8 +1,8 @@
 #' A graphical summary of the disease prevalence. 
 #'
 #' Given an object of class \code{comorbidity}, and the characters used to 
-#' specify the gender, a barplot showing the disease prevalence in general 
-#' and according to gender is obtained. 
+#' specify the sex, a barplot showing the disease prevalence in general 
+#' and according to sex is obtained. 
 #'
 #' @param input Object of \code{comorbidity} class. 
 #' @param maleCode Characters(s) used to determine the male condition of a patient. 
@@ -19,7 +19,7 @@
 #' @param warnings By default \code{TRUE}. Change it to \code{FALSE} to don't see
 #' the warnings.
 #' @return A barplot with disease prevalence in all the population and according to 
-#' the gender.
+#' the sex.
 #' @examples
 #' load(system.file("extdata", "comorbidity.RData", package="comoRbidity"))
 #' diseasePrevalence( input      = comor_obj, 
@@ -51,15 +51,15 @@ diseasePrevalence <- function( input, maleCode = "Male", femaleCode ="Female", d
     
     tt <- input@qresult
     
-    maleDisease<- tt[ tt$patient_gender == maleCode, ]
-    femaleDisease<- tt[ tt$patient_gender == femaleCode, ]
+    maleDisease<- tt[ tt$patient_sex == maleCode, ]
+    femaleDisease<- tt[ tt$patient_sex == femaleCode, ]
 
     #load comorbidity object with the total data for the estimations
     all <- load(paste0(databasePth, "/allData.RData"))
     allPopulation <- allData@qresult
 
-    maleAll<- allPopulation[ allPopulation$patient_gender == maleCode, ]
-    femaleAll<- allPopulation[ allPopulation$patient_gender == femaleCode, ]
+    maleAll<- allPopulation[ allPopulation$patient_sex == maleCode, ]
+    femaleAll<- allPopulation[ allPopulation$patient_sex == femaleCode, ]
     
     disPrev <- as.data.frame(matrix(ncol=4, nrow=3))
     colnames(disPrev) <- c("Group", "All population", "Disease population", "Prevalence")

@@ -28,7 +28,7 @@ setClass( "cAnalysis",
           representation =
               representation( ageMin    = "numeric",  # single or list
                               ageMax    = "numeric",    # max age
-                              gender    = "character",    # gender
+                              sex       = "character",    # sex
                               patients  = "numeric",    # subsetPatients
                               tpatients = "numeric",    # totalPatients
                               prevalence= "numeric",    # prevalence respet to the total population
@@ -41,7 +41,7 @@ setClass( "cAnalysis",
           prototype = 
               prototype( ageMin    = numeric(),
                          ageMax    = numeric(),
-                         gender    = character(),
+                         sex       = character(),
                          patients  = numeric(),
                          tpatients = numeric(),
                          prevalence= numeric(),

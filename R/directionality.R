@@ -12,7 +12,7 @@
 #' @param minPairs Determines the minimum number of patients that must suffer the
 #' comorbidity. By default the \code{minPairs} value is set to \code{1}. The value 
 #' of the argument can be changed to any other numeric variable.
-#' @param gender Determine what is the gender of interest for 
+#' @param sex Determine what is the sex of interest for 
 #' performing the comorbidity analysis. 
 #' @param ageRange Determines what is the age range of interest for
 #' performing the comorbidity analysis. By default it is set from 0 to 100 
@@ -34,10 +34,10 @@
 #' @return An object of class \code{dataframe}
 #' @examples
 #' load(system.file("extdata", "comorMale.RData", package="comoRbidity"))
-#' directionEx <- directionality( input       = comorMale, 
-#'                                databasePth    = system.file("extdata", package="comoRbidity"), 
+#' directionEx <- directionality( input            = comorMale, 
+#'                                databasePth      = system.file("extdata", package="comoRbidity"), 
 #'                                minPairs         = 1, 
-#'                                gender           = "Male",
+#'                                sex              = "Male",
 #'                                ageRange         = c(0,80),
 #'                                days             = "0",
 #'                                dataSep          = "-", 
@@ -45,7 +45,7 @@
 #'               )
 #' @export directionality
 
-directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c(0,100), days, dataSep="-", correctedPval = 1, correctionMethod = "bonferroni", verbose ){
+directionality <- function( input, databasePth, minPairs = 1, sex, ageRange=c(0,100), days, dataSep="-", correctedPval = 1, correctionMethod = "bonferroni", verbose ){
     
     #check if the input object is of class molecularComorbidity
     message("Checking the input objects")
@@ -64,7 +64,7 @@ directionality <- function( input, databasePth, minPairs = 1, gender, ageRange=c
     direction <- direccionality@qresult
     #direction$data <- direction$admissionStartDate
     direction$age <- as.numeric(direction$age)
-    direction <- direction[direction$patient_gender == gender, ]
+    direction <- direction[direction$patient_sex == sex, ]
     #direction$admissionStartDate <- do.call(rbind, strsplit(direction$admissionStartDate, dataSep) )[,1]
     #direction$patient_dateBirth <- do.call(rbind, strsplit(direction$patient_dateBirth, dataSep) )[,1]
     #direction$age <- as.numeric(direction$admissionStartDate) - as.numeric(direction$patient_dateBirth)

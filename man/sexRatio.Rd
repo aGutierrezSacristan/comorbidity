@@ -31,7 +31,7 @@ the warnings.}
 A dataframe with the sex ratio estimation is obtained
 }
 \description{
-Given two objects of class \code{comoRbidity}, one for each gender, the sex 
+Given two objects of class \code{comoRbidity}, one for each sex, the sex 
 ratio estimation is performed.
 }
 \examples{

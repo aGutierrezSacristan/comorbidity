@@ -1,9 +1,9 @@
 #' A graphical summary of the database content. 
 #'
 #' Given an object of class \code{comorbidity}, and the characters used to 
-#' specify the gender, a figure containing 3 plots, one of the age distribution, 
+#' specify the sex, a figure containing 3 plots, one of the age distribution, 
 #' another one of the age distribution and the third one with the relation 
-#' between age and gender distribution. 
+#' between age and sex distribution. 
 #'
 #' @param input Object of \code{comorbidity} class. 
 #' @param maleCode Characters(s) used to determine the male condition of a patient. 
@@ -20,8 +20,8 @@
 #' @param warnings By default \code{TRUE}. Change it to \code{FALSE} to don't see
 #' the warnings.
 #' @return A multiple graph containing a barplot with age distribution,  
-#' a boxplot representing age distribution by gender and a pie chart representing 
-#' gender distribution.
+#' a boxplot representing age distribution by sex and a pie chart representing 
+#' sex distribution.
 #' @examples
 #' load(system.file("extdata", "comorbidity.RData", package="comoRbidity"))
 #' summaryDB( input      = comor_obj, 
@@ -52,8 +52,8 @@ summaryDB <- function( input, maleCode = "Male", femaleCode ="Female", barColor 
     tt <- input@qresult
     tt <- tt[ !duplicated( tt$patient_id ), ]
     
-    male<- tt[ tt$patient_gender == maleCode, ]
-    female<- tt[ tt$patient_gender == femaleCode, ]
+    male<- tt[ tt$patient_sex == maleCode, ]
+    female<- tt[ tt$patient_sex == femaleCode, ]
     tt$age    <- as.numeric( tt$age )
     
     ### age distribution
@@ -73,10 +73,10 @@ summaryDB <- function( input, maleCode = "Male", femaleCode ="Female", barColor 
     
     tot<-rbind(male1, female1)
     
-    bp <- ggplot2::ggplot(tot, ggplot2::aes(x=patient_gender, y=age)) + 
+    bp <- ggplot2::ggplot(tot, ggplot2::aes(x=patient_sex, y=age)) + 
         ggplot2::geom_boxplot( fill= c( femaleColor, maleColor)) +
         ggplot2::stat_summary(fun.y=mean, geom="point", shape=5, size=4) +
-        ggplot2::labs ( title = "Age distribution by Gender" , x = "gender", y = "age")
+        ggplot2::labs ( title = "Age distribution by Sex" , x = "sex", y = "age")
     
     bp <- bp + ggplot2::theme_classic( ) +
         ggplot2::theme( plot.margin = ggplot2::unit ( x = c ( 5, 15, 5, 15 ), units = "mm" ), 

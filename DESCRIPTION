@@ -2,8 +2,8 @@ Package: comoRbidity
 Type: Package
 Title: Analyze comorbidities from electronic health record data
 Version: 0.99.0
-Authors@R: c(person("Alba", "Gutierrez-Sacristan", "alba.gutierrez@upf.edu", role = c("aut", "cre")),
-  person("Laura I.", "Furlong", "lfurlong@imim.es", role = "aut"))
+Authors@R: c(person("Alba", "Gutierrez-Sacristan", "alba_gutierrez@hms.harvard.edu", role = c("aut", "cre")),
+  person("Laura I.", "Furlong", "laura.furlong@upf.edu", role = "aut"))
 Description: Package to analyze and visualize comorbidities from electronic
     health record data.
 Depends:

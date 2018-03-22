@@ -4,9 +4,9 @@
 \alias{directionality}
 \title{Query your data and generates a \code{datafame}}
 \usage{
-directionality(input, databasePth, minPairs = 1, gender, ageRange = c(0,
-  100), days, dataSep = "-", correctedPval = 1,
-  correctionMethod = "bonferroni", verbose)
+directionality(input, databasePth, minPairs = 1, sex, ageRange = c(0, 100),
+  days, dataSep = "-", correctedPval = 1, correctionMethod = "bonferroni",
+  verbose)
 }
 \arguments{
 \item{input}{A \code{cAnalysis} object, containing the comorbidity data for
@@ -20,7 +20,7 @@ have been created. It is the same path where the three required input files
 comorbidity. By default the \code{minPairs} value is set to \code{1}. The value 
 of the argument can be changed to any other numeric variable.}
 
-\item{gender}{Determine what is the gender of interest for 
+\item{sex}{Determine what is the sex of interest for 
 performing the comorbidity analysis.}
 
 \item{ageRange}{Determines what is the age range of interest for
@@ -56,10 +56,10 @@ is obtained.
 }
 \examples{
 load(system.file("extdata", "comorMale.RData", package="comoRbidity"))
-directionEx <- directionality( input       = comorMale, 
-                               databasePth    = system.file("extdata", package="comoRbidity"), 
+directionEx <- directionality( input            = comorMale, 
+                               databasePth      = system.file("extdata", package="comoRbidity"), 
                                minPairs         = 1, 
-                               gender           = "Male",
+                               sex              = "Male",
                                ageRange         = c(0,80),
                                days             = "0",
                                dataSep          = "-", 

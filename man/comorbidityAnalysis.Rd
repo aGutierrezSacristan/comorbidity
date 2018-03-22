@@ -5,7 +5,7 @@
 \title{Comorbidity Analysis \code{cAnalysis}}
 \usage{
 comorbidityAnalysis(input, codesPth, databasePth, ageRange = c(0, 100),
-  gender = "ALL", score, correctedPval = 1, correctionMethod = "fdr",
+  sex = "ALL", score, correctedPval = 1, correctionMethod = "fdr",
   oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE)
 }
 \arguments{
@@ -21,9 +21,9 @@ located (indexDiseaseCode)}
 performing the comorbidity analysis. By default it is set from 0 to 100 
 years old.}
 
-\item{gender}{Determine what is the gender of interest for 
+\item{sex}{Determine what is the sex of interest for 
 performing the comorbidity analysis. By default \code{ALL}. Change it to the 
-gender of interest for your comorbidity analysis.}
+sex of interest for your comorbidity analysis.}
 
 \item{score}{The comorbidity score is a measure based on  the observed comorbidities
 and the expected ones, based on the occurrence of each disease.}
@@ -61,7 +61,7 @@ An object of class \code{cAnalysis}
 }
 \description{
 Given an object of type \code{comoRbidity}, a comorbidity analysis is perform, 
-for the subset of population under specific conditions of age and gender. It 
+for the subset of population under specific conditions of age and sex. It 
 generates a \code{cAnalysis} object.
 }
 \examples{
@@ -71,7 +71,7 @@ ex1 <- comorbidityAnalysis(
               databasePth      = system.file("extdata", package="comoRbidity"),
               codesPth         = system.file("extdata", package="comoRbidity"),
               ageRange         = c(0,50),
-              gender           = "Female", 
+              sex              = "Female", 
               score            = 1,
               correctionMethod = "fdr", 
               correctedPval  = 1

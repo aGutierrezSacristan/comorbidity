@@ -1,7 +1,7 @@
 #' Comorbidity Analysis \code{cAnalysis}
 #'
 #' Given an object of type \code{comoRbidity}, a comorbidity analysis is perform, 
-#' for the subset of population under specific conditions of age and gender. It 
+#' for the subset of population under specific conditions of age and sex. It 
 #' generates a \code{cAnalysis} object.
 #'
 #' @param input  A comorbidity object, obtained with the query function. 
@@ -12,9 +12,9 @@
 #' @param ageRange Determines what is the age range of interest for
 #' performing the comorbidity analysis. By default it is set from 0 to 100 
 #' years old. 
-#' @param gender Determine what is the gender of interest for 
+#' @param sex Determine what is the sex of interest for 
 #' performing the comorbidity analysis. By default \code{ALL}. Change it to the 
-#' gender of interest for your comorbidity analysis.
+#' sex of interest for your comorbidity analysis.
 #' @param score The comorbidity score is a measure based on  the observed comorbidities
 #' and the expected ones, based on the occurrence of each disease.
 #' @param correctionMethod A Fisher exact test for each pair of diseases is performed to assess 
@@ -45,14 +45,14 @@
 #'               databasePth      = system.file("extdata", package="comoRbidity"),
 #'               codesPth         = system.file("extdata", package="comoRbidity"),
 #'               ageRange         = c(0,50),
-#'               gender           = "Female", 
+#'               sex              = "Female", 
 #'               score            = 1,
 #'               correctionMethod = "fdr", 
 #'               correctedPval  = 1
 #'               )
 #' @export comorbidityAnalysis
 
-comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100), gender="ALL", score, correctedPval = 1, correctionMethod = "fdr", oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE ){
+comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100), sex="ALL", score, correctedPval = 1, correctionMethod = "fdr", oddsRatio, rr, phi, cores = 1, verbose = FALSE, warnings = TRUE ){
     
     message("Checking the input object")
     checkClass <- class(input)[1]
@@ -96,10 +96,10 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
         
     }
     
-    if ( !missing( gender ) ) {
-        if(gender!="ALL"){
-            input <- input[ input$patient_gender == gender, ]
-            all <- all[ all$patient_gender == gender, ]   
+    if ( !missing( sex ) ) {
+        if(sex!="ALL"){
+            input <- input[ input$patient_sex == sex, ]
+            all <- all[ all$patient_sex == sex, ]   
         }
     }
     
@@ -211,7 +211,7 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     cAnalysis <- new( "cAnalysis", 
                       ageMin    = ageRange[ 1 ], 
                       ageMax    = ageRange[ 2 ], 
-                      gender    = gender, 
+                      sex       = sex, 
                       patients  = totPatients,
                       tpatients = length(activePatients),
                       prevalence= (length(activePatients)/totPatients)*100,

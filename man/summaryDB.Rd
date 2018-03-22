@@ -33,14 +33,14 @@ the warnings.}
 }
 \value{
 A multiple graph containing a barplot with age distribution,  
-a boxplot representing age distribution by gender and a pie chart representing 
-gender distribution.
+a boxplot representing age distribution by sex and a pie chart representing 
+sex distribution.
 }
 \description{
 Given an object of class \code{comorbidity}, and the characters used to 
-specify the gender, a figure containing 3 plots, one of the age distribution, 
+specify the sex, a figure containing 3 plots, one of the age distribution, 
 another one of the age distribution and the third one with the relation 
-between age and gender distribution.
+between age and sex distribution.
 }
 \examples{
 load(system.file("extdata", "comorbidity.RData", package="comoRbidity"))
