@@ -9,8 +9,6 @@
 #' @param codesPth Determines the path where the file with the index diseases is 
 #' located (indexDiseaseCode)
 #' @param birthDataSep Determines the separator symbol used in the birth date. 
-#' @param admissionDataSep Determines the separator symbol used in the 
-#' admission date.
 #' @param intraCodes Comorbidities will be estimated only between the index 
 #' diseases. By default \code{FALSE} 
 #' @param aggregatedDis Data extraction is done using the Agg column from the 
@@ -24,15 +22,14 @@
 #' the warnings.
 #' @return An object of class \code{comoRbidity}
 #' @examples
-#' ex1 <- query( databasePth      = system.file("extdata", package="comoRbidity"),
+#' ex1 <- queryAgeAdapted( databasePth      = system.file("extdata", package="comoRbidity"),
 #'               codesPth         = system.file("extdata", package="comoRbidity"),
 #'               birthDataSep     = "-",
-#'               admissionDataSep = "-",
 #'               python           = FALSE)
-#' @export query
+#' @export queryAgeAdapted
 
 
-query <- function( databasePth, codesPth, birthDataSep, admissionDataSep, intraCodes = FALSE, aggregatedDis = FALSE, python= FALSE, verbose = FALSE, warnings= TRUE) {
+queryAgeAdapted <- function( databasePth, codesPth, birthDataSep, intraCodes = FALSE, aggregatedDis = FALSE, python= FALSE, verbose = FALSE, warnings= TRUE) {
     
     message( "Starting querying the index diseases in the dataset" )
     
