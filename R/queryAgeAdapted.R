@@ -209,13 +209,13 @@ queryAgeAdapted <- function( databasePth, codesPth, birthDataSep, intraCodes = F
         direct$data <- final$admissionStartDate
             
         #final$admissionStartDate <- do.call(rbind, strsplit(final$admissionStartDate, admissionDataSep) )[,1]
-        final$patient_dateBirth <- do.call(rbind, strsplit(final$patient_dateBirth, birthDataSep) )[,1]
+        #final$patient_dateBirth <- do.call(rbind, strsplit(final$patient_dateBirth, birthDataSep) )[,1]
         
         #all$admissionStartDate <- do.call(rbind, strsplit(all$admissionStartDate, admissionDataSep) )[,1]
-        all$patient_dateBirth <- do.call(rbind, strsplit(all$patient_dateBirth, birthDataSep) )[,1]
+        #all$patient_dateBirth <- do.call(rbind, strsplit(all$patient_dateBirth, birthDataSep) )[,1]
         
         #direct$admissionStartDate <- do.call(rbind, strsplit(direct$admissionStartDate, admissionDataSep) )[,1]
-        direct$patient_dateBirth <- do.call(rbind, strsplit(direct$patient_dateBirth, birthDataSep) )[,1]
+        #direct$patient_dateBirth <- do.call(rbind, strsplit(direct$patient_dateBirth, birthDataSep) )[,1]
             
         final$age <- as.numeric(as.Date(final$admissionStartDate)-as.Date(final$patient_dateBirth))%/%365
         all$age <- as.numeric(as.Date(all$admissionStartDate)-as.Date(all$patient_dateBirth))%/%365
