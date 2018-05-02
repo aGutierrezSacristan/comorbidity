@@ -129,12 +129,14 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     finalCP  <- parallel::mclapply( activePatients, codePairs, mc.preschedule = TRUE, mc.cores = cores )
     
     finalCP <- finalCP[ sapply(finalCP, function(x) { length(x) != 0 }) ]
+    unnest <- unlist(finalCP, recursive=FALSE)
+    unnest <- unique(unnest) 
     
-    f <- function( j ){ t( data.frame( j ) ) }
-    unnest <-  do.call( f, list( j = finalCP  ) )
-    unnest <- unnest[!duplicated(unnest), ]
-    unnest <- lapply(1:nrow(unnest), function(ii) unnest[ii, ])
     
+    # f <- function( j ){ t( data.frame( j ) ) }
+    # unnest <-  do.call( f, list( j = finalCP  ) )
+    # unnest <- unnest[!duplicated(unnest), ]
+    # unnest <- lapply(1:nrow(unnest), function(ii) unnest[ii, ])
     
     
     resultado <- parallel::mclapply( unnest, tableData, mc.preschedule = TRUE, mc.cores = cores, data = all, lenActPa=totPatients)

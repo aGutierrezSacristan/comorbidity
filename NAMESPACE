@@ -2,7 +2,6 @@
 
 export(comorbidityAnalysis)
 export(comorbidityAnalysisMolecular)
-export(comorbidityAnalysisTest)
 export(dataframe2molecularcomorbidity)
 export(diagnosticUse)
 export(directionality)
