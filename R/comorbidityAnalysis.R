@@ -132,7 +132,13 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     unnest <- unlist(finalCP, recursive=FALSE)
     unnest <- unique(unnest) 
     
+    for(cont in 1:length(unnest)){
+        pairDis <- sort(c(unnest[[cont]][[1]], unnest[[cont]][[2]]))
+        unnest[[cont]] <- pairDis
+        
+    }
     
+    unnest <- unique(unnest) 
     # f <- function( j ){ t( data.frame( j ) ) }
     # unnest <-  do.call( f, list( j = finalCP  ) )
     # unnest <- unnest[!duplicated(unnest), ]
@@ -140,14 +146,16 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     
     
     resultado <- parallel::mclapply( unnest, tableData, mc.preschedule = TRUE, mc.cores = cores, data = all, lenActPa=totPatients)
-    resultad2 <- do.call("rbind", resultado )
-    resultad2 <- as.data.frame( resultad2, stringsAsFactors=FALSE )
+    resultadf <- do.call("rbind", resultado )
+    resultadf <- as.data.frame( resultadf, stringsAsFactors=FALSE )
     
+    resultado1 <- resultadf
+    colnames(resultado1) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "95%confidenceInterval","relativeRisk", "phi" )
     
+    resultado2 <- resultadf[, c(2,1,4,3,5,7,6,8:13)]
+    colnames(resultado2) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "95%confidenceInterval","relativeRisk", "phi" )
     
-    colnames(resultad2) <- c( "disAcode", "disBcode", "disA", "disB", "AB", "AnotB", "BnotA", "notAnotB", "fisher", "oddsRatio", "95%confidenceInterval","relativeRisk", "phi" )
-    
-    
+    resultad2 <- rbind( resultado1, resultado2)
     resultad2$expect          <-  as.numeric( resultad2$disA ) * as.numeric( resultad2$disB ) / totPatients
     resultad2$score           <- log2( ( as.numeric( resultad2$AB ) + 1 ) / ( resultad2$expect + 1) )
     resultad2                 <- resultad2[ with( resultad2, order( resultad2$fisher ) ), ]
@@ -220,7 +228,7 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
                       rangeOR = paste0("[", round(min(as.numeric(comb_table_sort$oddsRatio)), digits = 3)," , ", round(max(as.numeric(comb_table_sort$oddsRatio)), digits = 3)  ,"]" ),
                       rangeRR = paste0("[", round(min(as.numeric(comb_table_sort$relativeRisk)), digits = 3)," , ", round(max(as.numeric(comb_table_sort$relativeRisk)), digits = 3)  ,"]" ),
                       rangePhi= paste0("[", round(min(as.numeric(comb_table_sort$phi)), digits = 3)," , ", round(max(as.numeric(comb_table_sort$phi)), digits = 3)  ,"]" ),
-                      dispairs  = nrow( comb_table_sort ),
+                      dispairs  = nrow( comb_table_sort )/2,
                       result    = comb_table_sort[,c(1:16,24)] 
     )
     return( cAnalysis )
