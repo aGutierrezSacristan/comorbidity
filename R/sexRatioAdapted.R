@@ -26,7 +26,6 @@
 #'                                 )
 #' @export sexRatioAdapted
 
-
 sexRatioAdapted <- function (female, male, femalePatients, malePatients, fisherTest = 0, fisherCutOff=0.05, verbose = FALSE, warnings = TRUE){
 
     #check if the input object is of class molecularComorbidity
