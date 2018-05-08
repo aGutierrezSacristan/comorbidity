@@ -171,19 +171,19 @@ comorbidityAnalysis <- function ( input, codesPth, databasePth, ageRange=c(0,100
     # resultad2 <- resultad2[,c(1:15)]
 
     if ( !missing( score ) ) {
-        resultad2 <- resultad2[ resultad2$score > score, ]
+        resultad2 <- resultad2[ as.numeric(resultad2$score) > score, ]
     }
     if ( !missing( correctedPval ) ) {
-        resultad2 <- resultad2[ resultad2$correctedPvalue < correctedPval, ]
+        resultad2 <- resultad2[ as.numeric(resultad2$correctedPvalue) < correctedPval, ]
     }
     if ( !missing( oddsRatio ) ) {
-        resultad2 <- resultad2[ resultad2$oddsRatio > oddsRatio, ]
+        resultad2 <- resultad2[ as.numeric(resultad2$oddsRatio) > oddsRatio, ]
     }
     if ( !missing( rr ) ) {
-        resultad2 <- resultad2[ resultad2$rr > rr, ]
+        resultad2 <- resultad2[ as.numeric(resultad2$rr) > rr, ]
     }
     if ( !missing( phi ) ) {
-        resultad2 <- resultad2[ resultad2$phi > phi, ]        
+        resultad2 <- resultad2[ as.numeric(resultad2$phi) > phi, ]        
     }
     
     resultad2$fisher <- round(as.numeric(resultad2$fisher), 3)
