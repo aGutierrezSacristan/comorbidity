@@ -5,7 +5,8 @@
 \title{A graphical summary of the disease prevalence.}
 \usage{
 diseasePrevalence(input, maleCode = "Male", femaleCode = "Female",
-  databasePth, barColor = "lightblue", verbose = FALSE, warnings = TRUE)
+  databasePth, barColor = "lightblue", verbose = FALSE,
+  warnings = TRUE)
 }
 \arguments{
 \item{input}{Object of \code{comorbidity} class.}

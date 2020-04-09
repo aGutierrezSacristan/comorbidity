@@ -6,7 +6,7 @@
 object for comorbidity analysis}
 \usage{
 querymolecular(filePth, unify = FALSE, database = "CURATED",
-  score = c(">", 0), verbose = FALSE, warnings = TRUE)
+  score = c(0, 1), verbose = FALSE, warnings = TRUE)
 }
 \arguments{
 \item{filePth}{The file name and with the complete path where the file with
@@ -29,9 +29,8 @@ Orphanet, the portal for rare diseases and orphan drugs;
 \code{'PREDICTED'} to use the expert curated, animal models data;
 \code{'ALL'} to use all these databases. Default \code{'CURATED'}.}
 
-\item{score}{A vector with two elements: 1) character with greather
-\code{'>'} or with lower \code{'<'} meaing greather or equal and lower or
-equal; 2) the score to be compared. By default it is set to \code{c('>', 0)}. 
+\item{score}{A vector with two elements: 1) minimum score; 2) the maximum score. 
+By default it is set to \code{c(0, 1)}. 
 It means that all the data available in DisGeNET will be used for the comorbidity analysis.}
 
 \item{verbose}{By default \code{FALSE}. Change it to \code{TRUE} to get a

@@ -5,8 +5,8 @@
 \title{A graphical summary of the database content.}
 \usage{
 summaryDB(input, maleCode = "Male", femaleCode = "Female",
-  barColor = "darkblue", femaleColor = "gold", maleColor = "lightblue",
-  verbose = FALSE, warnings = TRUE)
+  barColor = "darkblue", femaleColor = "gold",
+  maleColor = "lightblue", verbose = FALSE, warnings = TRUE)
 }
 \arguments{
 \item{input}{Object of \code{comorbidity} class.}

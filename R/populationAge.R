@@ -11,13 +11,12 @@
 #' @param databasePth Determines the path where the three required input files 
 #' (patientData, diagnosisData, admissionData) are located.
 #' @param type by Befault \code{'together'}. This argument allows the user to 
-#' select the output barplot type. The other possible option is \code
-#' {'separate'}
+#' select the output barplot type. The other possible option is \code{'separate'}
 #' @param allColor Determines the bar color representing the whole population. 
 #' By default \code{darkblue}. 
 #' @param disorderColor Determines the bar color representing the disorder patients. 
 #' By default \code{gold}.
-#' @interactive Determines if the output barplot is interactive or not. 
+#' @param interactive Determines if the output barplot is interactive or not. 
 #' By default the \code{interactive} argument is set up as \code{FALSE}. The value 
 #' of the argument can be changed to \code{TRUE}, as a result an interactive 
 #' barplot will be obtained. 

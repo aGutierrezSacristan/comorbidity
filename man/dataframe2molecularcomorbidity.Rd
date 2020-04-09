@@ -5,7 +5,8 @@
 \title{From a file containing a table with gene and disease information generates a \code{molecularComorbidity}
 object for comorbidity analysis}
 \usage{
-dataframe2molecularcomorbidity(filePth, verbose = FALSE, warnings = TRUE)
+dataframe2molecularcomorbidity(filePth, verbose = FALSE,
+  warnings = TRUE)
 }
 \arguments{
 \item{filePth}{The file name and with the complete path where the file with

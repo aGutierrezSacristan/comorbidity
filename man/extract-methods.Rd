@@ -3,12 +3,11 @@
 \docType{methods}
 \name{extract}
 \alias{extract}
-\alias{extract}
 \title{Obtain the raw query from a \code{cAnalysis} object.}
 \usage{
 \S4method{extract}{cAnalysis}(object)
 
-\S4method{extract}{comoRbidity}(object)
+\S4method{extract}{comorbidity}(object)
 }
 \arguments{
 \item{object}{of class \code{cAnalysis}, \code{molecularcAnalysis}, 

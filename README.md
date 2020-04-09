@@ -9,9 +9,9 @@ This report is used for `comoRbidity` package distribution while we walk thought
 
 ## Package' Status
 
- * __Version__: 1.0.1
- * __Authors__: Alba Gutierrez-Sacristan (GRIB-UPF)
- * __Maintainer__: Alba Gutierrez-Sacristan (GRIB-UPF)
+ * __Version__: 1.1.1
+ * __Authors__: Alba Gutierrez-Sacristan (GRIB-UPF / HMS)
+ * __Maintainer__: Alba Gutierrez-Sacristan (GRIB-UPF / HMS)
 
 ## How to start
 
@@ -21,7 +21,7 @@ This report is used for `comoRbidity` package distribution while we walk thought
 
 ```R
 library(devtools)
-install_github("aGutierrezSacristan/comoRbidity")
+install_bitbucket("ibi_group/comoRbidity")
 ```
 
 ### comoRbidity:

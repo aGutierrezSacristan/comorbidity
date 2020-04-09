@@ -1,36 +1,24 @@
 pValueEstimation <- function(input, nboot = 100, ncores = 1, verbose = FALSE) {
 
-  #extract universe genes
-  oql <- "DEFINE
-  c0='/data/gene_disease_summary',
-  c1='/data/genes',
-  c3='/data/sources'
-  ON
-  'http://www.disgenet.org/web/DisGeNET'
-  SELECT
-  c0 (geneId, score, diseaseId, source ),
-  c1 (symbol)
-  FROM
-  c0
-  WHERE
-  c3 = 'CURATED'
-  ORDER BY
-  c0.score DESC"
+  url<-"https://www.disgenet.org/api/gene/source/CURATED?format=tsv"
   
-  getUrlDis <- function() {
-      url <- "http://www.disgenet.org/oql"
-      return( url )
-  }
+  dataTsv <- 
+    RCurl::getURLContent( 
+      url )
   
-  dataTsv <- RCurl::getURLContent(
-      getUrlDis(),
-      readfunction  = charToRaw(oql),
-      upload        = TRUE,
-      customrequest = "POST"
-  )
+  myTextConnection <- 
+    textConnection( dataTsv )
+  
+  res <- 
+    read.csv( 
+      myTextConnection, header = 
+        TRUE, sep = 
+        "\t", colClasses=c("character"))
+  
+  close(myTextConnection)
+  
 
-  res <- read.csv(textConnection(dataTsv), header = TRUE, sep="\t")
-  universe <- unique(as.character(res$c0.geneId))
+  universe <- unique(as.character(res$geneid))
 
   message(paste0("A total of ", length(universe), 
                  " genes obtained from DisGeNET CURATED database are 

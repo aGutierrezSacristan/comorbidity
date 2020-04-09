@@ -4,9 +4,9 @@
 \alias{directionality}
 \title{Query your data and generates a \code{datafame}}
 \usage{
-directionality(input, databasePth, minPairs = 1, sex, ageRange = c(0, 100),
-  days, dataSep = "-", correctedPval = 1, correctionMethod = "bonferroni",
-  verbose)
+directionality(input, databasePth, minPairs = 1, sex, ageRange = c(0,
+  100), days, dataSep = "-", correctedPval = 1,
+  correctionMethod = "bonferroni", verbose)
 }
 \arguments{
 \item{input}{A \code{cAnalysis} object, containing the comorbidity data for

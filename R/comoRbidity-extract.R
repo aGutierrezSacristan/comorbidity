@@ -14,7 +14,7 @@
 #' @export
 #' 
 setMethod( "extract",
-   signature = "comoRbidity",
+   signature = "comorbidity",
    definition = function( object ) {
      return( object@qresult )
    }

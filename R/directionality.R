@@ -64,7 +64,10 @@ directionality <- function( input, databasePth, minPairs = 1, sex, ageRange=c(0,
     direction <- direccionality@qresult
     #direction$data <- direction$admissionStartDate
     direction$age <- as.numeric(direction$age)
-    direction <- direction[direction$patient_sex == sex, ]
+    
+    if( sex != "ALL"){
+        direction <- direction[direction$patient_sex == sex, ]
+    }
     #direction$admissionStartDate <- do.call(rbind, strsplit(direction$admissionStartDate, dataSep) )[,1]
     #direction$patient_dateBirth <- do.call(rbind, strsplit(direction$patient_dateBirth, dataSep) )[,1]
     #direction$age <- as.numeric(direction$admissionStartDate) - as.numeric(direction$patient_dateBirth)

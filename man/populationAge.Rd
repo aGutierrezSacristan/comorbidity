@@ -18,14 +18,18 @@ located (indexDiseaseCode)}
 (patientData, diagnosisData, admissionData) are located.}
 
 \item{type}{by Befault \code{'together'}. This argument allows the user to 
-select the output barplot type. The other possible option is \code
-{'separate'}}
+select the output barplot type. The other possible option is \code{'separate'}}
 
 \item{disorderColor}{Determines the bar color representing the disorder patients. 
 By default \code{gold}.}
 
 \item{allColor}{Determines the bar color representing the whole population. 
 By default \code{darkblue}.}
+
+\item{interactive}{Determines if the output barplot is interactive or not. 
+By default the \code{interactive} argument is set up as \code{FALSE}. The value 
+of the argument can be changed to \code{TRUE}, as a result an interactive 
+barplot will be obtained.}
 
 \item{verbose}{By default \code{FALSE}. Change it to \code{TRUE} to get a
 on-time log from the function.}

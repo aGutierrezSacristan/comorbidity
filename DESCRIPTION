@@ -1,9 +1,9 @@
 Package: comoRbidity
 Type: Package
 Title: Analyze comorbidities from electronic health record data
-Version: 0.99.0
-Authors@R: c(person("Alba", "Gutierrez-Sacristan", "alba_gutierrez@hms.harvard.edu", role = c("aut", "cre")),
-  person("Laura I.", "Furlong", "laura.furlong@upf.edu", role = "aut"))
+Version: 1.1.1
+Authors@R: c(person( given = "Alba", family = "Gutierrez-Sacristan", email = "alba_gutierrez@hms.harvard.edu", role = c("aut", "cre")),
+  person(given = "Laura I.", family = "Furlong", email = "lfurlong@imim.es", role = "aut"))
 Description: Package to analyze and visualize comorbidities from electronic
     health record data.
 Depends:
@@ -33,4 +33,4 @@ NeedsCompilation: no
 Author: Alba Gutierrez-Sacristan [aut],
 Maintainer: Alba Gutierrez-Sacristan <alba.gutierrez@upf.edu>
 biocViews: Software, BiomedicalInformatics, Genetics, DataRepresentation
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

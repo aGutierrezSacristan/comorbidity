@@ -4,8 +4,9 @@
 \alias{heatmapDirection}
 \title{Plot the directionality results in a heatmap.}
 \usage{
-heatmapDirection(input, interactive = FALSE, fromAtoBColor = "darkgreen",
-  fromBtoAColor = "orange", noDirectionColor = "grey", verbose = FALSE)
+heatmapDirection(input, interactive = FALSE,
+  fromAtoBColor = "darkgreen", fromBtoAColor = "orange",
+  noDirectionColor = "grey", verbose = FALSE)
 }
 \arguments{
 \item{input}{A \code{data.frame} obtained after applying the \code{directionality}
